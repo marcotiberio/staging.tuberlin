@@ -55,9 +55,6 @@
 				)
 			);
 			?>
-		<div class="nav--search">
-			<?php get_search_form(); ?>
-		</div>
 		</nav><!-- #site-navigation -->
 		<div class="nav--search">
 			<?php get_search_form(); ?>
