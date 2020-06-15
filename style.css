@@ -1082,7 +1082,9 @@ textarea {
 	padding-left: 8%;
 	display: grid;
 	grid-template-columns: repeat(2, 1fr);
-	column-gap: 5%;
+	column-gap: 10%;
+
+	overflow-x: hidden;
 }
 
 .page-static-layout p{
