@@ -79,7 +79,7 @@ html {
  */
 body {
 	margin: 0;
-	background-color: red;
+	background-color: transparent;
 }
 
 /**
@@ -481,6 +481,7 @@ big {
 --------------------------------------------- */
 body {
 	background: #F3F3F3;
+	border: 10px solid #1717E2;
 }
 
 hr {
