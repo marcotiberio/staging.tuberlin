@@ -8,7 +8,7 @@
 		<main id="main--page-main" class="site-main--page-main">
 
         <section class="page-static-layout">
-            <div class="page-left"></div>
+            <div class="page-left">
                 <div class="column1">
                     <h3>Kontakt:</h3>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
@@ -24,6 +24,7 @@
                         Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt 
                         mollit anim id est laborum.</p>
                 </div>
+            </div>
             <div class="page-right"></div>
         </section>
         
