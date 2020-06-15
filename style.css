@@ -1018,12 +1018,6 @@ textarea {
 	left: 120px;
 }
 
-#primary-menu {
-	width: 80%;
-	display: flex;
-	flex-wrap: nowrap;
-}
-
 #primary-menu .nav-menu {
 	width: 80%;
 	display: flex;
