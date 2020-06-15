@@ -1018,24 +1018,24 @@ textarea {
 	left: 120px;
 }
 
-#primary-menu {
+.main-navigation #primary-menu {
 	width: 80%;
 	display: flex;
 	flex-wrap: nowrap;
 }
 
-#primary-menu li {
+.main-navigation li {
 	margin: 10px;
 	width: fit-content;
 }
 
-#primary-menu li a {
+.main-navigation li a {
 	font-size: 1.2rem;
 	font-weight: 300;
 }
 
-#primary-menu li a:hover,
-#primary-menu li a:active {
+.main-navigation li a:hover,
+.main-navigation li a:active {
 	text-decoration: underline;
 }
 
