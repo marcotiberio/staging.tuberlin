@@ -1030,5 +1030,10 @@ textarea {
 }
 
 #primary-menu .nav-menu li a {
+	font-size: 1.2rem;
 	font-weight: 300;
+}
+
+#primary-menu .nav-menu li a:hover {
+	text-decoration: underline;
 }
