@@ -1042,6 +1042,10 @@ textarea {
 	text-decoration: underline;
 }
 
+.main-navigation .current-menu-item {
+	text-decoration: underline;
+}
+
 .nav--search {
 	padding: 0;
 	margin: 0;
