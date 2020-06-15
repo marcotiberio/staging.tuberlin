@@ -1039,3 +1039,9 @@ textarea {
 	font-weight: 400;
 	text-decoration: underline;
 }
+
+/* Page */
+
+.site-main .entry-title {
+	display: none;
+}
