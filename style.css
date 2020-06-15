@@ -1101,12 +1101,8 @@ textarea {
 	width: 100%;
 	margin: 0;
 	padding: 0;
-}
-
-.page-static-layout .page-right img {
-	display: block;
-	width: 100%;
-	height: auto;
-	margin: 0;
-	padding: 0;
+	background-image: url("http://staging-tuberlinifa.kinsta.cloud/wp-content/uploads/2020/06/plan.png");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
 }

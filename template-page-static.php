@@ -26,7 +26,7 @@
                 </div>
             </div>
             <div class="page-right">
-                <img src="http://staging-tuberlinifa.kinsta.cloud/wp-content/uploads/2020/06/plan.png" alt="University Plan">
+                <!-- <img src="http://staging-tuberlinifa.kinsta.cloud/wp-content/uploads/2020/06/plan.png" alt="University Plan"> -->
             </div>
         </section>
         
