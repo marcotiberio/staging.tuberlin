@@ -1034,6 +1034,8 @@ textarea {
 	font-weight: 300;
 }
 
-#primary-menu .nav-menu li a:hover {
+#primary-menu .nav-menu li a:hover,
+#primary-menu .nav-menu li a:active {
+	font-weight: 700;
 	text-decoration: underline;
 }
