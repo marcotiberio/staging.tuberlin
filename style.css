@@ -1103,3 +1103,9 @@ textarea {
 	margin: 0;
 	padding: 0;
 }
+
+.page-static-layout .page-right img {
+	max-width: 100%;
+	margin-left: 10%;
+	padding: 0;
+}
