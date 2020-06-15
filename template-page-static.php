@@ -25,7 +25,9 @@
                         mollit anim id est laborum.</p>
                 </div>
             </div>
-            <div class="page-right"></div>
+            <div class="page-right">
+                <img src="http://staging-tuberlinifa.kinsta.cloud/wp-content/uploads/2020/06/plan.png" alt="University Plan">
+            </div>
         </section>
         
 		</main><!-- #main -->
