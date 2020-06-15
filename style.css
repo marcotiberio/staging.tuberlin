@@ -1078,8 +1078,7 @@ textarea {
 .page-static-layout {
 	width: 100%;
 	margin: 0;
-	padding-top: 15%;
-	padding-left: 5%;
+	padding: 0 5%;
 	display: grid;
 	grid-template-columns: 1fr 1fr;
 }
