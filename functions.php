@@ -155,6 +155,16 @@ function tu_berlin_scripts() {
 add_action( 'wp_enqueue_scripts', 'tu_berlin_scripts' );
 
 /**
+ * Enqueue fonts.
+ */
+function wpb_add_google_fonts() {
+	wp_enqueue_style( 'wpb-google-fonts', 'href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap"', false ); 
+}
+	
+add_action( 'wp_enqueue_scripts', 'wpb_add_google_fonts' );
+
+
+/**
  * Implement the Custom Header feature.
  */
 require get_template_directory() . '/inc/custom-header.php';
