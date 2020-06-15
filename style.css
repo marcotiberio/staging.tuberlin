@@ -1078,9 +1078,9 @@ textarea {
 .page-static-layout {
 	width: 100%;
 	margin: 0;
-	padding: 0 5%;
+	padding: 2% 8%;
 	display: grid;
-	grid-template-columns: 1fr 1fr;
+	grid-template-columns: repeat(2, 1fr);
 }
 
 .page-static-layout .page-left {
@@ -1088,6 +1088,6 @@ textarea {
 	margin: 0;
 	padding: 0;
 	display: grid;
-	grid-template-rows: 1fr 1fr;
-	row-gap: 20px;
+	grid-template-columns: repeat(2, 1fr);
+	column-gap: 50px;
 }
