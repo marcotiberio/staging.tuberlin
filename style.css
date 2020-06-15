@@ -1046,6 +1046,7 @@ textarea {
 	top: 30px;
 	right: 20px;
 	width: 300px;
+	direction: rtl;
 }
 
 .nav--search input {
@@ -1053,6 +1054,10 @@ textarea {
 	border: none;
 	border-radius: 50px;
 	padding: 5px 10px;
+}
+
+.nav--search input:focus {
+	outline: none;
 }
 
 /* Page */
