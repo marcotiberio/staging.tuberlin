@@ -1067,8 +1067,28 @@ textarea {
 	outline: none;
 }
 
-/* Page */
+/* Page - Global */
 
 .site-main .entry-title {
 	display: none;
+}
+
+/* Page - Template Static */
+
+.page-static-layout {
+	width: 100%;
+	margin: 0;
+	padding-top: 15%;
+	padding-left: 5%;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}
+
+.page-static-layout .page-left {
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	column-gap: 20px;
 }
