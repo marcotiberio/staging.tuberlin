@@ -59,4 +59,7 @@
 		<div class="nav--search">
 			<?php get_search_form(); ?>
 		</div>
+		<div class="nav--overlay">
+			<i class="fas fa-bars" id="open_menuOverlay"></i>
+		</div>
 	</header><!-- #masthead -->
