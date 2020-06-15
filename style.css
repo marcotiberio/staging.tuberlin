@@ -1014,3 +1014,24 @@ textarea {
 	width: 96px;
 	height: auto;
 }
+
+.main-navigation {
+	position: absolute;
+	top: 20px;
+	left: 120px;
+}
+
+#primary-menu .nav-menu {
+	width: 80%;
+	display: flex;
+	flex-wrap: nowrap;
+}
+
+#primary-menu .nav-menu li {
+	margin: 10px;
+	width: fit-content;
+}
+
+#primary-menu .nav-menu li a {
+	font-weight: 300;
+}
