@@ -1096,3 +1096,9 @@ textarea {
 	grid-template-columns: repeat(2, 1fr);
 	column-gap: 50px;
 }
+
+.page-static-layout .page-right {
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
