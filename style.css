@@ -484,6 +484,8 @@ big {
 /* Elements
 --------------------------------------------- */
 body {
+	margin: 0;
+	padding: 0;
 	background: #F3F3F3;
 	border: 10px solid #1717E2;
 	width: 100vw;
