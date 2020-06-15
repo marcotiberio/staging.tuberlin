@@ -1075,11 +1075,6 @@ textarea {
 
 /* Page - Template Static */
 
-.page-static-layout p{
-	font-size: 1rem;
-	font-weight: 300;
-}
-
 .page-static-layout {
 	width: 100%;
 	margin: 0;
@@ -1087,7 +1082,13 @@ textarea {
 	padding-left: 8%;
 	display: grid;
 	grid-template-columns: repeat(2, 1fr);
-	column-gap: 130px;
+	column-gap: 10%;
+	overflow: hidden;
+}
+
+.page-static-layout p{
+	font-size: 1rem;
+	font-weight: 300;
 }
 
 .page-static-layout .page-left {
