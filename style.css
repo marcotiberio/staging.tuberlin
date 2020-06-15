@@ -482,6 +482,8 @@ big {
 body {
 	background: #F3F3F3;
 	border: 10px solid #1717E2;
+	width: 100vw;
+	height: 100vh;
 }
 
 hr {
