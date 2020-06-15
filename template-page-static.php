@@ -25,7 +25,9 @@
                         mollit anim id est laborum.</p>
                 </div>
             </div>
-            <div class="page-right"></div>
+            <div class="page-right">
+                <img src="assets/img/plan.png" alt="Univeristy Plan">
+            </div>
         </section>
         
 		</main><!-- #main -->
