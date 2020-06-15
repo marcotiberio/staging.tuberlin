@@ -620,7 +620,7 @@ input[type="datetime"],
 input[type="datetime-local"],
 input[type="color"],
 textarea {
-	color: #666;
+	color: #1717E2;
 	border: 1px solid #ccc;
 	border-radius: 3px;
 	padding: 3px;
@@ -642,7 +642,7 @@ input[type="datetime"]:focus,
 input[type="datetime-local"]:focus,
 input[type="color"]:focus,
 textarea:focus {
-	color: #111;
+	color: #1717E2;
 }
 
 select {
@@ -1013,9 +1013,12 @@ textarea {
 }
 
 .main-navigation {
+	width: 100vw;
+	height: auto;
 	position: absolute;
 	top: 20px;
-	left: 120px;
+	left: 0;
+	padding-left: 120px;
 }
 
 .main-navigation #primary-menu {
