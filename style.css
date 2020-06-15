@@ -1018,7 +1018,7 @@ textarea {
 	left: 120px;
 }
 
-#primary-menu .nav-menu {
+#primary-menu {
 	width: 80%;
 	display: flex;
 	flex-wrap: nowrap;
