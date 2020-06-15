@@ -1089,6 +1089,6 @@ textarea {
 	margin: 0;
 	padding: 0;
 	display: grid;
-	grid-template-columns: 1fr 1fr;
-	column-gap: 20px;
+	grid-template-rows: 1fr 1fr;
+	row-gap: 20px;
 }
