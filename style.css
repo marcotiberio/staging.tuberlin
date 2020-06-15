@@ -1036,6 +1036,6 @@ textarea {
 
 #primary-menu .nav-menu li a:hover,
 #primary-menu .nav-menu li a:active {
-	font-weight: 700;
+	font-weight: 400;
 	text-decoration: underline;
 }
