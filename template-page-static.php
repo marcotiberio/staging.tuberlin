@@ -30,10 +30,8 @@
             <div class="page-right">
                     <?php 
                         $image = get_field('image_staticpage');
-                        $size = 'thumbnail'; // (thumbnail, medium, large, full or custom size)
-                        if( $image ) {
-                            echo wp_get_attachment_image( $image, $size );
-                        } ?>
+                        if( !empty( $image ) ): ?>
+                            <img src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" />
                     <?php endif; ?>
                 <!-- <img src="http://staging-tuberlinifa.kinsta.cloud/wp-content/uploads/2020/06/plan.png" alt="University Plan"> -->
             </div>
