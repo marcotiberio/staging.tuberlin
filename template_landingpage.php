@@ -8,7 +8,7 @@
 
     <div class="button_logo-landing">
 		<a href="http://staging-tuberlinifa.kinsta.cloud/">
-            <img src="" alt="TU Berlin IfA Logo">
+            <img src="assets/img/logo.png" alt="TU Berlin IfA Logo">
         </a>
     </div>
 
