@@ -1093,7 +1093,7 @@ textarea {
 	display: none;
 }
 
-/* Page - Template Static */
+/* Page - Template Static 2 Columns */
 
 .page-static-layout {
 	width: 100%;
@@ -1107,26 +1107,8 @@ textarea {
 	overflow-x: hidden;
 }
 
-.page-static-layout_3 {
-	width: 100vw;
-	height: 100vh;
-	margin: 0;
-	padding: 2% 5% 2% 8%;
-	display: grid;
-	grid-template-columns: repeat(3, 1fr);
-	column-gap: 0;
-
-	overflow-x: hidden;
-}
-
-.page-static-layout_3 .page {
-	overflow: hidden;
-}
-
 .page-static-layout div,
-.page-static-layout p,
-.page-static-layout_3 div,
-.page-static-layout_3 p {
+.page-static-layout p {
 	font-size: 1rem;
 	font-weight: 300;
 }
@@ -1156,4 +1138,39 @@ textarea {
 	display: block;
 	margin: 0;
 	padding: 2% 4% 2% 8%;	
+}
+
+/* Page - Template Static 3 Columns */
+
+.page-static-layout_3 {
+	width: 100vw;
+	height: 100vh;
+	margin: 0;
+	padding: 2% 5% 2% 8%;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	column-gap: 0;
+	overflow: hidden;
+}
+
+.page-static-layout_3 .page {
+	overflow: hidden;
+}
+
+.page-static-layout_3 div,
+.page-static-layout_3 p {
+	font-size: 1rem;
+	font-weight: 300;
+}
+
+/* Page - Chatroom */
+
+.page-chatroom {
+	width: 100vw;
+	height: 100vh;
+	margin: 0;
+	padding: 2% 8%;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	column-gap: 5%;
 }
