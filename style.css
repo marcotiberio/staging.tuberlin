@@ -1105,8 +1105,22 @@ textarea {
 	overflow-x: hidden;
 }
 
+.page-static-layout_3 {
+	width: 100%;
+	margin: 0;
+	padding-top: 2%; 
+	padding-left: 8%;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	column-gap: 5%;
+
+	overflow-x: hidden;
+}
+
 .page-static-layout div,
-.page-static-layout p {
+.page-static-layout p,
+.page-static-layout_3 div,
+.page-static-layout_3 p {
 	font-size: 1rem;
 	font-weight: 300;
 }
