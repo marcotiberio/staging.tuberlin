@@ -1057,6 +1057,7 @@ textarea {
 .main-navigation li a:hover,
 .main-navigation li a:active {
 	text-decoration: underline;
+	text-shadow: -1px 0 #1717E2, 0 1px #1717E2, 1px 0 #1717E2, 0 -1px #1717E2;
 }
 
 .main-navigation .current-menu-item {
