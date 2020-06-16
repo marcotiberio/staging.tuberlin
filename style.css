@@ -478,13 +478,32 @@ big {
 
 /* Elements
 --------------------------------------------- */
+body:before, 
+body:after {
+    content: "";
+    position: fixed;
+    background: #900;
+    left: 0;
+    right: 0;
+    height: 10px;
+}
+
+body:before {
+    top: 0;
+}
+
+body:after {
+    bottom: 0;
+}
+
 body {
 	margin: 0;
 	padding: 0;
-	background: #F3F3F3;
-	border: 10px solid #1717E2;
 	width: 100vw;
 	height: 100vh;
+	background: #F3F3F3;
+    border-left: 10px solid #1717E2;
+    border-right: 10px solid #1717E2;
 }
 
 hr {
