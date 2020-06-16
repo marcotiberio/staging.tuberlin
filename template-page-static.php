@@ -28,7 +28,6 @@
                 </div>
             </div>
             <div class="page-right">
-                <?php if( get_field('image_staticpage') ): ?>
                     <?php 
                         $image = get_field('image_staticpage');
                         $size = 'thumbnail'; // (thumbnail, medium, large, full or custom size)
@@ -36,7 +35,6 @@
                             echo wp_get_attachment_image( $image, $size );
                         } ?>
                     <?php endif; ?>
-                <?php endif; ?>
                 <!-- <img src="http://staging-tuberlinifa.kinsta.cloud/wp-content/uploads/2020/06/plan.png" alt="University Plan"> -->
             </div>
         </section>
