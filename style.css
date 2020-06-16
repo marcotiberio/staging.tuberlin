@@ -1226,6 +1226,10 @@ textarea {
 ## Page - Chatroom
 --------------------------------------------------------------*/
 
+page-template-template_chatroom {
+	height: auto;
+}
+
 .page-chatroom {
 	width: 100vw;
 	height: auto;
@@ -1234,5 +1238,5 @@ textarea {
 	display: grid;
 	grid-template-columns: repeat(3, 1fr);
 	column-gap: 5%;
-	row-gap: 5%;
+	/* row-gap: 5%; */
 }
