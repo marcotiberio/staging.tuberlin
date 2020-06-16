@@ -478,8 +478,8 @@ big {
 
 /* Elements
 --------------------------------------------- */
-html:before, 
-html:after {
+body:before, 
+body:after {
     content: "";
     position: fixed;
     background: #1717E2;
@@ -488,15 +488,15 @@ html:after {
     height: 10px;
 }
 
-html:before {
+body:before {
     top: 0;
 }
 
-html:after {
+body:after {
     bottom: 0;
 }
 
-html {
+body {
 	margin: 0;
 	padding: 0;
 	background: #F3F3F3;
@@ -1117,7 +1117,7 @@ textarea {
 	grid-template-columns: repeat(3, 1fr);
 	column-gap: 5%;
 
-	overflow-x: hidden;
+	overflow: hidden;
 }
 
 .page-static-layout div,
