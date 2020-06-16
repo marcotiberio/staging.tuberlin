@@ -1201,6 +1201,10 @@ textarea {
 ## Page - Template Static 3 Columns
 --------------------------------------------------------------*/
 
+.page-template-template_staticpage_threecol {
+	overflow: hidden;
+}
+
 .page-static-layout_3 {
 	width: 100vw;
 	height: 100vh;
@@ -1209,11 +1213,6 @@ textarea {
 	display: grid;
 	grid-template-columns: repeat(3, 1fr);
 	column-gap: 0;
-	overflow: hidden;
-}
-
-.page-static-layout_3 .page {
-	overflow: hidden;
 }
 
 .page-static-layout_3 div,
