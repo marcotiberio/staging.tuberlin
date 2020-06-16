@@ -1203,7 +1203,7 @@ textarea {
 
 .page-static-layout_3 {
 	width: 100vw;
-	height: auto;
+	height: 100vh;
 	margin: 0;
 	padding: 2% 5% 2% 8%;
 	display: grid;
