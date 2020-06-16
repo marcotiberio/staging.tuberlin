@@ -29,7 +29,7 @@
                 <img src="http://staging-tuberlinifa.kinsta.cloud/wp-content/uploads/2020/06/plan.png" alt="University Plan">
             </div>
         </section>
-        <section class="impressum">
+        <div class="impressum">
             <h3>Impressum</h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
                 incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud 
@@ -40,7 +40,7 @@
                 dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
                 Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt 
                 mollit anim id est laborum.</p>
-        </section>
+        </div>
         
 		</main><!-- #main -->
 	</div><!-- #primary -->
