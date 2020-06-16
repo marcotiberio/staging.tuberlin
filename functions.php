@@ -51,6 +51,7 @@ if ( ! function_exists( 'tu_berlin_setup' ) ) :
 		register_nav_menus(
 			array(
 				'menu-main' => esc_html__( 'Primary', 'tu-berlin' ),
+				'menu-mobile' => esc_html__( 'Mobile', 'tu-berlin' ),
 			)
 		);
 
