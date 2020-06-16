@@ -1296,6 +1296,12 @@ textarea {
 	padding: 2% 4% 2% 8%;	
 }
 
+.impressum div,
+.impressum p {
+	font-size: 1rem;
+	font-weight: 300;
+}
+
 /*--------------------------------------------------------------
 ## Page - Template Static 3 Columns
 --------------------------------------------------------------*/
