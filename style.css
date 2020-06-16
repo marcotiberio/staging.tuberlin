@@ -1114,17 +1114,17 @@ textarea {
 	display: none;
 }
 
-.background_landing {
+.button_logo-landing {
 	width: auto;
-  height: 100vw;
+  	height: 100vw;
 	text-align: center;
 	overflow: hidden;
 }
 
-.background_landing img {
+.button_logo-landing img {
 	height: auto;
-  width: 200px;
-  margin: 10%;
+  	width: 200px;
+  	margin: 10%;
 }
 
 /*--------------------------------------------------------------
