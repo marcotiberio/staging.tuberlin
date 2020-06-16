@@ -1,5 +1,5 @@
 <?php 
-	/* Template Name: Page Static */ 
+	/* Template Name: Static Page - Two Columns */ 
 ?>
 
 <?php get_header(); ?>
@@ -10,14 +10,14 @@
         <section class="page-static-layout">
             <div class="page-left">
                 <div class="column1">
-                    <?php the_field('column-one_staticpage'); ?>
+                    <?php the_field('column-one_staticpageII'); ?>
                     <!-- <h3>Kontakt:</h3>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
                         incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud 
                         exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p> -->
                 </div>
                 <div class="column2">
-                    <?php the_field('column-two_staticpage'); ?>
+                    <?php the_field('column-two_staticpageII'); ?>
                     <!-- <h3>Standort:</h3>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
                         incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud 
