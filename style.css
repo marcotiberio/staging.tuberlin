@@ -1030,7 +1030,6 @@ textarea {
 .fade-in .inside-normal,
 .fade-in .content-area {
   opacity: 1 !important;
-  transition: 1s !important;
 }
 
 /*--------------------------------------------------------------
