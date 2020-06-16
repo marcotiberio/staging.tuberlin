@@ -486,7 +486,6 @@ body:after {
     left: 0;
     right: 0;
 	height: 10px;
-	width: 100vw;
 }
 
 body:before {
@@ -503,7 +502,6 @@ body {
 	background: #F3F3F3;
     border-left: 10px solid #1717E2;
 	border-right: 10px solid #1717E2;
-	width: 100vw;
 }
 
 hr {
