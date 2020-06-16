@@ -1091,6 +1091,10 @@ textarea {
 ## Landing Page
 --------------------------------------------------------------*/
 
+.page-template-template_landingpage {
+	overflow: hidden !important;
+}
+
 .background_landing {
 	padding: 0;
 	margin: 0;
@@ -1118,7 +1122,6 @@ textarea {
 	width: auto;
   	height: 100vw;
 	text-align: center;
-	overflow: hidden;
 }
 
 .button_logo-landing img {
