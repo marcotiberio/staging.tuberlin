@@ -1153,6 +1153,7 @@ textarea {
 
 .page-static-layout {
 	width: 100%;
+	height: auto;
 	margin: 0;
 	padding-top: 2%; 
 	padding-left: 8%;
@@ -1202,7 +1203,7 @@ textarea {
 
 .page-static-layout_3 {
 	width: 100vw;
-	height: 100vh;
+	height: auto;
 	margin: 0;
 	padding: 2% 5% 2% 8%;
 	display: grid;
@@ -1227,7 +1228,7 @@ textarea {
 
 .page-chatroom {
 	width: 100vw;
-	height: 100vh;
+	height: auto;
 	margin: 0;
 	padding: 2% 8%;
 	display: grid;
