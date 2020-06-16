@@ -1098,6 +1098,18 @@ textarea {
 	outline: none;
 }
 
+@media (max-width: 35rem) {
+	
+	.main-navigation {
+    	display: none;
+	}
+	
+	.nav--search {
+		display: none;
+	}
+  
+}
+
 /*--------------------------------------------------------------
 ## Landing Page
 --------------------------------------------------------------*/
@@ -1231,6 +1243,34 @@ textarea {
 .page-static-layout_3 p {
 	font-size: 1rem;
 	font-weight: 300;
+}
+
+@media (max-width: 35rem) {
+	
+	.page-template-template_staticpage_threecol {
+	width: auto;
+	height: auto;
+	overflow-x: hidden;
+	}
+	
+	.main-navigation {
+    display: none;
+	}
+	
+	.nav--search {
+		display: none;
+	}
+  
+	.page-static-layout_3 {
+		width: 100vw;
+		height: auto;
+		margin: 0;
+		padding: 5% 2%;
+		display: grid;
+		grid-template-columns: 1fr;
+		grid-template-rows: repeat(3, 1fr);
+	}
+  
 }
 
 /*--------------------------------------------------------------
