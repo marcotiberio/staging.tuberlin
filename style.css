@@ -1074,6 +1074,7 @@ textarea {
 
 .main-navigation .current-menu-item {
 	text-decoration: underline;
+	text-shadow: -0.2px 0 #1717E2, 0 0.2px #1717E2, 0.2px 0 #1717E2, 0 -0.2px #1717E2;
 }
 
 .nav--search {
