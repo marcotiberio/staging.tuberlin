@@ -1116,6 +1116,10 @@ textarea {
 	grid-template-columns: repeat(3, 1fr);
 	column-gap: 0;
 
+	overflow-x: hidden;
+}
+
+.page-static-layout_3 .page {
 	overflow: hidden;
 }
 
