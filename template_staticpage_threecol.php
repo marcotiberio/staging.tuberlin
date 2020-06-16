@@ -1,5 +1,5 @@
 <?php 
-	/* Template Name: Static Page - Two Columns */ 
+	/* Template Name: Static Page - Three Columns */ 
 ?>
 
 <?php get_header(); ?>
