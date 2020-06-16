@@ -1100,12 +1100,12 @@ textarea {
 	padding-left: 8%;
 	display: grid;
 	grid-template-columns: repeat(2, 1fr);
-	column-gap: 10%;
+	column-gap: 5%;
 
 	overflow-x: hidden;
 }
 
-.page-static-layout p{
+.page-static-layout div{
 	font-size: 1rem;
 	font-weight: 300;
 }
@@ -1127,7 +1127,7 @@ textarea {
 
 .page-static-layout .page-right img {
 	max-width: 100%;
-	margin-left: 10%;
+	margin: 0;
 	padding: 0;
 }
 
