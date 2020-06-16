@@ -1202,12 +1202,13 @@ textarea {
 --------------------------------------------------------------*/
 
 .page-template-template_staticpage_threecol {
-	overflow: hidden;
+	width: auto;
+	height: 100vh;
 }
 
 .page-static-layout_3 {
 	width: 100vw;
-	height: 100vh;
+	height: auto;
 	margin: 0;
 	padding: 2% 5% 2% 8%;
 	display: grid;
