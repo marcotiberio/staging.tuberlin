@@ -1087,13 +1087,102 @@ textarea {
 	outline: none;
 }
 
-/* Page - Global */
+/*--------------------------------------------------------------
+## Landing Page
+--------------------------------------------------------------*/
+
+.background_landing {
+	padding: 0;
+	margin: 0;
+}
+
+.video-landing {
+	padding: 0 !important;
+	margin: 0 !important;
+}
+
+.wp-block-video video {
+	width: 100vw !important;
+	height: 100vh !important;
+}
+
+.page-template-landing-page header {
+	display: none;
+}
+
+.page-template-landing-page footer {
+	display: none;
+}
+
+.button--close_landing {
+	margin: 0;
+	padding: 10px;
+  	position: absolute;
+	top: 3%;
+	right: 2%;
+	width: fit-content;
+	border: 2px solid black;
+	border-radius: 0;
+	background-color: transparent;
+	color: black;
+	transition: 0.3s;
+	font-family: "myriad-pro", Helvetica, Arial, sans-serif !important;
+	font-size: 16px;
+}
+
+.button--close_landing:hover {
+	color: white;
+	background-color: black;
+	border: 2px solid black;
+	border-radius: 0;
+	cursor: pointer;
+}
+
+.button_landing {
+	margin: 0;
+	padding: 10px 20px;
+  	position: absolute;
+  	top: 80%;
+  	left: 50%;
+  	transform: translate(-50%, -50%);
+	width: fit-content;
+	border: 2px solid black;
+	border-radius: 0;
+	background-color: transparent;
+	transition: 0.3s;
+}
+
+.button_landing:hover {
+	color: white;
+	background-color: black;
+	border: 2px solid black;
+	border-radius: 0;
+	cursor: pointer;
+}
+
+.button_landing a {
+	color: black;
+	font-family: "myriad-pro", Helvetica, Arial, sans-serif !important;
+	font-size: 16px;
+	text-decoration: none;
+}
+
+.button_landing a:hover {
+	color: white;
+	text-decoration: none;
+}
+
+/*--------------------------------------------------------------
+## Page - Global
+--------------------------------------------------------------*/
 
 .site-main .entry-title {
 	display: none;
 }
 
-/* Page - Template Static 2 Columns */
+/*--------------------------------------------------------------
+## Page - Template Static 2 Columns
+--------------------------------------------------------------*/
 
 .page-static-layout {
 	width: 100%;
@@ -1140,7 +1229,9 @@ textarea {
 	padding: 2% 4% 2% 8%;	
 }
 
-/* Page - Template Static 3 Columns */
+/*--------------------------------------------------------------
+## Page - Template Static 3 Columns
+--------------------------------------------------------------*/
 
 .page-static-layout_3 {
 	width: 100vw;
@@ -1163,7 +1254,9 @@ textarea {
 	font-weight: 300;
 }
 
-/* Page - Chatroom */
+/*--------------------------------------------------------------
+## Page - Chatroom
+--------------------------------------------------------------*/
 
 .page-chatroom {
 	width: 100vw;
