@@ -10,23 +10,34 @@
         <section class="page-static-layout">
             <div class="page-left">
                 <div class="column1">
-                    <h3>Kontakt:</h3>
+                    <?php the_field('column1_staticpage'); ?>
+                    <!-- <h3>Kontakt:</h3>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
                         incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud 
-                        exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                        exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p> -->
                 </div>
                 <div class="column2">
-                    <h3>Standort:</h3>
+                    <?php the_field('column2_staticpage'); ?>
+                    <!-- <h3>Standort:</h3>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
                         incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud 
                         exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure 
                         dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
                         Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt 
-                        mollit anim id est laborum.</p>
+                        mollit anim id est laborum.</p> -->
                 </div>
             </div>
             <div class="page-right">
-                <img src="http://staging-tuberlinifa.kinsta.cloud/wp-content/uploads/2020/06/plan.png" alt="University Plan">
+                <?php if( get_field('image_staticpage') ): ?>
+                    <?php 
+                        $image = get_field('image_staticpage');
+                        $size = 'thumbnail'; // (thumbnail, medium, large, full or custom size)
+                        if( $image ) {
+                            echo wp_get_attachment_image( $image, $size );
+                        } ?>
+                    <?php endif; ?>
+                <?php endif; ?>
+                <!-- <img src="http://staging-tuberlinifa.kinsta.cloud/wp-content/uploads/2020/06/plan.png" alt="University Plan"> -->
             </div>
         </section>
         <div class="impressum">
