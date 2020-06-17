@@ -1406,7 +1406,7 @@ page-template-template_chatroom {
 ## Post - Global
 --------------------------------------------------------------*/
 
-.single .menu-menu-main-container,
-.single .nav--search {
+.post-template .menu-menu-main-container,
+.post-template .nav--search {
 	display: none;
 }
