@@ -1591,7 +1591,7 @@ page-template-template_chatroom {
 }
 
 #modalInfo .modal-content {
-	background-color: #F3F3F3;
+	background-color: rgba(245,245,245,0.7);
 	backdrop-filter: blur(8px);
 	margin: 0;
 	padding: 2%;
