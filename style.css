@@ -1430,6 +1430,18 @@ page-template-template_chatroom {
 	border: 5px solid blue;
 }
 
+.post-template-studio .post-main .central {
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	top: 30%;
+	left: 20%;
+	width: 60%;
+	height: 40%;
+	display: block;
+	border: 5px solid blue;
+}
+
 .post-template-studio .post-main .footer {
 	margin: 0;
 	padding: 0;
