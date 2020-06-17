@@ -30,7 +30,9 @@
     <section class="post-main">
         <div class="header">
             <div class="top-left"></div>
-            <div class="top-right">Two</div>
+            <div class="top-right">
+                <img src="http://staging-tuberlinifa.kinsta.cloud/wp-content/uploads/2020/06/nbl-icon.png" alt="">
+            </div>
         </div>
         <div class="central">
             <img id="main-photo" src="http://staging-tuberlinifa.kinsta.cloud/wp-content/uploads/2020/06/studio_main_photo.png" alt="">
@@ -53,8 +55,12 @@
             </div>
         </div>
         <div class="footer">
-            <div class="bottom-left">Three</div>
-            <div class="bottom-right">Four</div>
+            <div class="bottom-left">
+                <img src="http://staging-tuberlinifa.kinsta.cloud/wp-content/uploads/2020/06/MARC-T-STAIR.png" alt="">
+            </div>
+            <div class="bottom-right">
+                <img src="http://staging-tuberlinifa.kinsta.cloud/wp-content/uploads/2020/06/gallery-icon.png" alt="">
+            </div>
         </div>
     </section>
 
