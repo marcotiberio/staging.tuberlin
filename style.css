@@ -1479,6 +1479,10 @@ page-template-template_chatroom {
 .post-template-studio_001 .post-main .footer .bottom-right img {
 	max-height: 112px;
 	width: auto;
+}
+
+.post-template-studio_001 .post-main .footer .bottom-right img:hover {
+	filter: sepia(100%) hue-rotate(190deg) saturate(500%);
 	cursor: pointer;
 }
 
