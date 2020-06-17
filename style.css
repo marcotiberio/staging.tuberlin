@@ -1416,3 +1416,14 @@ page-template-template_chatroom {
 	display: none;
 }
 
+.post-template-studio .post-main .header {
+	margin: 0;
+	padding: 0;
+	width: 100vw;
+	height: auto;
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-template-rows: 1fr;
+	border: 5px solid blue;
+}
+

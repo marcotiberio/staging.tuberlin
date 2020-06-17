@@ -27,6 +27,20 @@
     <!-- CUSTOM POST LAYOUT -->
     <!-- CUSTOM POST LAYOUT -->
 
+    <section class="post-main">
+        <div class="header">
+            <div class="top-left"></div>
+            <div class="top-right"></div>
+        </div>
+        <div class="central">
+            
+        </div>
+        <div class="footer">
+            <div class="bottom-left"></div>
+            <div class="bottom-right"></div>
+        </div>
+    </section>
+
 
 <?php
 get_footer(); ?>
