@@ -1423,7 +1423,7 @@ page-template-template_chatroom {
 	top: 0;
 	left: 0;
 	width: 100vw;
-	height: auto;
+	height: 100px;
 	display: grid;
 	grid-template-columns: repeat(2, 1fr);
 	grid-template-rows: 1fr;
@@ -1437,7 +1437,7 @@ page-template-template_chatroom {
 	bottom: 0;
 	left: 0;
 	width: 100vw;
-	height: auto;
+	height: 100px;
 	display: grid;
 	grid-template-columns: repeat(2, 1fr);
 	grid-template-rows: 1fr;
