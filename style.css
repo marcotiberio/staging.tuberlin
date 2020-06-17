@@ -1491,7 +1491,7 @@ page-template-template_chatroom {
 	height: 500px;
 }
 
-.post-template-studio_001 .post-main .central #post-intro {
+.post-template-studio_001 .post-main .central-hidden #post-intro {
 	display: none;
 	margin: 0;
 	padding: 2%;
@@ -1525,16 +1525,9 @@ page-template-template_chatroom {
 	font-weight: 300;
 }
 
-/* .post-template-studio_001 .post-main .central #main-photo {
-	display: block;
-	margin: 0;
-	padding: 0;
-	position: absolute;
-	top: 0;
-	left: 0;
-	z-index: 20;
-	transition: 0.5s;
-} */
+.post-template-studio_001 .post-main .central:hover {
+	display: none;
+}
 
 
 
