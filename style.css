@@ -1406,7 +1406,13 @@ page-template-template_chatroom {
 ## Post - Global
 --------------------------------------------------------------*/
 
+.post-template {
+	height: 100vh;
+    width: auto;
+}
+
 .post-template .menu-menu-main-container,
 .post-template .nav--search {
 	display: none;
 }
+
