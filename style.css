@@ -1447,6 +1447,7 @@ page-template-template_chatroom {
 	display: grid;
 	grid-template-columns: repeat(2, 1fr);
 	grid-template-rows: 1fr;
+	z-index: 20;
 }
 
 .post-template-studio_001 .post-main .footer {
@@ -1460,6 +1461,7 @@ page-template-template_chatroom {
 	display: grid;
 	grid-template-columns: repeat(2, 1fr);
 	grid-template-rows: 1fr;
+	z-index: 20;
 }
 
 .post-template-studio_001 .post-main .header .top-right, 
