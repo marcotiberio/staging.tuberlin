@@ -39,7 +39,6 @@
         </div>
         <div class="central">
             <div id="main-photo" style="background-image: url(<?php the_field('main_photo_studio'); ?>);"></div>
-            </div>
             <div id="post-intro">
                 <?php the_field('intro_studio'); ?>
             </div>
