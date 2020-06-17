@@ -1479,6 +1479,7 @@ page-template-template_chatroom {
 .post-template-studio_001 .post-main .footer .bottom-right img {
 	max-height: 112px;
 	width: auto;
+	cursor: pointer;
 }
 
 .post-template-studio_001 .post-main .footer .bottom-left img {
@@ -1547,7 +1548,6 @@ page-template-template_chatroom {
 	display: none;
 }
 
-/* The Modal (background) */
 #myModal {
 	display: none;
 	position: fixed;
@@ -1561,24 +1561,22 @@ page-template-template_chatroom {
 	overflow: auto; /* Enable scroll if needed */
 }
   
-  /* Modal Content */
-  .modal-content {
+.modal-content {
 	background-color: #F3F3F3;
 	margin: 5% auto;
 	padding: 5%;
 	width: 70%;
 }
   
-  /* The Close Button */
-  .close {
+.close {
 	color: #1717E2;
 	float: right;
 	font-size: 28px;
 	font-weight: 300;
 }
   
-  .close:hover,
-  .close:focus {
+.close:hover,
+.close:focus {
 	color: #1717E2;
 	text-decoration: none;
 	cursor: pointer;
