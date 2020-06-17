@@ -1061,7 +1061,7 @@ textarea {
 }
 
 .main-navigation li {
-	margin: 10px;
+	margin: 10px 1.5rem;
 	width: fit-content;
 }
 
