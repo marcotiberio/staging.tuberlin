@@ -1422,7 +1422,7 @@ page-template-template_chatroom {
 	margin: 0;
 	padding: 0;
 	top: 20%;
-	right: 20%;
+	right: 15%;
 }
 
 .post-template-studio .post-main #info-button img {
@@ -1486,7 +1486,7 @@ page-template-template_chatroom {
 	padding: 0;
 	position: absolute;
 	top: 20%;
-	left: 27.5%;
+	left: 22.5%;
 	width: 55%;
 	height: auto;
 	background-color: #1717E2 !important;
