@@ -1508,14 +1508,15 @@ page-template-template_chatroom {
 }
 
 .post-template-studio .post-main .central #post-info {
-	display: block;
+	display: none;
 	margin: 0;
 	padding: 2%;
 	position: absolute;
 	top: 0;
 	left: 0;
 	color: white;
-	background-color: #F5F5F5;
+	background-color: rgba(245,245,245,0.7);
+	color: #1717E2;
 	z-index: 30;
 
 	font-size: 1rem;
