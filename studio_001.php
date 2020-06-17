@@ -71,21 +71,6 @@
             <p>Gallery</p>
             <p>Gallery</p>
             <p>Gallery</p>
-            <p>Gallery</p>
-            <p>Gallery</p>
-            <p>Gallery</p>
-            <p>Gallery</p>
-            <p>Gallery</p>
-            <p>Gallery</p>
-            <p>Gallery</p>
-            <p>Gallery</p>
-            <p>Gallery</p>
-            <p>Gallery</p>
-            <p>Gallery</p>
-            <p>Gallery</p>
-            <p>Gallery</p>
-            <p>Gallery</p>
-            <p>Gallery</p>
         </div>
 
     </div>
