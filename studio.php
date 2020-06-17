@@ -28,6 +28,9 @@
     <!-- CUSTOM POST LAYOUT -->
 
     <section class="post-main">
+        <div id="info-button">
+            <img src="http://staging-tuberlinifa.kinsta.cloud/wp-content/uploads/2020/06/info-icon.png" alt="">
+        </div>
         <div class="header">
             <div class="top-left"></div>
             <div class="top-right">
@@ -35,9 +38,6 @@
             </div>
         </div>
         <div class="central">
-            <div id="info-button">
-                <img src="http://staging-tuberlinifa.kinsta.cloud/wp-content/uploads/2020/06/info-icon.png" alt="">
-            </div>
             <img id="main-photo" src="http://staging-tuberlinifa.kinsta.cloud/wp-content/uploads/2020/06/studio_main_photo.png" alt="">
             <div id="post-intro">
                 <h3>TEMPO-EXILMUSEUM AM ANHALTER BAHNHOF</h3>
