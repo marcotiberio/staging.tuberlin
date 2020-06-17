@@ -1480,7 +1480,6 @@ page-template-template_chatroom {
 	width: auto;
 }
 
-.post-template-studio_001 .post-main .central-hidden,
 .post-template-studio_001 .post-main .central {
 	display: block;
 	margin: 0;
@@ -1490,19 +1489,31 @@ page-template-template_chatroom {
 	left: 22.5%;
 	width: 55%;
 	height: 500px;
+	z-index: 2;
+}
+
+.post-template-studio_001 .post-main .central-hidden {
+	display: block;
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	top: 15%;
+	left: 22.5%;
+	width: 55%;
+	height: 500px;
+	z-index: 1;
 }
 
 .post-template-studio_001 .post-main .central-hidden #post-intro {
 	display: block;
 	margin: 0;
 	padding: 2%;
-	height: 400px;
+	height: 500px;
 	position: absolute;
 	top: 0;
 	left: 0;
 	color: white;
 	background-color: #1717E2;
-	z-index: 10;
 
 	font-size: 1rem;
 	font-weight: 300;
