@@ -1516,7 +1516,7 @@ page-template-template_chatroom {
 	left: 0;
 	color: white;
 	background-color: rgba(245,245,245,0.7);
-	backdrop-filter: blur(8px); // This be the blur
+	backdrop-filter: blur(8px);
 	color: #1717E2;
 	z-index: 30;
 
