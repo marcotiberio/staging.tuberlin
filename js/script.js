@@ -3,3 +3,9 @@ $(document).ready(function(){
         $("#myModal").toggle();
     });
 });
+
+$(document).ready(function(){
+    $("#openInfo").click(function(){
+        $("#modalInfo").toggle();
+    });
+});
