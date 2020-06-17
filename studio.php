@@ -34,27 +34,17 @@
         <div class="header">
             <div class="top-left"></div>
             <div class="top-right">
-                <img src="http://staging-tuberlinifa.kinsta.cloud/wp-content/uploads/2020/06/nbl-icon.png" alt="">
+            <?php 
+                $image = get_field('main_photo_studio');
+                if( !empty( $image ) ): ?>
+                    <img src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" />
+            <?php endif; ?>
             </div>
         </div>
         <div class="central">
             <img id="main-photo" src="http://staging-tuberlinifa.kinsta.cloud/wp-content/uploads/2020/06/studio_main_photo.png" alt="">
             <div id="post-intro">
-                <h3>TEMPO-EXILMUSEUM AM ANHALTER BAHNHOF</h3>
-                <h4>Master Seminar</h4>
-                <p>Am Anhalter Bahnhof sollen 4 bis 6 Container, die bis vor Kurzem als Teil der Tempohome 
-                    Anlage für Geflüchtete in Berlin genutzt wurden, in eine temporäre Installation umgebaut 
-                    werden. Initiiert wurde das Projekt von der Stiftung Exilmuseum Berlin, die damit auf Ort und 
-                    Inhalt des geplanten Neubauvorhabens Exilmuseum aufmerksam machen möchte. In enger 
-                    Kooperation mit dem Fachgebiet Habitat Unit wollen wir in dem Seminar EXIL die Grundlagen 
-                    für die geplante Installation schaffen. Hierzu wollen wir uns sowohl den technisch-
-                    konstruktiven, als auch inhaltlich programmatischen Teilaspekten der geplanten 
-                    Containerinstallation widmen. Die Ergebnisse des Seminars sollen dann direkt in die 
-                    anschließende Realisierungsphase des Projekts im Sommer 2020 einfließen.
-                    Die ursprüngliche Intention des Seminars war es, diese Untersuchung hands-on an einem der 
-                    Container in den Werkstätten des IfA in der Ackerstraße durchzuführen. Da dieses Vorgehen 
-                    aktuell situationsbedingt nicht mehr wie geplant stattfinden kann, werden wir nun, solange es 
-                    zu keiner Aufhebung der Beschränkungen kommt, auf ein online Format ausweichen.</p>
+                <?php the_field('intro_studio'); ?>
             </div>
         </div>
         <div class="footer">
