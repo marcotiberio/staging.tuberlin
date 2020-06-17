@@ -1488,7 +1488,7 @@ page-template-template_chatroom {
 	top: 20%;
 	left: 22.5%;
 	width: 55%;
-	height: 400px;
+	height: 500px;
 }
 
 .post-template-studio .post-main .central #post-intro {
@@ -1519,7 +1519,7 @@ page-template-template_chatroom {
 	background-color: rgba(245,245,245,0.7);
 	backdrop-filter: blur(8px);
 	color: #1717E2;
-	z-index: 30;
+	z-index: 20;
 
 	font-size: 1rem;
 	font-weight: 300;
