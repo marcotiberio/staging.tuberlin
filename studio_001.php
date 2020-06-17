@@ -62,7 +62,7 @@
     </section>
 
     <!-- The Modal -->
-    <div id="myModal" class="modal">
+    <div id="modalGallery" class="modal">
 
     <!-- Modal content -->
     <div class="modal-content">
