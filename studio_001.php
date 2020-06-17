@@ -62,7 +62,7 @@
     </section>
 
     <!-- The Modal -->
-    <div id="modalGallery" class="modal">
+    <div id="myModal" class="modal">
 
         <!-- Modal content -->
         <div class="modal-content">
@@ -74,7 +74,7 @@
 
     <script>
         // Get the modal
-var modal = document.getElementById("modalGallery");
+var modal = document.getElementById("myModal");
 
 // Get the button that opens the modal
 var btn = document.getElementById("openGallery");
