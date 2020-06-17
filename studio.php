@@ -48,6 +48,9 @@
             <div id="post-intro">
                 <?php the_field('intro_studio'); ?>
             </div>
+            <div id="post-info">
+                <?php the_field('info_studio'); ?>
+            </div>
         </div>
         <div class="footer">
             <div class="bottom-left">

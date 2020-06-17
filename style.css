@@ -1507,6 +1507,21 @@ page-template-template_chatroom {
 	font-weight: 300;
 }
 
+.post-template-studio .post-main .central #post-info {
+	display: block;
+	margin: 0;
+	padding: 2%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	color: white;
+	background-color: #F5F5F5;
+	z-index: 30;
+
+	font-size: 1rem;
+	font-weight: 300;
+}
+
 .post-template-studio .post-main .central #main-photo {
 	display: block;
 	margin: 0;
