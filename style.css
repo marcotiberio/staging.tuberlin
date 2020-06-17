@@ -1487,7 +1487,7 @@ page-template-template_chatroom {
 }
 
 .post-template-studio_001 .post-main #info-button img:hover,
-.post-template-studio_001 .post-main .footer .top-right img:hover,
+.post-template-studio_001 .post-main .header .top-right img:hover,
 .post-template-studio_001 .post-main .footer .bottom-right img:hover,
 .post-template-studio_001 .post-main .footer .bottom-left img:hover {
 	opacity: 0.7;
