@@ -1559,7 +1559,7 @@ page-template-template_chatroom {
 	width: 100%;
 	height: 100%;
 	overflow: auto; /* Enable scroll if needed */
-  }
+}
   
   /* Modal Content */
   .modal-content {
@@ -1567,7 +1567,7 @@ page-template-template_chatroom {
 	margin: auto;
 	padding: 5%;
 	width: 70%;
-  }
+}
   
   /* The Close Button */
   .close {
@@ -1575,13 +1575,11 @@ page-template-template_chatroom {
 	float: right;
 	font-size: 28px;
 	font-weight: 300;
-  }
+}
   
   .close:hover,
   .close:focus {
 	color: #1717E2;
 	text-decoration: none;
 	cursor: pointer;
-  }
-
-
+}
