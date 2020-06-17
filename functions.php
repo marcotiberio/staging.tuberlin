@@ -148,8 +148,7 @@ function tu_berlin_scripts() {
 	wp_style_add_data( 'tu-berlin-style', 'rtl', 'replace' );
 
 	wp_deregister_script( 'jquery' );
-	$jquery_cdn = 'https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js';
-	wp_enqueue_script( 'jquery', $jquery_cdn, array(), '3.4.1', true );
+	wp_enqueue_script('jquery', 'https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js', array(), null, true);
 
 	wp_enqueue_script( 'tu-berlin-navigation', get_template_directory_uri() . '/js/navigation.js', array(), _S_VERSION, true );
 
