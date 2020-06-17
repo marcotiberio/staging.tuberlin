@@ -29,7 +29,7 @@
 
     <section class="post-main">
         <div id="info-button">
-            <img src="http://staging-tuberlinifa.kinsta.cloud/wp-content/uploads/2020/06/info-icon.png" alt="">
+            <img id="openInfo" src="http://staging-tuberlinifa.kinsta.cloud/wp-content/uploads/2020/06/info-icon.png" alt="">
         </div>
         <div class="header">
             <div class="top-left"></div>
@@ -61,13 +61,24 @@
         </div>
     </section>
 
-    <!-- The Modal -->
+    <!-- Modal Galley -->
     <div id="myModal" class="modal">
 
         <!-- Modal content -->
         <div class="modal-content">
             <span class="close">&times;</span>
             <p>Some text in the Modal..</p>
+        </div>
+
+    </div>
+
+    <!-- Modal Galley -->
+    <div id="modalInfo" class="modal">
+
+        <!-- Modal content -->
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <p>Modal Info</p>
         </div>
 
     </div>

@@ -1555,7 +1555,8 @@ page-template-template_chatroom {
 	display: none;
 }
 
-#myModal {
+#myModal,
+#modalInfo {
 	display: none;
 	position: fixed;
 	z-index: 10;
