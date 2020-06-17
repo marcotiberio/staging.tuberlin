@@ -61,10 +61,9 @@
         </div>
     </section>
 
-    <!-- Modal Galley -->
-    <div id="myModal" class="modal">
+    <!-- Modal Gallery -->
+    <div id="modalGallery" class="modal">
 
-        <!-- Modal content -->
         <div class="modal-content">
             <span class="close">&times;</span>
             <p>Some text in the Modal..</p>
@@ -72,10 +71,9 @@
 
     </div>
 
-    <!-- Modal Galley -->
+    <!-- Modal Info -->
     <div id="modalInfo" class="modal">
 
-        <!-- Modal content -->
         <div class="modal-content">
             <span class="close">&times;</span>
             <p>Modal Info</p>

@@ -1557,7 +1557,7 @@ page-template-template_chatroom {
 	display: none;
 }
 
-#myModal,
+#modalGallery,
 #modalInfo {
 	display: none;
 	position: fixed;
