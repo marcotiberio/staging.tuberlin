@@ -1502,6 +1502,9 @@ page-template-template_chatroom {
 	color: white;
 	background-color: #1717E2;
 	z-index: 10;
+
+	font-size: 1rem;
+	font-weight: 300;
 }
 
 .post-template-studio .post-main .central #main-photo {
@@ -1512,10 +1515,11 @@ page-template-template_chatroom {
 	top: 0;
 	left: 0;
 	z-index: 20;
-	transition: 0.5s ease-in-out;
+	transition: 0.5s;
 }
 
 .post-template-studio .post-main .central #main-photo:hover {
+	cursor: pointer;
 	display: none;
 }
 
