@@ -1492,7 +1492,7 @@ page-template-template_chatroom {
 }
 
 .post-template-studio_001 .post-main .central-hidden #post-intro {
-	display: none;
+	display: block;
 	margin: 0;
 	padding: 2%;
 	height: 400px;
