@@ -1455,6 +1455,10 @@ page-template-template_chatroom {
 	max-width: 100px;
 }
 
+.post-template-studio .post-main .footer .bottom-left img {
+	max-width: 100px;
+}
+
 .post-template-studio .post-main .central {
 	display: block;
 	margin: 0;
