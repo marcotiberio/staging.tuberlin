@@ -1401,3 +1401,12 @@ page-template-template_chatroom {
 	column-gap: 5%;
 	/* row-gap: 5%; */
 }
+
+/*--------------------------------------------------------------
+## Post - Global
+--------------------------------------------------------------*/
+
+.single .menu-menu-main-container,
+.single .nav--search {
+	display: none;
+}
