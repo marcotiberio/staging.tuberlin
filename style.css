@@ -1428,7 +1428,7 @@ page-template-template_chatroom {
 	top: 20%;
 	right: 15%;
 	cursor: pointer;
-	z-index: 10 !important;
+	z-index: 3 !important;
 }
 
 .post-template-studio_001 .post-main #info-button img {
@@ -1551,7 +1551,7 @@ page-template-template_chatroom {
 .modal {
 	display: none; /* Hidden by default */
 	position: fixed; /* Stay in place */
-	z-index: 1; /* Sit on top */
+	z-index: 10; /* Sit on top */
 	padding-top: 100px; /* Location of the box */
 	left: 0;
 	top: 0;
