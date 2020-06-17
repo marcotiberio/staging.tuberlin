@@ -38,12 +38,16 @@
             </div>
         </div>
         <div class="central">
-            <?php 
-                $image = get_field('main_photo_studio');
-                if( !empty( $image ) ): ?>
-                    <img src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" />
-            <?php endif; ?>
-            <?php the_field('intro_studio'); ?>
+            <div id="main-photo">
+                <?php 
+                    $image = get_field('main_photo_studio');
+                    if( !empty( $image ) ): ?>
+                        <img src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" />
+                <?php endif; ?>
+            </div>
+            <div id="post-intro">
+                <?php the_field('intro_studio'); ?>
+            </div>
         </div>
         <div class="footer">
             <div class="bottom-left">
