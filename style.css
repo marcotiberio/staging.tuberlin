@@ -1460,6 +1460,7 @@ page-template-template_chatroom {
 	left: 20%;
 	width: 60%;
 	height: auto;
+	background-color: #1717E2 !important;
 }
 
 .post-template-studio .post-main .central #post-intro {
