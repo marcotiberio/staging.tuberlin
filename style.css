@@ -1590,6 +1590,14 @@ page-template-template_chatroom {
 	width: 70%;
 }
 
+#modalInfo .modal-content {
+	background-color: #F3F3F3;
+	backdrop-filter: blur(8px);
+	margin: 0;
+	padding: 2%;
+	border: 5px solid #F3F3F3;
+}
+
 .close {
 	display: none;
 	color: #1717E2;
