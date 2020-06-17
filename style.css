@@ -1430,6 +1430,15 @@ page-template-template_chatroom {
 	border: 5px solid blue;
 }
 
+.post-template-studio .post-main .header .top-right, 
+.post-template-studio .post-main .footer .bottom-right {
+	text-align: right;
+}
+
+.post-template-studio .post-main .footer .bottom-left {
+	text-align: left;
+}
+
 .post-template-studio .post-main .central {
 	margin: 0;
 	padding: 0;
