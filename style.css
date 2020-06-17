@@ -1451,6 +1451,7 @@ page-template-template_chatroom {
 	text-align: left;
 }
 
+.post-template-studio .post-main .header .top-right img,
 .post-template-studio .post-main .footer .bottom-right img {
 	max-width: 100px;
 }
