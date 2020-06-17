@@ -1426,7 +1426,7 @@ page-template-template_chatroom {
 }
 
 .post-template-studio .post-main #info-button img {
-	max-height: 65px;
+	max-height: 45px;
 	width: auto;
 }
 
@@ -1466,7 +1466,7 @@ page-template-template_chatroom {
 }
 
 .post-template-studio .post-main .footer .top-right img {
-	max-height: 140px;
+	max-height: 100px;
 	width: auto;
 }
 
