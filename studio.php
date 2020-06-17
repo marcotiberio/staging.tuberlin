@@ -30,14 +30,14 @@
     <section class="post-main">
         <div class="header">
             <div class="top-left"></div>
-            <div class="top-right"></div>
+            <div class="top-right">Two</div>
         </div>
         <div class="central">
-            
+
         </div>
         <div class="footer">
-            <div class="bottom-left"></div>
-            <div class="bottom-right"></div>
+            <div class="bottom-left">Three</div>
+            <div class="bottom-right">Four</div>
         </div>
     </section>
 
