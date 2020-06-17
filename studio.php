@@ -37,7 +37,11 @@
                 <img src="http://staging-tuberlinifa.kinsta.cloud/wp-content/uploads/2020/06/nbl-icon.png" alt="">
             </div>
         </div>
-        <div class="central" style="background-image: url(<?php the_field('main_photo_studio'); ?>);">
+        <div class="central" 
+                style="background-image: url(<?php the_field('main_photo_studio'); ?>);
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-position: center;">
             <div id="post-intro">
                 <?php the_field('intro_studio'); ?>
             </div>
