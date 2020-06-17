@@ -1480,6 +1480,7 @@ page-template-template_chatroom {
 	width: auto;
 }
 
+.post-template-studio_001 .post-main .central-hidden,
 .post-template-studio_001 .post-main .central {
 	display: block;
 	margin: 0;
