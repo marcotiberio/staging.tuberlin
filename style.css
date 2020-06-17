@@ -1416,7 +1416,7 @@ page-template-template_chatroom {
 	display: none;
 }
 
-.post-template-studio .post-main #info-button {
+.post-template-studio_001 .post-main #info-button {
 	display: block;
 	position: absolute;
 	margin: 0;
@@ -1425,12 +1425,12 @@ page-template-template_chatroom {
 	right: 15%;
 }
 
-.post-template-studio .post-main #info-button img {
+.post-template-studio_001 .post-main #info-button img {
 	max-height: 45px;
 	width: auto;
 }
 
-.post-template-studio .post-main .header {
+.post-template-studio_001 .post-main .header {
 	margin: 0;
 	padding: 0;
 	position: fixed;
@@ -1443,7 +1443,7 @@ page-template-template_chatroom {
 	grid-template-rows: 1fr;
 }
 
-.post-template-studio .post-main .footer {
+.post-template-studio_001 .post-main .footer {
 	margin: 0;
 	padding: 0 4rem;
 	position: fixed;
@@ -1456,31 +1456,31 @@ page-template-template_chatroom {
 	grid-template-rows: 1fr;
 }
 
-.post-template-studio .post-main .header .top-right, 
-.post-template-studio .post-main .footer .bottom-right {
+.post-template-studio_001 .post-main .header .top-right, 
+.post-template-studio_001 .post-main .footer .bottom-right {
 	text-align: right;
 }
 
-.post-template-studio .post-main .footer .bottom-left {
+.post-template-studio_001 .post-main .footer .bottom-left {
 	text-align: left;
 }
 
-.post-template-studio .post-main .footer .top-right img {
+.post-template-studio_001 .post-main .footer .top-right img {
 	max-height: 100px;
 	width: auto;
 }
 
-.post-template-studio .post-main .footer .bottom-right img {
+.post-template-studio_001 .post-main .footer .bottom-right img {
 	max-height: 112px;
 	width: auto;
 }
 
-.post-template-studio .post-main .footer .bottom-left img {
+.post-template-studio_001 .post-main .footer .bottom-left img {
 	max-height: 112px;
 	width: auto;
 }
 
-.post-template-studio .post-main .central {
+.post-template-studio_001 .post-main .central {
 	display: block;
 	margin: 0;
 	padding: 0;
@@ -1491,7 +1491,7 @@ page-template-template_chatroom {
 	height: 500px;
 }
 
-.post-template-studio .post-main .central #post-intro {
+.post-template-studio_001 .post-main .central #post-intro {
 	display: none;
 	margin: 0;
 	padding: 2%;
@@ -1507,7 +1507,7 @@ page-template-template_chatroom {
 	font-weight: 300;
 }
 
-.post-template-studio .post-main .central #post-info {
+.post-template-studio_001 .post-main .central #post-info {
 	display: none;
 	margin: 0;
 	padding: 2%;
@@ -1525,7 +1525,7 @@ page-template-template_chatroom {
 	font-weight: 300;
 }
 
-/* .post-template-studio .post-main .central #main-photo {
+/* .post-template-studio_001 .post-main .central #main-photo {
 	display: block;
 	margin: 0;
 	padding: 0;
