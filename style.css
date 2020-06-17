@@ -1564,7 +1564,7 @@ page-template-template_chatroom {
   /* Modal Content */
   .modal-content {
 	background-color: #F3F3F3;
-	margin: auto;
+	margin: 5% auto;
 	padding: 5%;
 	width: 70%;
 }
