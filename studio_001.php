@@ -1,6 +1,6 @@
 <?php
 /*
- * Template Name: Studio
+ * Template Name: Studio - Floor 1
  * Template Post Type: post, page, product
  */
   
