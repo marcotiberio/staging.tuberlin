@@ -1552,7 +1552,7 @@ page-template-template_chatroom {
 	display: none;
 	position: fixed;
 	z-index: 10;
-	padding-top: 10%;
+	padding-top: 5%;
 	left: 0;
 	top: 0;
 	width: 100%;
@@ -1572,7 +1572,7 @@ page-template-template_chatroom {
   
   /* The Close Button */
   .close {
-	color: #aaaaaa;
+	color: #1717E2;
 	float: right;
 	font-size: 28px;
 	font-weight: bold;
@@ -1580,7 +1580,8 @@ page-template-template_chatroom {
   
   .close:hover,
   .close:focus {
-	color: #000;
+	color: #1717E2;
+	opacity: 0.7;
 	text-decoration: none;
 	cursor: pointer;
   }
