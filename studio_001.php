@@ -47,9 +47,6 @@
                 background-repeat: no-repeat;
                 background-size: cover;
                 background-position: center;">
-            <div id="post-info">
-                <?php the_field('info_studio'); ?>
-            </div>
         </div>
         <div class="footer">
             <div class="bottom-left">
@@ -75,8 +72,8 @@
     <div id="modalInfo" class="modal">
 
         <div class="modal-content">
-            <span class="close">&times;</span>
-            <p>Modal Info</p>
+            <span class="close">&times;</span>            
+                <?php the_field('info_studio'); ?>
         </div>
 
     </div>
