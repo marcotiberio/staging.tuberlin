@@ -1595,6 +1595,7 @@ page-template-template_chatroom {
 	backdrop-filter: blur(8px);
 	margin: 0;
 	padding: 2%;
+	height: 500px;
 	border: 5px solid #F3F3F3;
 }
 
