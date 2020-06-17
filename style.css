@@ -1344,9 +1344,14 @@ textarea {
 }
 
 .page-static-layout_3 div,
-.page-static-layout_3 p {
+.page-static-layout_3 p, 
+.page-static-layout_3 a {
 	font-size: 1rem;
 	font-weight: 300;
+}
+
+.page-static-layout_3 a:hover {
+	text-decoration: underline;
 }
 
 @media (max-width: 35rem) {
