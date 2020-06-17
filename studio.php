@@ -35,7 +35,7 @@
             </div>
         </div>
         <div class="central">
-            <div class="info-button">
+            <div id="info-button">
                 <img src="http://staging-tuberlinifa.kinsta.cloud/wp-content/uploads/2020/06/info-icon.png" alt="">
             </div>
             <img id="main-photo" src="http://staging-tuberlinifa.kinsta.cloud/wp-content/uploads/2020/06/studio_main_photo.png" alt="">
