@@ -29,7 +29,7 @@
 
     <section class="post-main">
         <div id="info-button">
-            <img id="openModal" src="http://staging-tuberlinifa.kinsta.cloud/wp-content/uploads/2020/06/info-icon.png" alt="">
+            <img src="http://staging-tuberlinifa.kinsta.cloud/wp-content/uploads/2020/06/info-icon.png" alt="">
         </div>
         <div class="header">
             <div class="top-left"></div>
@@ -56,7 +56,7 @@
                 <img src="http://staging-tuberlinifa.kinsta.cloud/wp-content/uploads/2020/06/MARC-T-STAIR.png" alt="">
             </div>
             <div class="bottom-right">
-                <img src="http://staging-tuberlinifa.kinsta.cloud/wp-content/uploads/2020/06/gallery-icon.png" alt="">
+                <img id="openGallery" src="http://staging-tuberlinifa.kinsta.cloud/wp-content/uploads/2020/06/gallery-icon.png" alt="">
             </div>
         </div>
     </section>
