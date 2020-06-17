@@ -1431,9 +1431,9 @@ page-template-template_chatroom {
 
 .post-template-studio .post-main .footer {
 	margin: 0;
-	padding: 0;
+	padding: 0 100px;
 	position: fixed;
-	bottom: 0;
+	bottom: 100px;
 	left: 0;
 	width: 100vw;
 	height: 100px;
@@ -1449,6 +1449,10 @@ page-template-template_chatroom {
 
 .post-template-studio .post-main .footer .bottom-left {
 	text-align: left;
+}
+
+.post-template-studio .post-main .footer .bottom-right img {
+	max-width: 100px;
 }
 
 .post-template-studio .post-main .central {
