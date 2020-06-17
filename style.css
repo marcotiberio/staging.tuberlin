@@ -1581,7 +1581,6 @@ page-template-template_chatroom {
   .close:hover,
   .close:focus {
 	color: #1717E2;
-	opacity: 0.7;
 	text-decoration: none;
 	cursor: pointer;
   }
