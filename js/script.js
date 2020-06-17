@@ -1,8 +1,8 @@
-$(document).ready(function(){
-    $("#openGallery").click(function(){
-        $("#modalGallery").toggle();
-    });
-});
+// $(document).ready(function(){
+//     $("#openGallery").click(function(){
+//         $("#modalGallery").toggle();
+//     });
+// });
 
 // Get the modal
 var modal = document.getElementById("modalGallery");
