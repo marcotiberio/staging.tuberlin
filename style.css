@@ -1492,7 +1492,7 @@ page-template-template_chatroom {
 }
 
 .post-template-studio .post-main .central #post-intro {
-	display: block;
+	display: none;
 	margin: 0;
 	padding: 2%;
 	height: 400px;
@@ -1508,7 +1508,7 @@ page-template-template_chatroom {
 }
 
 .post-template-studio .post-main .central #post-info {
-	display: block;
+	display: none;
 	margin: 0;
 	padding: 2%;
 	height: 400px;
