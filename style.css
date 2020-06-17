@@ -1495,6 +1495,7 @@ page-template-template_chatroom {
 	display: block;
 	margin: 0;
 	padding: 2%;
+	height: 400px;
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -1510,6 +1511,7 @@ page-template-template_chatroom {
 	display: block;
 	margin: 0;
 	padding: 2%;
+	height: 400px;
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -1523,7 +1525,7 @@ page-template-template_chatroom {
 	font-weight: 300;
 }
 
-.post-template-studio .post-main .central #main-photo {
+/* .post-template-studio .post-main .central #main-photo {
 	display: block;
 	margin: 0;
 	padding: 0;
@@ -1532,12 +1534,7 @@ page-template-template_chatroom {
 	left: 0;
 	z-index: 20;
 	transition: 0.5s;
-}
-
-.post-template-studio .post-main .central #main-photo:hover {
-	cursor: pointer;
-	display: none;
-}
+} */
 
 
 
