@@ -1452,7 +1452,7 @@ page-template-template_chatroom {
 }
 
 .post-template-studio .post-main .footer .top-right img {
-	max-height: 200px;
+	max-height: 140px;
 	width: auto;
 }
 
@@ -1476,6 +1476,15 @@ page-template-template_chatroom {
 	width: 60%;
 	height: auto;
 	background-color: #1717E2 !important;
+}
+
+.post-template-studio .post-main .central #info-button {
+	display: block;
+	position: absolute;
+	margin: 0;
+	padding: 0;
+	top: 20%;
+	right: 20%;
 }
 
 .post-template-studio .post-main .central #post-intro {
