@@ -1451,13 +1451,12 @@ page-template-template_chatroom {
 	text-align: left;
 }
 
-.post-template-studio .post-main .header .top-right img,
 .post-template-studio .post-main .footer .bottom-right img {
-	max-width: 100px;
+	max-width: 55px;
 }
 
 .post-template-studio .post-main .footer .bottom-left img {
-	max-width: 100px;
+	max-width: 55px;
 }
 
 .post-template-studio .post-main .central {
