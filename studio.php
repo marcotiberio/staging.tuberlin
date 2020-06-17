@@ -34,18 +34,16 @@
         <div class="header">
             <div class="top-left"></div>
             <div class="top-right">
+                <img src="http://staging-tuberlinifa.kinsta.cloud/wp-content/uploads/2020/06/nbl-icon.png" alt="">
+            </div>
+        </div>
+        <div class="central">
             <?php 
                 $image = get_field('main_photo_studio');
                 if( !empty( $image ) ): ?>
                     <img src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" />
             <?php endif; ?>
-            </div>
-        </div>
-        <div class="central">
-            <img id="main-photo" src="http://staging-tuberlinifa.kinsta.cloud/wp-content/uploads/2020/06/studio_main_photo.png" alt="">
-            <div id="post-intro">
-                <?php the_field('intro_studio'); ?>
-            </div>
+            <?php the_field('intro_studio'); ?>
         </div>
         <div class="footer">
             <div class="bottom-left">
