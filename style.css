@@ -1569,6 +1569,7 @@ page-template-template_chatroom {
 }
   
 .close {
+	display: none;
 	color: #1717E2;
 	float: right;
 	font-size: 28px;
