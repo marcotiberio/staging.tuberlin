@@ -1419,6 +1419,23 @@ page-template-template_chatroom {
 .post-template-studio .post-main .header {
 	margin: 0;
 	padding: 0;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100vw;
+	height: auto;
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-template-rows: 1fr;
+	border: 5px solid blue;
+}
+
+.post-template-studio .post-main .footer {
+	margin: 0;
+	padding: 0;
+	position: fixed;
+	bottom: 0;
+	left: 0;
 	width: 100vw;
 	height: auto;
 	display: grid;
