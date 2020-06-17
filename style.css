@@ -1548,7 +1548,7 @@ page-template-template_chatroom {
 }
 
 /* The Modal (background) */
-.modal #modalGallery {
+#modalGallery {
 	display: none;
 	position: fixed;
 	z-index: 10;
