@@ -1429,6 +1429,19 @@ page-template-template_chatroom {
 	grid-template-rows: 1fr;
 }
 
+.post-template-studio .post-main .footer {
+	margin: 0;
+	padding: 0;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	width: 100vw;
+	height: 100px;
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-template-rows: 1fr;
+}
+
 .post-template-studio .post-main .header .top-right, 
 .post-template-studio .post-main .footer .bottom-right {
 	text-align: right;
@@ -1447,19 +1460,18 @@ page-template-template_chatroom {
 	left: 20%;
 	width: 60%;
 	height: 40%;
-	border: 5px solid blue;
+	background-color: #1717E2;
 }
 
-.post-template-studio .post-main .footer {
+.post-template-studio .post-main .central #post-intro {
+	display: block;
 	margin: 0;
-	padding: 0;
-	position: fixed;
-	bottom: 0;
+	padding: 2%;
+	position: absolute;
+	top: 0;
 	left: 0;
-	width: 100vw;
-	height: 100px;
-	display: grid;
-	grid-template-columns: repeat(2, 1fr);
-	grid-template-rows: 1fr;
+	color: white;
 }
+
+
 
