@@ -103,7 +103,7 @@
             $youtube = get_field('video_studio');
 
             if ('' !== strval($youtube)) {
-                echo '<iframe width="100%" height="100%" src="https://www.youtube.com/embed/' . $youtube . '" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>';
+                echo '<div style="padding:56.25% 0 0 0;position:relative;"><iframe width="100%" height="100%" src="https://player.vimeo.com/video/' . $youtube . '" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div>';
             }
         ?>
         </div>
