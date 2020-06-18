@@ -1710,6 +1710,10 @@ textarea {
 	opacity: 0.7;
 }
 
+#openVideo span img {
+	max-width: 70%;
+}
+
 #openVideo h3 {
 	font-weight: 300;
 	text-transform: uppercase;
