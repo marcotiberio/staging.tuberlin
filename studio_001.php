@@ -89,6 +89,7 @@
         <div class="modal-content">
             <span class="close">&times;</span>            
                 <?php the_field('info_studio'); ?>
+                <h1>PREVIEW</h1>
         </div>
 
     </div>
