@@ -9,27 +9,20 @@
 
             <section class="page-news">
                 <div class="gallery-news">
-				<?php
+				<?php if( have_rows('gallery_repeater_news') ): ?>
 
-				// check if the repeater field has rows of data
-				if( have_rows('gallery_repeater_news') ):
+					<?php while( have_rows('gallery_repeater_news') ): the_row(); 
 
-					// loop through the rows of data
-					while ( have_rows('gallery_repeater_news') ) : the_row();
+						// vars
+						$image = get_sub_field('image_repeater');
+						?>
 
-						// display a sub field value
-						the_sub_field('image_repeater');
-						the_sub_field('link_repeater');
+						<img src="<?php echo $image['url']; ?>" />
 
-					endwhile;
+					<?php endwhile; ?>
+				
+				<?php endif; ?>
 
-				else :
-
-					// no rows found
-
-				endif;
-
-				?>
 				</div>
             </section>
 		</main><!-- #main -->
