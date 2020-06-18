@@ -26,11 +26,11 @@
         </section>
         <div class="impressum">
             <h3>Impressum</h3>
-            <p>Angaben gemäß § 5 TMG: 
-                Haftungsausschluss (Disclaimer)
-                IfA, TU Berlin Straße des 17. Juni 152 10623 Berlin
-                Vertreten durch: Geschäftsstelle IfA, TU Berlin</p>
-            <p>Haftung für Inhalte Als Diensteanbieter sind wir gemäß § 7 Abs.1 TMG für eigene Inhalte auf diesen Seiten nach den allgemeinen Gesetzen 
+            <p>Angaben gemäß § 5 TMG:<br>
+                Haftungsausschluss (Disclaimer)<br>
+                IfA, TU Berlin Straße des 17. Juni 152 10623 Berlin<br>
+                Vertreten durch: Geschäftsstelle IfA, TU Berlin<br>
+                Haftung für Inhalte Als Diensteanbieter sind wir gemäß § 7 Abs.1 TMG für eigene Inhalte auf diesen Seiten nach den allgemeinen Gesetzen 
                 verantwortlich. Nach §§ 8 bis 10 TMG sind wir als Diensteanbieter jedoch nicht verpflichtet, übermittelte oder gespeicherte fremde 
                 Informationen zu berwachen oder nach Umständen zu forschen, die auf eine rechtswidrige Tätigkeit hinweisen. Verpflichtungen zur 
                 Entfernung oder Sperrung der Nutzung von Informationen nach den allgemeinen Gesetzen bleiben hiervon unberührt. Eine diesbezügliche 
@@ -47,7 +47,7 @@
                 dieser Seite nicht vom Betreiber erstellt wurden, werden die Urheberrechte Dritter beachtet. Insbesondere werden Inhalte Dritter als solche 
                 gekennzeichnet. Sollten Sie trotzdem auf eine Urheberrechtsverletzung aufmerksam werden, bitten wir um einen entsprechenden Hinweis. 
                 Bei Bekanntwerden von Rechtsverletzungen werden wir derartige Inhalte umgehend entfernen.
-</p>
+            </p>
         </div>
         
 		</main><!-- #main -->
