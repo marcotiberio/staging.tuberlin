@@ -94,6 +94,16 @@
 
     </div>
 
+    <!-- Modal Video -->
+    <div id="modalVideo" class="modal">
+
+        <div class="modal-content">
+            <span class="close">&times;</span>            
+                <?php the_field('video_studio'); ?>
+        </div>
+
+    </div>
+
 
 <?php
 get_footer(); ?>

@@ -1633,6 +1633,19 @@ textarea {
 	height: 500px;
 	overflow: auto; /* Enable scroll if needed */
 }
+
+#modalVideo {
+	display: none;
+	position: fixed;
+	z-index: 11;
+	padding: 0;
+	margin: 0;
+	top: 15%;
+	left: 22.5%;
+	width: 55%;
+	height: 500px;
+	overflow: auto; /* Enable scroll if needed */
+}
   
 #modalGallery .modal-content {
 	background-color: #F3F3F3;
@@ -1646,6 +1659,14 @@ textarea {
 	backdrop-filter: blur(8px);
 	margin: 0;
 	padding: 2%;
+	height: 500px;
+	border: 5px solid #F3F3F3;
+}
+
+#modalVideo .modal-content {
+	background-color: rgba(245,245,245,0.7);
+	margin: 0;
+	padding: 0;
 	height: 500px;
 	border: 5px solid #F3F3F3;
 }

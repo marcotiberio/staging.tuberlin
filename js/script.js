@@ -9,3 +9,9 @@ $(document).ready(function(){
         $("#modalInfo").toggle();
     });
 });
+
+$(document).ready(function(){
+    $("#openVideo").click(function(){
+        $("#modalVideo").toggle();
+    });
+});
