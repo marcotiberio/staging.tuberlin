@@ -1114,6 +1114,7 @@ textarea {
 	}
 
 	.nav--overlay {
+		display: none;
 		padding-top: 18px;
 		cursor: pointer;
 	}
