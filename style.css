@@ -1529,13 +1529,9 @@ textarea {
 	width: auto;
 }
 
+.post-template-studio_001 .post-main .footer .bottom-left img,
 .post-template-studio_001 .post-main .footer .bottom-right img {
-	max-height: 112px;
-	width: auto;
-}
-
-.post-template-studio_001 .post-main .footer .bottom-left img {
-	max-height: 112px;
+	max-height: 80px;
 	width: auto;
 }
 
