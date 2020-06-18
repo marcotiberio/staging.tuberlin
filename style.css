@@ -1675,3 +1675,9 @@ textarea {
 	column-gap: 10px;
 	row-gap: 10px;
 }
+
+#openVideo {
+	position: absolute;
+    bottom: 0;
+    right: 20px;
+}
