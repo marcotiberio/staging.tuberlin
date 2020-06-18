@@ -1705,3 +1705,8 @@ textarea {
 	cursor: pointer;
 	opacity: 0.7;
 }
+
+#openVideo {
+	font-weight: normal;
+	text-transform: uppercase;
+}
