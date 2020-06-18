@@ -1479,7 +1479,7 @@ textarea {
 	top: 20%;
 	right: 15%;
 	cursor: pointer;
-	z-index: 30 !important;
+	z-index: 2000 !important;
 }
 
 .post-template-studio_001 .post-main #info-button img {
@@ -1660,10 +1660,10 @@ textarea {
 	margin: 0;
 	padding: 2%;
 	height: 500px;
-	border: 5px solid #F3F3F3;
 }
 
 #modalVideo .modal-content {
+	background-color: #F3F3F3;
 	margin: 0;
 	padding: 0;
 	height: 500px;
