@@ -89,7 +89,10 @@
         <div class="modal-content">
             <span class="close">&times;</span>            
                 <?php the_field('info_studio'); ?>
-            <div id="openVideo" style="display: block;"><h3>Interview</h3></div>
+            <div id="openVideo" style="display: block;">
+                <span><img src="http://staging-tuberlinifa.kinsta.cloud/wp-content/uploads/2020/06/play-button.png" alt="Play Button"></span>
+                <h3>Interview</h3>
+            </div>
         </div>
 
     </div>
