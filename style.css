@@ -1664,11 +1664,10 @@ textarea {
 }
 
 #modalVideo .modal-content {
-	background-color: transparent;
+	background-color: red;
 	margin: 0;
 	padding: 0;
 	height: 500px;
-	border: 5px solid #F3F3F3;
 }
 
 .close {
