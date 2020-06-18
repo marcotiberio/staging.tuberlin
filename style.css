@@ -1043,6 +1043,7 @@ textarea {
 .custom-logo-link img {
 	width: 96px;
 	height: auto;
+	margin-top: 16px;
 }
 
 .main-navigation {
