@@ -1697,7 +1697,7 @@ textarea {
 
 #openVideo {
 	position: absolute;
-    bottom: 0;
+    bottom: 20px;
     right: 20px;
 }
 
