@@ -1706,7 +1706,7 @@ textarea {
 	opacity: 0.7;
 }
 
-#openVideo {
+#openVideo h3 {
 	font-weight: 300;
 	text-transform: uppercase;
 }
