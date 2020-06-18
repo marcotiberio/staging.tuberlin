@@ -12,6 +12,9 @@ $(document).ready(function(){
 
 $(document).ready(function(){
     $("#openVideo").click(function(){
-        $("#modalVideo").toggle();
+        $("#modalVideo").show();
+    });
+    $("#openInfo").click(function(){
+        $("#modalVideo").hide();
     });
 });
