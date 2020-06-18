@@ -9,29 +9,27 @@
 
             <section class="page-news">
                 <div class="gallery-news">
-				<?php 
-				$images = get_field('gallery_news');
-				if( $images ): ?>
-					<div id="slider" class="flexslider">
-						<ul class="slides">
-							<?php foreach( $images as $image ): ?>
-								<li>
-									<img src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" />
-									<p><?php echo esc_html($image['caption']); ?></p>
-								</li>
-							<?php endforeach; ?>
-						</ul>
-					</div>
-					<div id="carousel" class="flexslider">
-						<ul class="slides">
-							<?php foreach( $images as $image ): ?>
-								<li>
-									<img src="<?php echo esc_url($image['sizes']['thumbnail']); ?>" alt="Thumbnail of <?php echo esc_url($image['alt']); ?>" />
-								</li>
-							<?php endforeach; ?>
-						</ul>
-					</div>
-				<?php endif; ?>
+				<?php
+
+				// check if the repeater field has rows of data
+				if( have_rows('gallery_repeater_news') ):
+
+					// loop through the rows of data
+					while ( have_rows('gallery_repeater_news') ) : the_row();
+
+						// display a sub field value
+						the_sub_field('image_repeater');
+						the_sub_field('link_repeater');
+
+					endwhile;
+
+				else :
+
+					// no rows found
+
+				endif;
+
+				?>
 				</div>
             </section>
 		</main><!-- #main -->
