@@ -1508,7 +1508,7 @@ textarea {
 	bottom: 4rem;
 	left: 0;
 	width: 100vw;
-	height: 70px;
+	height: 60px;
 	display: grid;
 	grid-template-columns: repeat(2, 1fr);
 	grid-template-rows: 1fr;
@@ -1524,8 +1524,8 @@ textarea {
 	text-align: left;
 }
 
-.post-template-studio_001 .post-main .footer .top-right img {
-	max-height: 100px;
+.post-template-studio_001 .post-main .header .top-right img {
+	max-height: 150px;
 	width: auto;
 }
 
