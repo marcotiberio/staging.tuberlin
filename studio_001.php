@@ -64,29 +64,20 @@
         <div class="modal-content">
             <span class="close">&times;</span>
             <div class="gallery_studio">
-            <?php 
-            $images = get_field('gallery_studio');
-            if( $images ): ?>
-                <div id="slider" class="flexslider">
-                    <ul class="slides">
+                <?php 
+                $images = get_field('gallery_studio');
+                if( $images ): ?>
+                    <ul>
                         <?php foreach( $images as $image ): ?>
                             <li>
-                                <img src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" />
-                                <p><?php echo esc_html($image['caption']); ?></p>
+                                <a href="<?php echo $image['url']; ?>">
+                                    <img src="<?php echo $image['sizes']['large']; ?>" alt="<?php echo $image['alt']; ?>" />
+                                </a>
+                                <p><?php echo $image['caption']; ?></p>
                             </li>
                         <?php endforeach; ?>
                     </ul>
-                </div>
-                <div id="carousel" class="flexslider">
-                    <ul class="slides">
-                        <?php foreach( $images as $image ): ?>
-                            <li>
-                                <img src="<?php echo esc_url($image['sizes']['thumbnail']); ?>" alt="Thumbnail of <?php echo esc_url($image['alt']); ?>" />
-                            </li>
-                        <?php endforeach; ?>
-                    </ul>
-                </div>
-            <?php endif; ?>
+                <?php endif; ?>
             </div>
         </div>
 
