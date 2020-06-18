@@ -100,7 +100,7 @@
         <div class="modal-content">
             <span class="close">&times;</span>            
             <div class="embed-container">
-    <?php the_field('oembed'); ?>
+    <?php the_field('video_studio'); ?>
 </div>
 <style>
     .embed-container { 
