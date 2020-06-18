@@ -100,10 +100,10 @@
         <div class="modal-content">
             <span class="close">&times;</span>            
             <?php
-            $youtube = get_field('video_studio');
+            $videostudio = get_field('video_studio');
 
-            if ('' !== strval($youtube)) {
-                echo '<div style="padding:56.25% 0 0 0;position:relative;"><iframe width="100%" height="100%" src="https://player.vimeo.com/video/' . $youtube . '" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div>';
+            if ('' !== strval($videostudio)) {
+                echo '<div style="padding:56.25% 0 0 0;position:relative;"><iframe width="100%" height="100%" src="https://player.vimeo.com/video/' . $videostudio . '" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay;"></iframe></div>';
             }
         ?>
         </div>
