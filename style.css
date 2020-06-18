@@ -485,7 +485,7 @@ body:after {
     background: #1717E2;
     left: 0;
     right: 0;
-	height: 10px;
+	height: 16px;
 }
 
 body:before {
@@ -500,8 +500,8 @@ body {
 	margin: 0;
 	padding: 0;
 	background: #F3F3F3;
-    border-left: 10px solid #1717E2;
-	border-right: 10px solid #1717E2;
+    border-left: 16px solid #1717E2;
+	border-right: 16px solid #1717E2;
 }
 
 hr {
@@ -1061,7 +1061,7 @@ textarea {
 }
 
 .main-navigation li {
-	margin: 10px 1.5rem;
+	margin: 10px 1rem;
 	width: fit-content;
 }
 
