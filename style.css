@@ -1615,7 +1615,7 @@ page-template-template_chatroom {
 	cursor: pointer;
 }
 
-.gallery_studio {
+.gallery_studio ul {
 	width: 100%;
 	height: auto;
 	margin: 0;
