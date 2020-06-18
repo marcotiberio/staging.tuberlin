@@ -19,8 +19,9 @@
 						?>
 
 						
-						<img src="<?php echo $image['url']; ?>" />
-						<a href="<?php echo $link['url']; ?>" target="_blank" rel="noopener noreferrer"></a>
+						<a href="<?php echo $link['url']; ?>" target="_blank" rel="noopener noreferrer">
+							<img src="<?php echo $image['url']; ?>" />
+						</a>
 			
 
 					<?php endwhile; ?>
