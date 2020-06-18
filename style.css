@@ -1701,3 +1701,8 @@ textarea {
     bottom: 0;
     right: 20px;
 }
+
+#openVideo:hover {
+	cursor: pointer;
+	opacity: 0.7;
+}
