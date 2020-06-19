@@ -41,7 +41,7 @@
             <div id="post-intro">
                 <?php the_field('intro_studio'); ?>
                 <div id="openGallery">
-                    <h3>Interview</h3>
+                    <h3>Index</h3>
                 </div>
             </div>
         </div>
