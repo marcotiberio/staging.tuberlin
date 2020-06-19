@@ -1092,6 +1092,12 @@ textarea {
 	direction: rtl;
 }
 
+.nav--overlay {
+	display: none;
+	padding-top: 18px;
+	cursor: pointer;
+}
+
 .nav--search input {
 	width: 270px;
 	border: none;
@@ -1479,7 +1485,7 @@ textarea {
 	top: 20%;
 	right: 15%;
 	cursor: pointer;
-	z-index: 2000 !important;
+	z-index: 2001 !important;
 }
 
 .post-template-studio_001 .post-main #info-button img {
