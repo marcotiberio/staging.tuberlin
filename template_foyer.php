@@ -8,7 +8,7 @@
 		<main id="main--page-main" class="site-main--page-main">
 
             <section class="page-foyer">
-                <img src="assets/img/foyer.svg" alt="" style="display: block;">
+                <img src="http://staging-tuberlinifa.kinsta.cloud/wp-content/uploads/2020/06/foyer.svg" alt="" style="display: block;">
             </section>
 		</main><!-- #main -->
 	</div><!-- #primary -->
