@@ -1709,17 +1709,19 @@ textarea {
 	display: block;
 }
 
-#openVideo:hover {
+#openVideo:hover,
+#openGallery:hover {
 	cursor: pointer;
 	opacity: 0.7;
+}
+
+#openVideo h3,
+#openGallery h3 {
+	font-weight: 300;
+	text-transform: uppercase;
 }
 
 #openVideo span img {
 	max-width: 70%;
 	margin-top: 10%;
-}
-
-#openVideo h3 {
-	font-weight: 300;
-	text-transform: uppercase;
 }
