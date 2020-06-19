@@ -1046,6 +1046,10 @@ textarea {
 	margin-top: 30px;
 }
 
+.custom-logo-link img:hover {
+	cursor: pointer;
+}
+
 .main-navigation {
 	width: 100vw;
 	height: auto;

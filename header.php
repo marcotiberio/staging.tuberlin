@@ -45,7 +45,7 @@
 			);
 			?>
 		</nav><!-- #site-navigation -->
-		<div class="nav--search">
+		<div class="nav--search" id="navigationSearch">
 			<?php get_search_form(); ?>
 		</div>
 		<div class="nav--overlay">

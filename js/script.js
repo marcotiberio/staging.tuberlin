@@ -1,6 +1,7 @@
 $(document).ready(function(){
     $("#openMenu").click(function(){
         $("#site-navigation").toggle();
+        $("#navigationSearch").toggle();
     });
 });
 
