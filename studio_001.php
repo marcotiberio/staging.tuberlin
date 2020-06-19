@@ -51,7 +51,9 @@
         </div>
         <div class="footer">
             <div class="bottom-left">
-                <img src="http://staging-tuberlinifa.kinsta.cloud/wp-content/uploads/2020/06/MARC-T-STAIR.png" alt="">
+                <a href="javascript:history.back()">
+                    <img src="http://staging-tuberlinifa.kinsta.cloud/wp-content/uploads/2020/06/MARC-T-STAIR.png" alt="">
+                </a>
             </div>
             <div class="bottom-right">
                 <img id="openInfo" src="http://staging-tuberlinifa.kinsta.cloud/wp-content/uploads/2020/06/info-icon.png" alt="Icon Info">
