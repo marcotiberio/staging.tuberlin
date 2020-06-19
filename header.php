@@ -28,8 +28,8 @@
 
 	<header id="masthead" class="site-header">
 		<div class="site-branding">
-			<div class="custom-logo-link">
-				<img src="http://staging-tuberlinifa.kinsta.cloud/wp-content/uploads/2020/06/logo.png" alt="Logo">
+			<div class="custom-logo-link" id="openMenu">
+				<img id="openMenu" src="http://staging-tuberlinifa.kinsta.cloud/wp-content/uploads/2020/06/logo.png" alt="Logo">
 			</div>
 			
 		</div><!-- .site-branding -->

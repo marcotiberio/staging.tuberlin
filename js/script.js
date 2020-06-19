@@ -1,4 +1,10 @@
 $(document).ready(function(){
+    $("#openMenu").click(function(){
+        $("#site-navigation").toggle();
+    });
+});
+
+$(document).ready(function(){
     $("#openGallery").click(function(){
         $("#modalGallery").toggle();
     });
