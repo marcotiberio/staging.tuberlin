@@ -1116,11 +1116,24 @@ textarea {
 @media (max-width: 35rem) {
 	
 	.main-navigation {
-    	display: none;
+    	display: block;
 	}
 	
+	.menu-toggle,
 	.nav--search {
 		display: none;
+	}
+
+	.main-navigation .menu-menu-main-container {
+		position: absolute;
+    	left: 20px;
+    	top: 170px;
+	}
+
+	.main-navigation #primary-menu {
+		width: min-content;
+		display: flex;
+		flex-wrap: wrap;
 	}
 
 	.nav--overlay {
