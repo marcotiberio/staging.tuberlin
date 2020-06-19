@@ -40,6 +40,9 @@
         <div class="central-hidden">
             <div id="post-intro">
                 <?php the_field('intro_studio'); ?>
+                <div id="openGallery">
+                    <h3>Interview</h3>
+                </div>
             </div>
         </div>
         <div class="central" 

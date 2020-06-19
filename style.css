@@ -1692,7 +1692,8 @@ textarea {
 	row-gap: 10px;
 }
 
-#openVideo {
+#openVideo,
+#openGallery {
 	position: absolute;
     bottom: 20px;
 	right: 20px;
