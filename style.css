@@ -1476,8 +1476,8 @@ textarea {
     width: auto;
 }
 
-.post-template .menu-menu-main-container,
-.post-template .nav--search {
+.post-template #site-navigation,
+.post-template #navigationSearch {
 	display: none;
 }
 
