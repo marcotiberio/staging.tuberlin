@@ -7,6 +7,7 @@ $(document).ready(function(){
 $(document).ready(function(){
     $("#openInfo").click(function(){
         $("#modalInfo").toggle();
+        $("#modalGallery").hide();
     });
 });
 
