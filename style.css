@@ -1491,13 +1491,13 @@ textarea {
 	margin: 0;
 	padding: 0;
 	top: 20%;
-	right: 15%;
+	right: 5%;
 	cursor: pointer;
 	z-index: 2001 !important;
 }
 
 .post-template-studio_001 .post-main #info-button img {
-	max-height: 45px;
+	max-height: 100px;
 	width: auto;
 }
 

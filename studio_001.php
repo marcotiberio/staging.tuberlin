@@ -28,9 +28,9 @@
     <!-- CUSTOM POST LAYOUT -->
 
     <section class="post-main">
-        <!-- <div id="info-button">
-            <img id="openInfo" src="http://staging-tuberlinifa.kinsta.cloud/wp-content/uploads/2020/06/info-icon.png" alt="">
-        </div> -->
+        <div id="logoStudio">
+            <img id="openIndex" src="http://staging-tuberlinifa.kinsta.cloud/wp-content/uploads/2020/06/info-icon.png" alt="">
+        </div>
         <div class="header">
             <div class="top-left"></div>
             <div class="top-right">
