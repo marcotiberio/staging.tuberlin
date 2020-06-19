@@ -34,7 +34,7 @@
         <div class="header">
             <div class="top-left"></div>
             <div class="top-right">
-                <img src="http://staging-tuberlinifa.kinsta.cloud/wp-content/uploads/2020/06/nbl-icon.png" alt="">
+                <img id="openIndex" src="http://staging-tuberlinifa.kinsta.cloud/wp-content/uploads/2020/06/nbl-icon.png" alt="">
             </div>
         </div>
         <div class="central-hidden">
