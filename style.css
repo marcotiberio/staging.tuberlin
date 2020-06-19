@@ -1478,6 +1478,10 @@ textarea {
 
 .post-template #site-navigation,
 .post-template #navigationSearch {
+	display: none;
+}
+
+.post-template .menu-menu-main-container {
 	display: block;
 }
 
