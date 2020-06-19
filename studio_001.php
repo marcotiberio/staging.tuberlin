@@ -40,25 +40,9 @@
         <div class="central-hidden">
             <div id="post-intro">
                 <?php the_field('intro_studio'); ?>
-                <div class="gallery_studio">
-                    <?php 
-                    $images = get_field('gallery_studio');
-                    if( $images ): ?>
-                        <ul>
-                            <?php foreach( $images as $image ): ?>
-                                <li>
-                                    <a href="<?php echo $image['url']; ?>">
-                                        <img src="<?php echo $image['sizes']['large']; ?>" alt="<?php echo $image['alt']; ?>" />
-                                    </a>
-                                    <p><?php echo $image['caption']; ?></p>
-                                </li>
-                            <?php endforeach; ?>
-                        </ul>
-                    <?php endif; ?>
-                </div>
-                <!-- <div id="openGallery">
+                <div id="openGallery">
                     <h3>Index</h3>
-                </div> -->
+                </div>
             </div>
         </div>
         <div class="central"
