@@ -1478,7 +1478,7 @@ textarea {
 
 .post-template #site-navigation,
 .post-template #navigationSearch {
-	display: none;
+	display: block;
 }
 
 .post-template-studio_001 .post-main #info-button {
