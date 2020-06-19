@@ -22,6 +22,6 @@ $(document).ready(function(){
 
 $(document).ready(function(){
     $("#openIndex").click(function(){
-        $("#post-intro").toggle();
+        $("#central").hide();
     });
 });
