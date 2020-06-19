@@ -29,7 +29,11 @@
 
     <section class="post-main">
         <div id="logoStudio">
-            <img id="openIndex" src="assets/img/nbl-icon.png" alt="">
+            <?php 
+                $image = get_field('logo_studio');
+                if( !empty( $image ) ): ?>
+                    <img src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" />
+            <?php endif; ?>
         </div>
         <!-- <div class="header">
             <div class="top-left"></div>
