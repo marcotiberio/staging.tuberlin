@@ -35,12 +35,6 @@
                     <img src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" />
             <?php endif; ?>
         </div>
-        <!-- <div class="header">
-            <div class="top-left"></div>
-            <div class="top-right">
-                <img id="openIndex" src="http://staging-tuberlinifa.kinsta.cloud/wp-content/uploads/2020/06/nbl-icon.png" alt="">
-            </div>
-        </div> -->
         <div class="central-hidden">
             <div id="post-intro">
                 <?php the_field('intro_studio'); ?>

@@ -1501,20 +1501,6 @@ textarea {
 	width: auto;
 }
 
-.post-template-studio_001 .post-main .header {
-	margin: 0;
-	padding: 0;
-	position: fixed;
-	top: 0;
-	left: 0;
-	width: 100vw;
-	height: 100px;
-	display: grid;
-	grid-template-columns: repeat(2, 1fr);
-	grid-template-rows: 1fr;
-	z-index: 1000;
-}
-
 .post-template-studio_001 .post-main .footer {
 	margin: 0;
 	padding: 0 4rem;
@@ -1529,7 +1515,6 @@ textarea {
 	z-index: 1000;
 }
 
-.post-template-studio_001 .post-main .header .top-right, 
 .post-template-studio_001 .post-main .footer .bottom-right {
 	text-align: right;
 }
@@ -1550,7 +1535,6 @@ textarea {
 }
 
 .post-template-studio_001 .post-main #logoStudio img:hover,
-.post-template-studio_001 .post-main .header .top-right img:hover,
 .post-template-studio_001 .post-main .footer .bottom-right img:hover,
 .post-template-studio_001 .post-main .footer .bottom-left img:hover {
 	opacity: 0.7;
