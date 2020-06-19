@@ -29,7 +29,7 @@
 
     <section class="post-main">
         <div id="logoStudio">
-            <img id="openIndex" src="http://staging-tuberlinifa.kinsta.cloud/wp-content/uploads/2020/06/nbl-icon.png" alt="">
+            <img id="openIndex" src="assets/img/nbl-icon.png" alt="">
         </div>
         <!-- <div class="header">
             <div class="top-left"></div>
