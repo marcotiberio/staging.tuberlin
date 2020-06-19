@@ -1490,14 +1490,14 @@ textarea {
 	position: absolute;
 	margin: 0;
 	padding: 0;
-	top: 20%;
-	right: 5%;
+	top: 2%;
+	right: 2%;
 	cursor: pointer;
 	z-index: 2001 !important;
 }
 
 .post-template-studio_001 .post-main #logoStudio img {
-	max-height: 100px;
+	max-height: 150px;
 	width: auto;
 }
 
@@ -1549,7 +1549,7 @@ textarea {
 	width: auto;
 }
 
-.post-template-studio_001 .post-main #info-button img:hover,
+.post-template-studio_001 .post-main #logoStudio img:hover,
 .post-template-studio_001 .post-main .header .top-right img:hover,
 .post-template-studio_001 .post-main .footer .bottom-right img:hover,
 .post-template-studio_001 .post-main .footer .bottom-left img:hover {
