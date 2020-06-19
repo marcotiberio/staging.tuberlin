@@ -19,9 +19,3 @@ $(document).ready(function(){
         $("#modalVideo").hide();
     });
 });
-
-$(document).ready(function(){
-    $("#openIndex").click(function(){
-        $("#central").hide();
-    });
-});

@@ -45,7 +45,7 @@
                 </div>
             </div>
         </div>
-        <div class="central" id="#central"
+        <div class="central"
                 style="background-image: url(<?php the_field('main_photo_studio'); ?>);
                 background-repeat: no-repeat;
                 background-size: cover;

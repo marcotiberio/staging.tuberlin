@@ -1096,7 +1096,7 @@ textarea {
 	display: none;
 	padding-top: 18px;
 	cursor: pointer;
-}
+	}
 
 .nav--search input {
 	width: 270px;
@@ -1574,7 +1574,7 @@ textarea {
 }
 
 .post-template-studio_001 .post-main .central-hidden #post-intro {
-	display: none;
+	display: block;
 	margin: 0;
 	padding: 2%;
 	height: 500px;
@@ -1583,7 +1583,6 @@ textarea {
 	left: 0;
 	color: white;
 	background-color: #1717E2;
-	z-index: 10;
 
 	font-size: 1rem;
 	font-weight: 300;
