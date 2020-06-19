@@ -1766,7 +1766,7 @@ textarea {
 	.post-template-studio_001 .post-main .central-hidden #post-intro {
 		display: block;
 		margin: 0;
-		padding: 2%;
+		padding: 2% 2% 20% 2%;
 		height: 100%;
 		position: absolute;
 		top: 0;
