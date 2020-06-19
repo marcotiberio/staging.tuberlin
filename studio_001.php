@@ -51,7 +51,7 @@
         </div>
         <div class="footer">
             <div class="bottom-left">
-                <a href="javascript:history.back()">
+                <a onclick="goBack()">
                     <img src="http://staging-tuberlinifa.kinsta.cloud/wp-content/uploads/2020/06/MARC-T-STAIR.png" alt="">
                 </a>
             </div>

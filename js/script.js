@@ -26,3 +26,7 @@ $(document).ready(function(){
         $("#modalVideo").hide();
     });
 });
+
+function goBack() {
+    window.history.back();
+}
