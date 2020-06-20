@@ -7,22 +7,22 @@
 	<div id="primary--page-main" class="content-area--page-main">
 		<main id="main--page-main" class="site-main--page-main">
 
-        <section class="page-foyer">
+        <div class="floor-pad">
+          <div><a href="#">7</a></div>
+          <div><a href="#">8</a></div>
+          <div><a href="#">9</a></div>
+          <div><a href="#">4</a></div>
+          <div><a href="#">5</a></div>
+          <div><a href="#">6</a></div>
+          <div><a href="#">1</a></div>
+          <div><a href="#secondFloor">2</a></div>
+          <div><a href="#">3</a></div>
+          <div><a href="#"></a></div>
+          <div><a href="#">0</a></div>
+          <div><a href="#"></a></div>
+        </div>
 
-          <div class="floor-pad">
-            <div><a href="#">7</a></div>
-            <div><a href="#">8</a></div>
-            <div><a href="#">9</a></div>
-            <div><a href="#">4</a></div>
-            <div><a href="#">5</a></div>
-            <div><a href="#">6</a></div>
-            <div><a href="#">1</a></div>
-            <div><a href="#secondFloor">2</a></div>
-            <div><a href="#">3</a></div>
-            <div><a href="#"></a></div>
-            <div><a href="#">0</a></div>
-            <div><a href="#"></a></div>
-          </div>
+        <section class="page-foyer">
 
           <div class="floor" id="firstFloor">
             <svg xmlns="http://www.w3.org/2000/svg" id="svgFloor1" viewBox="0 0 1197.871 752.334">
