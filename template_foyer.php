@@ -484,53 +484,7 @@
               </g>
             </svg>
           </div>
-          <br>
-          <br>
-          <br>
-          <br>
-          <br>
-          <br>
-          <br>
-          <br>
-          <br>
-          <br>
-          <br>
-          <br>
-          <br>
-          <br>
-          <br>
-          <br>
-          <br>
-          <br>
-          <br>
-          <br>
-          <br>
-          <br>
-          <br>
-          <br>
-          <br>
-          <br>
-          <br>
-          <br>
-          <br>
-          <br>
-          <br>
-          <br>
-          <br>
-          <br>
-          <br>
-          <br>
-          <br>
-          <br>
-          <br>
-          <br>
-          <br>
-          <br>
-          <br>
-          <br>
-          <br>
-          <br>
-          <br>
+          
           <div class="floor" id="secondFloor">
             <svg xmlns="http://www.w3.org/2000/svg" id="svgFloor2" viewBox="0 0 1197.871 752.334">
               <g id="Group_1510" data-name="Group 1510" transform="translate(-388.728 -139.211)">
