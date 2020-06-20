@@ -24,7 +24,7 @@
             <div><a href="#"></a></div>
           </div>
 
-          <div class="floor" id="floorOne">
+          <div class="floor" id="firstFloor">
             <svg xmlns="http://www.w3.org/2000/svg" id="svgFloor1" viewBox="0 0 1197.871 752.334">
               <g id="Group_1510" data-name="Group 1510" transform="translate(-388.728 -139.211)">
                 <g id="_00_ACKERSTR" data-name="00_ACKERSTR" transform="translate(389.728 527.779)">
@@ -484,7 +484,7 @@
               </g>
             </svg>
           </div>
-          <div class="floor" id="floorTwo">
+          <div class="floor" id="secondFloor">
             <svg xmlns="http://www.w3.org/2000/svg" id="svgFloor2" viewBox="0 0 1197.871 752.334">
               <g id="Group_1510" data-name="Group 1510" transform="translate(-388.728 -139.211)">
                 <g id="_00_ACKERSTR" data-name="00_ACKERSTR" transform="translate(389.728 527.779)">
