@@ -7,44 +7,44 @@
 	<div id="primary--page-main" class="content-area--page-main">
 		<main id="main--page-main" class="site-main--page-main">
 
-        <div class="floor-pad" id="floorPad">
-          <div class="active">
+        <ul class="floor-pad" id="floorPad">
+          <li>
             <a href="#">7</a>
-          </div>
-          <div>
+          </li>
+          <li>
             <a href="#">8</a>
-          </div>
-          <div>
+          </li>
+          <li>
             <a href="#">9</a>
-          </div>
-          <div>
+          </li>
+          <li>
             <a href="#">4</a>
-          </div>
-          <div>
+          </li>
+          <li>
             <a href="#">5</a>
-          </div>
-          <div>
+          </li>
+          <li>
             <a href="#">6</a>
-          </div>
-          <div>
+          </li>
+          <li class="active">
             <a href="#firstFloor">1</a>
-          </div>
-          <div>
+          </li>
+          <li>
             <a href="#secondFloor">2</a>
-          </div>
-          <div>
+          </li>
+          <li>
             <a href="#">3</a>
-          </div>
-          <div>
+          </li>
+          <li>
             <a href="#"></a>
-          </div>
-          <div>
+          </li>
+          <li>
             <a href="#">0</a>
-          </div>
-          <div>
+          </li>
+          <li>
             <a href="#"></a>
-          </div>
-        </div>
+          </li>
+        </ul>
 
         <section class="page-foyer">
 
