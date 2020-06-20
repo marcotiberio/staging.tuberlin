@@ -1802,21 +1802,21 @@ textarea {
 	margin: 0 auto;
 	padding: 0;
 	width: 60%;
-	height: auto;
+	height: 100%;
 	overflow: auto;
-}
-
-.floor-pad {
-	position: fixed;
-	bottom: 100px;
-	right: 100px;
+	scroll-behavior: smooth;
 }
 
 .page-foyer .floor {
+	width: 100%;
+	height: 100%;
 	margin-bottom: 100px;
 }
 
 #svgFloor1 {
+	position: absolute;
+	top: 0
+	left: 0;
 	width: 100%;
 	height: auto;
 	margin: 0;
@@ -1824,8 +1824,11 @@ textarea {
 }
 
 #svgFloor2 {
+	position: absolute;
+	top: 1000px;
+	left: 0;
 	width: 100%;
-	height: auto;
+	height: 100%;
 	margin: 0;
 	padding: 0;
 }
@@ -1833,4 +1836,32 @@ textarea {
 #Path_7046:hover {
 	fill: red;
 	cursor: pointer;
+}
+
+.floor-pad {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-template-rows: repeat(4, 1fr);
+	column-gap: 0;
+	row-gap: -10px;
+}
+
+.floor-pad div a {
+	font-size: 2rem;
+	font-weight: 800;
+	text-decoration: none;
+}
+
+/*
+ *Scrolling
+ */
+
+a[ id= "firstFloor" ]:target ~ div.floor {
+    -webkit-transform: translateY( 0px);
+    transform: translateY( 0px );
+}
+
+a[ id= "seconfFloor" ]:target ~ div.floor {
+    -webkit-transform: translateY( -1000px );
+    transform: translateY( -1000px );
 }
