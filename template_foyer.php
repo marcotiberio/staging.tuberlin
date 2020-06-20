@@ -14,7 +14,7 @@
           <div><a href="#">4</a></div>
           <div><a href="#">5</a></div>
           <div><a href="#">6</a></div>
-          <div><a href="#">1</a></div>
+          <div><a href="#firstFloor">1</a></div>
           <div><a href="#secondFloor">2</a></div>
           <div><a href="#">3</a></div>
           <div><a href="#"></a></div>
