@@ -1777,3 +1777,60 @@ textarea {
 		font-weight: 300;
 	}
 }
+
+/*--------------------------------------------------------------
+## Page - Foyer
+--------------------------------------------------------------*/
+
+.page-template-template_foyer {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100vw;
+	height: 3000px;
+}
+
+.page-template #site-navigation,
+.page-template #navigationSearch {
+	display: none;
+}
+
+.page-foyer {
+	position: absolute;
+	top: 2.5%;
+	left: 20%;
+	margin: 0 auto;
+	padding: 0;
+	width: 60%;
+	height: auto;
+	overflow: auto;
+}
+
+.floor-pad {
+	position: fixed;
+	bottom: 100px;
+	right: 100px;
+}
+
+.page-foyer .floor {
+	margin-bottom: 100px;
+}
+
+#svgFloor1 {
+	width: 100%;
+	height: auto;
+	margin: 0;
+	padding: 0;
+}
+
+#svgFloor2 {
+	width: 100%;
+	height: auto;
+	margin: 0;
+	padding: 0;
+}
+
+#Path_7046:hover {
+	fill: red;
+	cursor: pointer;
+}
