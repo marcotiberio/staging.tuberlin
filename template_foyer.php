@@ -69,7 +69,7 @@
                     </g>
                   </g>
                   <g id="_00_MARCH-T_FLOOR" data-name="00_MARCH-T FLOOR" transform="translate(-410.098 -2393.023)">
-                    <path id="Path_7046" data-name="Path 7046" d="M843.358,2393.023,410.1,2643.166l157.45,90.9,165.138-95.343c0,.027,164.414,94.925,164.414,94.925l2.644,1.526,102.984-59.458L835.67,2579.27,976.254,2498.1l24.555-14.177-24.555-14.177Z" fill="#fff" stroke="#000" stroke-linejoin="round" stroke-width="2" fill-rule="evenodd"/>
+                    <a href="http://staging-tuberlinifa.kinsta.cloud/nbl-konstruktives-entwerfen-und-klimagerechte-architektur/"><path id="Path_7046" data-name="Path 7046" d="M843.358,2393.023,410.1,2643.166l157.45,90.9,165.138-95.343c0,.027,164.414,94.925,164.414,94.925l2.644,1.526,102.984-59.458L835.67,2579.27,976.254,2498.1l24.555-14.177-24.555-14.177Z" fill="#fff" stroke="#000" stroke-linejoin="round" stroke-width="2" fill-rule="evenodd"/></a>
                   </g>
                   <g id="_00_MArch-T-2" data-name="00_MArch-T" transform="translate(-410.098 -2393.023)" opacity="0">
                     <path id="Path_7069" data-name="Path 7069" d="M741.865,2603.186l6.492,32.448,6.467-24.967,9.064,5.233v39.684l-6.964-4.02v-10.739l.638-16.176-6.869,23.317-4.721-2.725-6.868-31.249.637,16.913v10.738l-6.94-4.006v-39.685Z"/>
