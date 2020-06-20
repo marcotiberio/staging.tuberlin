@@ -7,7 +7,7 @@
 	<div id="primary--page-main" class="content-area--page-main">
 		<main id="main--page-main" class="site-main--page-main">
 
-        <div class="floor-pad">
+        <div class="floor-pad" id="floorPad">
           <div><a href="#">7</a></div>
           <div><a href="#">8</a></div>
           <div><a href="#">9</a></div>
