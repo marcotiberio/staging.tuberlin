@@ -9,7 +9,7 @@
 
         <section class="page-foyer">
 
-          <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="auto" viewBox="0 0 1197.871 752.334">
+          <svg xmlns="http://www.w3.org/2000/svg" class="floor1" viewBox="0 0 1197.871 752.334">
             <g id="Group_1510" data-name="Group 1510" transform="translate(-388.728 -139.211)">
               <g id="_00_ACKERSTR" data-name="00_ACKERSTR" transform="translate(389.728 527.779)">
                 <g id="_00_ACKERSTR_HATCH" data-name="00_ACKERSTR_HATCH" transform="translate(-389.728 -2706.598)">
