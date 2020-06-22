@@ -36,7 +36,6 @@
             <?php endif; ?>
         </div>
         <div class="central">
-            
             <div class="central-slider">
 				<?php if( have_rows('repeater_studio') ): ?>
 
@@ -61,8 +60,6 @@
                     <li class="item4">Live Project</li>
                 </ul>
             </div>
-        </div>
-        
         </div>
         <div class="footer">
             <div class="bottom-left">
