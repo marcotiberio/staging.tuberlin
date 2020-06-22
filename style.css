@@ -1677,7 +1677,7 @@ textarea {
 	height: 500px;
 }
 
-.close {
+#closeSeminar {
 	/* display: none; */
 	color: #1717E2;
 	float: right;
@@ -1685,8 +1685,8 @@ textarea {
 	font-weight: 300;
 }
   
-.close:hover,
-.close:focus {
+#closeSeminar:hover,
+#closeSeminar:focus {
 	color: #1717E2;
 	text-decoration: none;
 	cursor: pointer;

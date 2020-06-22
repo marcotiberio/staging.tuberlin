@@ -7,14 +7,17 @@ $(document).ready(function(){
 
 $(document).ready(function(){
     $("#openSeminar").click(function(){
-        $("#modalSeminar").toggle();
+        $("#modalSeminar").show();
+    });
+    $("#closeSeminar").click(function(){
+        $("#modalSeminar").hide();
     });
 });
 
 $(document).ready(function(){
     $("#openInfo").click(function(){
         $("#modalInfo").toggle();
-        $("#modalGallery").hide();
+        $("#modalSeminar").hide();
     });
 });
 
