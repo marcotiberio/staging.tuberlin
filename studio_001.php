@@ -49,7 +49,7 @@
 
                         <div class="central-menu">
                             <ul>
-                                <li class="item1"><?php echo $title; ?></li>
+                                <li class="item"><?php echo $title; ?></li>
                             </ul>
                         </div>
 
