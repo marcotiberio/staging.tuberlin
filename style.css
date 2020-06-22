@@ -1816,14 +1816,14 @@ textarea {
 	margin-bottom: 100px;
 }
 
-#svgFloor1 {
+.svgFloor1 {
 	width: 100%;
 	height: auto;
 	margin: 0;
 	padding: 0;
 }
 
-#svgFloor2 {
+.svgFloor2 {
 	width: 100%;
 	height: auto;
 	margin: 0;

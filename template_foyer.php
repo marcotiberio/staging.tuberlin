@@ -49,7 +49,7 @@
         <section class="page-foyer">
 
           <div class="floor" id="firstFloor">
-            <svg xmlns="http://www.w3.org/2000/svg" class="elevator" id="svgFloor1" style="z-index: 2;" viewBox="0 0 1346.795 488.604">
+            <svg xmlns="http://www.w3.org/2000/svg" class="svgFloor1" id="elevator" style="z-index: 2;" viewBox="0 0 1346.795 488.604">
               <g id="_000_Text" data-name="000_Text" transform="translate(-281.037 -155.032)">
                 <g id="_00_01" data-name="00/01">
                   <g id="Vectorized">
@@ -359,7 +359,7 @@
                 </g>
               </g>
             </svg>
-            <svg xmlns="http://www.w3.org/2000/svg" class="background" id="svgFloor1" style="z-index: 1;" viewBox="0 0 1346.795 488.604">
+            <svg xmlns="http://www.w3.org/2000/svg" class="svgFloor1" id="background" style="z-index: 1;" viewBox="0 0 1346.795 488.604">
               <g id="_000_Text" data-name="000_Text" transform="translate(-281.037 -155.032)">
                 <g id="_00_01" data-name="00/01">
                   <g id="Vectorized">
@@ -669,7 +669,7 @@
                 </g>
               </g>
             </svg>
-            <svg xmlns="http://www.w3.org/2000/svg" class="foreground" id="svgFloor1" style="z-index: 3;" viewBox="0 0 1260.819 356.08">
+            <svg xmlns="http://www.w3.org/2000/svg" class="svgFloor1" id="foreground" style="z-index: 3;" viewBox="0 0 1260.819 356.08">
               <g id="_000_Text" data-name="000_Text" transform="translate(-257.735 -3100.22)">
                 <g id="_06" data-name="06">
                   <g id="_00_ACKERSTR_HATCH" data-name="00_ACKERSTR_HATCH">
