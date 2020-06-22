@@ -43,7 +43,7 @@
         </div>
         <div class="central-menu">
             <ul>
-                <li class="item1">Lorem</li>
+                <li class="item1" id="openGallery">Lorem</li>
                 <li class="item2">Ipsum</li>
                 <li class="item3">Dolor</li>
                 <li class="item4">Sit Amet</li>
