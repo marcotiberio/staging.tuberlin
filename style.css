@@ -1713,12 +1713,12 @@ textarea {
 	column-gap: 5px;
 }
 
-#openGallery {
+/* #openGallery {
 	position: absolute;
     bottom: 40px;
 	right: 20px;
 	display: block;
-}
+} */
 
 #openVideo:hover,
 #openGallery:hover {
@@ -1726,8 +1726,7 @@ textarea {
 	opacity: 0.7;
 }
 
-#openVideo h3,
-#openGallery h3 {
+#openVideo h3 {
 	font-weight: 300;
 	text-transform: uppercase;
 }
