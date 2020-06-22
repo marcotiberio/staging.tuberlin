@@ -37,30 +37,22 @@
         </div>
         <div class="central">
             
-                <?php if( have_rows('repeater_studio') ): ?>
+            <div class="central-slider">
+				<?php if( have_rows('repeater_studio') ): ?>
 
-                    <div class="central-slider">
+					<?php while( have_rows('repeater_studio') ): the_row(); 
 
-                    <?php while( have_rows('repeater_studio') ): the_row(); 
+						// vars
+						$cover = get_sub_field('cover_repeater');
+						?>
+						
+						<img src="<?php echo $cover['url']; ?>" />
 
-                        // vars
-                        $cover = get_sub_field('cover_repeater');
-                        $title = get_sub_field('title_repeater');
-                        ?>
+					<?php endwhile; ?>
+				
+				<?php endif; ?>
 
-                        <img src="<?php echo $cover['url']; ?>" />
-
-                    </div>
-
-                        <div class="central-menu">
-                            <ul>
-                                <li class="item"><?php echo $title; ?></li>
-                            </ul>
-                        </div>
-
-                    <?php endwhile; ?>
-
-                <?php endif; ?>
+			</div>
         </div>
         <div class="footer">
             <div class="bottom-left">
