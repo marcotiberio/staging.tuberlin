@@ -49,7 +49,7 @@
         <section class="page-foyer">
 
           <div class="floor" id="firstFloor">
-            <svg xmlns="http://www.w3.org/2000/svg" class="elevator" id="svgFloor1" style="z-index: 1;" viewBox="0 0 1346.795 488.604">
+            <svg xmlns="http://www.w3.org/2000/svg" class="elevator" id="svgFloor1" style="z-index: 2;" viewBox="0 0 1346.795 488.604">
               <g id="_000_Text" data-name="000_Text" transform="translate(-281.037 -155.032)">
                 <g id="_00_01" data-name="00/01">
                   <g id="Vectorized">
@@ -1350,7 +1350,7 @@
           </div>
           
           <div class="floor" id="secondFloor">
-          <!-- <svg xmlns="http://www.w3.org/2000/svg" id="svgFloor2" viewBox="0 0 1186.088 752.325">
+          <svg xmlns="http://www.w3.org/2000/svg" id="svgFloor2" viewBox="0 0 1186.088 752.325">
             <g id="Group_1511" data-name="Group 1511" transform="translate(-305.912 -139.211)">
               <g id="_02_URBAN_MANAGEMENT" data-name="02_URBAN MANAGEMENT" transform="translate(465.755 327.878)">
                 <path id="Path_12336" data-name="Path 12336" d="M628.767,1732.513l-135.011-77.927v-51l132.37-25.475v-50.949L758.5,1501.69l146.191-84.4,135.035,77.962Z" transform="translate(-493.756 -1417.287)" fill="#fff" fill-rule="evenodd"/>
@@ -1609,7 +1609,7 @@
                 </g>
               </g>
             </g>
-          </svg> -->
+          </svg>
           </div>
 
         </section>
