@@ -37,9 +37,9 @@
         </div>
         <div class="central">
             <div class="central-slider">
-				<?php if( have_rows('repeater_studio') ): ?>
+				<?php if( have_rows('cover_repeater_studio') ): ?>
 
-					<?php while( have_rows('repeater_studio') ): the_row(); 
+					<?php while( have_rows('cover_repeater_studio') ): the_row(); 
 
 						// vars
 						$cover = get_sub_field('cover_repeater');
@@ -88,7 +88,7 @@
             <span id="closeSeminar">&times;</span>
             <div class="gallery_studio">
                 <?php 
-                $images = get_field('gallery_studio');
+                $images = get_field('seminar-gallery_studio');
                 if( $images ): ?>
                     <ul>
                         <?php foreach( $images as $image ): ?>
