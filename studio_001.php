@@ -35,19 +35,30 @@
                     <img src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" />
             <?php endif; ?>
         </div>
-        <div class="central"
-                style="background-image: url(<?php the_field('main_photo_studio'); ?>);
-                background-repeat: no-repeat;
-                background-size: cover;
-                background-position: center;">
-        </div>
-        <div class="central-menu">
-            <ul>
-                <li class="item1" id="openGallery">Lorem</li>
-                <li class="item2">Ipsum</li>
-                <li class="item3">Dolor</li>
-                <li class="item4">Sit Amet</li>
-            </ul>
+        <div class="central">
+            <?php if( have_rows('repeater_studio') ): ?>
+
+                <?php while( have_rows('repeater_studio') ): the_row(); 
+
+                    // vars
+                    $cover = get_sub_field('cover_repeater');
+                    $title = get_sub_field('title_repeater');
+                    ?>
+
+                        <img src="<?php echo $cover['url']; ?>" />
+
+                        <div class="central-menu">
+                            <ul>
+                                <li class="item1"><?php echo $title; ?></li>
+                            </ul>
+                        </div>
+
+
+                <?php endwhile; ?>
+
+            <?php endif; ?>
+
+            <img src="" alt="">
         </div>
         <div class="footer">
             <div class="bottom-left">
