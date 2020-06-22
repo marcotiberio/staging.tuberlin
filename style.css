@@ -1713,13 +1713,6 @@ textarea {
 	column-gap: 5px;
 }
 
-/* #openGallery {
-	position: absolute;
-    bottom: 40px;
-	right: 20px;
-	display: block;
-} */
-
 #openVideo:hover,
 #openGallery:hover {
 	cursor: pointer;
