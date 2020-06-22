@@ -1566,7 +1566,7 @@ textarea {
 	z-index: 2;
 }
 
-.post-template-studio_001 .post-main .central-hidden {
+/* .post-template-studio_001 .post-main .central-hidden {
 	display: block;
 	margin: 0;
 	padding: 0;
@@ -1576,9 +1576,9 @@ textarea {
 	width: 55%;
 	height: 500px;
 	z-index: 1;
-}
+} */
 
-.post-template-studio_001 .post-main .central-hidden #post-intro {
+/* .post-template-studio_001 .post-main .central-hidden #post-intro {
 	display: block;
 	margin: 0;
 	padding: 2%;
@@ -1591,7 +1591,7 @@ textarea {
 
 	font-size: 1rem;
 	font-weight: 300;
-}
+} */
 
 .post-template-studio_001 .post-main .central #post-info {
 	display: none;
@@ -1611,9 +1611,9 @@ textarea {
 	font-weight: 300;
 }
 
-.post-template-studio_001 .post-main .central:hover {
+/* .post-template-studio_001 .post-main .central:hover {
 	display: none;
-}
+} */
 
 #modalGallery {
 	display: none;
