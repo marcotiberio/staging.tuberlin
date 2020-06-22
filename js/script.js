@@ -6,8 +6,8 @@ $(document).ready(function(){
 });
 
 $(document).ready(function(){
-    $("#openGallery").click(function(){
-        $("#modalGallery").toggle();
+    $("#openSeminar").click(function(){
+        $("#modalSeminar").toggle();
     });
 });
 

@@ -1615,7 +1615,7 @@ textarea {
 	display: none;
 } */
 
-#modalGallery {
+#modalSeminar {
 	display: none;
 	position: fixed;
 	z-index: 20;
@@ -1655,7 +1655,7 @@ textarea {
 	overflow: auto; /* Enable scroll if needed */
 }
   
-#modalGallery .modal-content {
+#modalSeminar .modal-content {
 	background-color: #F3F3F3;
 	margin: 5% auto;
 	padding: 5%;
@@ -1714,7 +1714,7 @@ textarea {
 }
 
 #openVideo:hover,
-#openGallery:hover {
+#openSeminar:hover {
 	cursor: pointer;
 	opacity: 0.7;
 }

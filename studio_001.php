@@ -55,16 +55,16 @@
             <div class="central-menu">
                 <ul>
                     <?php if( get_field('seminar_label') ): ?>
-                        <li class="item" id="seminar"><?php the_field('seminar_label'); ?></li>
+                        <li class="item" id="openSeminar"><?php the_field('seminar_label'); ?></li>
                     <?php endif; ?>
                     <?php if( get_field('ma-studio_label') ): ?>
-                        <li class="item" id="maStudio"><?php the_field('ma-studio_label'); ?></li>
+                        <li class="item" id="openMastudio"><?php the_field('ma-studio_label'); ?></li>
                     <?php endif; ?>
                     <?php if( get_field('bachelor_label') ): ?>
-                        <li class="item" id="bachelor"><?php the_field('bachelor_label'); ?></li>
+                        <li class="item" id="openBachelor"><?php the_field('bachelor_label'); ?></li>
                     <?php endif; ?>
                     <?php if( get_field('live-project_label') ): ?>
-                        <li class="item" id="liveProject"><?php the_field('live-project_label'); ?></li>
+                        <li class="item" id="openLiveproject"><?php the_field('live-project_label'); ?></li>
                     <?php endif; ?>
                 </ul>
             </div>
@@ -82,7 +82,7 @@
     </section>
 
     <!-- Modal Gallery -->
-    <div id="modalGallery" class="modal">
+    <div id="modalSeminar" class="modal">
 
         <div class="modal-content">
             <span class="close">&times;</span>
