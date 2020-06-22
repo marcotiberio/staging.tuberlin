@@ -35,6 +35,14 @@
                     <img src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" />
             <?php endif; ?>
         </div>
+        <div class="central-hidden">
+            <div id="post-intro">
+                <?php the_field('intro_studio'); ?>
+                <div id="openGallery">
+                    <h3>Index</h3>
+                </div>
+            </div>
+        </div>
         <div class="central"
                 style="background-image: url(<?php the_field('main_photo_studio'); ?>);
                 background-repeat: no-repeat;
