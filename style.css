@@ -1657,8 +1657,8 @@ textarea {
   
 #modalSeminar .modal-content {
 	background-color: #F3F3F3;
-	margin: 5% auto;
-	padding: 5%;
+	margin: 6% auto;
+    padding: 0 5%;
 	width: 70%;
 }
 
