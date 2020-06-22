@@ -368,8 +368,8 @@
                 </g>
               </g>
             </svg>
-            <svg data-name="Group 4055" xmlns="http://www.w3.org/2000/svg" class="svgFloor1" id="background" style="z-index: 3;" viewBox="0 0 1920 1080">
-              <g id="_000_Text" data-name="000_Text" transform="translate(0 -2585.872)">
+            <svg xmlns="http://www.w3.org/2000/svg" class="svgFloor1" id="foreground" style="z-index: 3;" viewBox="0 0 1260.819 356.08">
+              <g id="_000_Text" data-name="000_Text" transform="translate(-257.735 -3100.22)">
                 <g id="_06" data-name="06">
                   <g id="_00_ACKERSTR_HATCH" data-name="00_ACKERSTR_HATCH">
                     <path id="Path_16673" data-name="Path 16673" d="M370.013,3351.976l106.032,61.218,185.463-107.077v-10.512L476.045,3402.682l-106.032-61.218Z" stroke="#000" stroke-linejoin="round" stroke-width="2" fill-rule="evenodd"/>
@@ -585,23 +585,8 @@
                   </g>
                 </g>
               </g>
-              <g id="Rectangle_532" data-name="Rectangle 532" fill="#fff" stroke="#707070" stroke-width="1">
-                <rect width="51" height="57" stroke="none"/>
-                <rect x="0.5" y="0.5" width="50" height="56" fill="none"/>
-              </g>
-              <g id="Rectangle_533" data-name="Rectangle 533" transform="translate(1869)" fill="#fff" stroke="#707070" stroke-width="1">
-                <rect width="51" height="57" stroke="none"/>
-                <rect x="0.5" y="0.5" width="50" height="56" fill="none"/>
-              </g>
-              <g id="Rectangle_534" data-name="Rectangle 534" transform="translate(0 1023)" fill="#fff" stroke="#707070" stroke-width="1">
-                <rect width="51" height="57" stroke="none"/>
-                <rect x="0.5" y="0.5" width="50" height="56" fill="none"/>
-              </g>
-              <g id="Rectangle_535" data-name="Rectangle 535" transform="translate(1869 1023)" fill="#fff" stroke="#707070" stroke-width="1">
-                <rect width="51" height="57" stroke="none"/>
-                <rect x="0.5" y="0.5" width="50" height="56" fill="none"/>
-              </g>
             </svg>
+
 
 
 
