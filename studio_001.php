@@ -36,29 +36,29 @@
             <?php endif; ?>
         </div>
         <div class="central">
-            <?php if( have_rows('repeater_studio') ): ?>
+            <div class="central-slider">
+                <?php if( have_rows('repeater_studio') ): ?>
 
-                <?php while( have_rows('repeater_studio') ): the_row(); 
+                    <?php while( have_rows('repeater_studio') ): the_row(); 
 
-                    // vars
-                    $cover = get_sub_field('cover_repeater');
-                    $title = get_sub_field('title_repeater');
-                    ?>
+                        // vars
+                        $cover = get_sub_field('cover_repeater');
+                        $title = get_sub_field('title_repeater');
+                        ?>
 
-                        <img src="<?php echo $cover['url']; ?>" />
+                            <img src="<?php echo $cover['url']; ?>" />
 
-                        <div class="central-menu">
-                            <ul>
-                                <li class="item"><?php echo $title; ?></li>
-                            </ul>
-                        </div>
+                            <div class="central-menu">
+                                <ul>
+                                    <li class="item"><?php echo $title; ?></li>
+                                </ul>
+                            </div>
 
 
-                <?php endwhile; ?>
+                    <?php endwhile; ?>
 
-            <?php endif; ?>
-
-            <img src="" alt="">
+                <?php endif; ?>
+            </div>
         </div>
         <div class="footer">
             <div class="bottom-left">
