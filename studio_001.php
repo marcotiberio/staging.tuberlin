@@ -41,6 +41,12 @@
                 background-size: cover;
                 background-position: center;">
         </div>
+        <div class="central-menu">
+            <div class="item1">Lorem</div>
+            <div class="item2">Ipsum</div>
+            <div class="item3">Dolor</div>
+            <div class="item4">Sit Amet</div>
+        </div>
         <div class="footer">
             <div class="bottom-left">
                 <a onclick="goBack()">
