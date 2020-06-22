@@ -1678,7 +1678,7 @@ textarea {
 }
 
 .close {
-	display: none;
+	/* display: none; */
 	color: #1717E2;
 	float: right;
 	font-size: 28px;
