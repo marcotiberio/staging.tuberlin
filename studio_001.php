@@ -42,10 +42,12 @@
                 background-position: center;">
         </div>
         <div class="central-menu">
-            <div class="item1">Lorem</div>
-            <div class="item2">Ipsum</div>
-            <div class="item3">Dolor</div>
-            <div class="item4">Sit Amet</div>
+            <ul>
+                <li class="item1">Lorem</li>
+                <li class="item2">Ipsum</li>
+                <li class="item3">Dolor</li>
+                <li class="item4">Sit Amet</li>
+            </ul>
         </div>
         <div class="footer">
             <div class="bottom-left">
