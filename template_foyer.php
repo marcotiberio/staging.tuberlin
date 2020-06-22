@@ -49,7 +49,6 @@
         <section class="page-foyer">
 
           <div class="floor" id="firstFloor">
-            
             <svg xmlns="http://www.w3.org/2000/svg" class="svgFloor1" id="background" style="z-index: 1;" viewBox="0 0 1346.795 488.604">
               <g id="_000_Text" data-name="000_Text" transform="translate(-281.037 -155.032)">
                 <g id="_00_01" data-name="00/01">
