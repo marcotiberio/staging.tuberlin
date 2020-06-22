@@ -85,7 +85,7 @@
     <div id="modalSeminar" class="modal">
 
         <div class="modal-content">
-            <span class="close">&times;</span>
+            <span id="closeSeminar">&times;</span>
             <div class="gallery_studio">
                 <?php 
                 $images = get_field('gallery_studio');
@@ -110,7 +110,7 @@
     <div id="modalInfo" class="modal">
 
         <div class="modal-content">
-            <span id="closeSeminar">&times;</span>            
+            <span class="close">&times;</span>            
                 <?php the_field('info_studio'); ?>
             <div id="openVideo">
                 <span><img src="http://staging-tuberlinifa.kinsta.cloud/wp-content/uploads/2020/06/play-button.png" alt="Play Button"></span>
