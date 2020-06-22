@@ -54,10 +54,10 @@
 
             <div class="central-menu">
                 <ul>
-                    <li class="item1">Seminar</li>
-                    <li class="item2">MA Studio</li>
-                    <li class="item3">Bachelor</li>
-                    <li class="item4">Live Project</li>
+                    <li class="item1"><?php the_field('seminar_label'); ?></li>
+                    <li class="item2"><?php the_field('ma-studio_label'); ?></li>
+                    <li class="item3"><?php the_field('bachelor_label'); ?></li>
+                    <li class="item4"><?php the_field('live-project_label'); ?></li>
                 </ul>
             </div>
         </div>
