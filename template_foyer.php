@@ -372,7 +372,7 @@
               <g id="Group_4055" data-name="Group 4055" transform="translate(1 1)">
                 <g id="_08" data-name="08" transform="translate(0 -2585.872)">
                   <g id="_08_Shaft" data-name="08_Shaft">
-                    <rect id="Rectangle_529" data-name="Rectangle 529" width="1920" height="1080" transform="translate(0 2585.872)" opacity="0" stroke="#000" stroke-linejoin="round" stroke-width="2" fill="#ccc"/>
+                    <rect id="Rectangle_529" data-name="Rectangle 529" width="1920" height="1080" transform="translate(0 2585.872)" opacity="0" stroke="#000" stroke-linejoin="round" stroke-width="2" fill="none"/>
                   </g>
                 </g>
                 <g id="_000_Text" data-name="000_Text" transform="translate(0 -2585.872)">
@@ -593,6 +593,7 @@
                 </g>
               </g>
             </svg>
+
 
 
 
