@@ -51,8 +51,18 @@
 					<?php endwhile; ?>
 				
 				<?php endif; ?>
+            </div>
 
-			</div>
+            <div class="central-menu">
+                <ul>
+                    <li class="item1">Seminar</li>
+                    <li class="item2">MA Studio</li>
+                    <li class="item3">Bachelor</li>
+                    <li class="item4">Live Project</li>
+                </ul>
+            </div>
+        </div>
+        
         </div>
         <div class="footer">
             <div class="bottom-left">
