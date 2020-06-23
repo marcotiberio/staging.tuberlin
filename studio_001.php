@@ -83,7 +83,6 @@
 
     <!-- Modal Gallery -->
     <div id="modalSeminar" class="modal">
-
         <div class="modal-content">
             <span id="closeSeminar">&times;</span>
             <div class="gallery_studio">
@@ -103,12 +102,10 @@
                 <?php endif; ?>
             </div>
         </div>
-
     </div>
 
     <!-- Modal Info -->
     <div id="modalInfo" class="modal">
-
         <div class="modal-content">
             <span class="close">&times;</span>            
                 <?php the_field('info_studio'); ?>
@@ -117,12 +114,10 @@
                 <h3>Interview</h3>
             </div>
         </div>
-
     </div>
 
     <!-- Modal Video -->
     <div id="modalVideo" class="modal">
-
         <div class="modal-content">
             <span class="close">&times;</span>            
             <?php
@@ -133,6 +128,7 @@
             }
         ?>
         </div>
+    </div>
 
 
 
