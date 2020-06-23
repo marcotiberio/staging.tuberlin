@@ -174,17 +174,22 @@ add_action( 'wp_enqueue_scripts', 'wpb_add_google_fonts' );
 /**
  * Edit search bar.
  */
-function html5_search_form( $form ) { 
-	$form = '<section class="search">
-				<form role="search" method="get" id="search-form" action="' . home_url( '/' ) . '" >
-   					<label class="screen-reader-text" for="s">' . __('',  'domain') . '</label>
-					<input type="search" value="' . get_search_query() . '" name="s" id="s" placeholder="&#x1F50D;"/>
-				</form>
-			</section>';
-	return $form;
-}
+
 
 add_filter( 'get_search_form', 'html5_search_form' );
+
+function wpdocs_my_search_form( $form ) {
+    $form = '<form role="search" method="get" id="searchform" class="searchform" action="' . home_url( '/' ) . '" >
+    <div><label class="screen-reader-text" for="s">' . __( 'Search for:' ) . '</label>
+    <input type="text" value="' . get_search_query() . '" name="s" id="s" />
+    <input type="submit" id="searchsubmit" value="'. esc_attr__( 'Search' ) .'" />
+    </div>
+    </form>';
+ 
+    return $form;
+}
+add_filter( 'get_search_form', 'wpdocs_my_search_form' );
+
 
 /**
  * Implement the Custom Header feature.
