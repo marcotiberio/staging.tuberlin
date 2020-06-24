@@ -102,26 +102,24 @@
                             <div class="modal-content">
                                 <!-- <span id="closeMAstudio">&times;</span> -->
                                 <div class="gallery-insidemodal">
-                                <?php
+                                <?php if( have_rows('slide_repeater') ): ?>
 
-                                    // check if the repeater field has rows of data
-                                    if( have_rows('slide_repeater') ):
+                                    <?php while( have_rows('slide_repeater') ): the_row(); 
 
-                                        // loop through the rows of data
-                                        while ( have_rows('slide_repeater') ) : the_row();
+                                        // vars
+                                        $photo = get_sub_field('slide_image');
+                                        $call = get_sub_field('slide_call');
+                                        ?>
 
-                                            // display a sub field value
-                                            the_sub_field('slide_image');
+                                        
+                                        <a href="<?php echo $call['url']; ?>" target="_blank" rel="noopener noreferrer">
+                                            <img src="<?php echo $photo['url']; ?>" />
+                                        </a>
 
-                                        endwhile;
 
-                                    else :
+                                    <?php endwhile; ?>
 
-                                        // no rows found
-
-                                    endif;
-
-                                    ?>
+                                    <?php endif; ?>
 
                                 </div>
                             </div>
