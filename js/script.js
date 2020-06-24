@@ -1,3 +1,4 @@
+// Menu Toggle
 $(document).ready(function(){
     $("#openMenu").click(function(){
         $("#site-navigation").toggle();
@@ -5,8 +6,8 @@ $(document).ready(function(){
     });
 });
 
-// Studio Programs Modals
 
+// Studio Programs Modals
 $(document).ready(function(){
     $("#openSeminar").click(function(){
         $("#modalSeminar").show();
@@ -43,6 +44,8 @@ $(document).ready(function(){
     });
 });
 
+
+// Studio Modals
 $(document).ready(function(){
     $("#openInfo").click(function(){
         $("#modalInfo").toggle();
@@ -59,10 +62,14 @@ $(document).ready(function(){
     });
 });
 
+
+// Go Back One Page
 function goBack() {
     window.history.back();
 }
 
+
+// Numeric FLoor Pad
 // Cache selectors
 var lastId,
     topMenu = $("#floorPad"),
