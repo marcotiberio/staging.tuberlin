@@ -1566,32 +1566,48 @@ textarea {
 	z-index: 2;
 }
 
-/* .post-template-studio_001 .post-main .central-hidden {
-	display: block;
+.central-menu {
+	width: 100%;
+	  height: auto;
+	  padding: 0;
+	  margin: 0;
+	  z-index: 1010;
+  }
+  
+  .central-menu ul {
+	  bottom: -15%;
+	display: flex;
 	margin: 0;
+	position: absolute;
+	left: 50%;
+	transform: translate(-50%, -50%);
+  }
+  
+  .central-menu ul li {
+	margin: 0 10px;
 	padding: 0;
-	position: absolute;
-	top: 15%;
-	left: 22.5%;
-	width: 55%;
-	height: 500px;
-	z-index: 1;
-} */
-
-/* .post-template-studio_001 .post-main .central-hidden #post-intro {
-	display: block;
-	margin: 0;
-	padding: 2%;
-	height: 500px;
-	position: absolute;
-	top: 0;
-	left: 0;
-	color: white;
-	background-color: #1717E2;
-
-	font-size: 1rem;
-	font-weight: 300;
-} */
+  }
+  
+  .central-slider {
+	  position: relative;
+	  width: 100%;
+	height: auto;
+	  margin: 0;
+	overflow: auto;
+	white-space: nowrap;
+  }
+  
+  .central-slider::-webkit-scrollbar {
+		display: none;
+  }
+  
+  
+  .central-slider img {
+	display: inline-block;
+	  margin: 0;
+	  height: 500px;
+	  width: auto;
+  }
 
 .post-template-studio_001 .post-main .central #post-info {
 	display: none;
@@ -1611,9 +1627,7 @@ textarea {
 	font-weight: 300;
 }
 
-/* .post-template-studio_001 .post-main .central:hover {
-	display: none;
-} */
+
 
 #modalSeminar, 
 #modalMAstudio, 
@@ -1645,19 +1659,6 @@ textarea {
 	height: 500px;
 	overflow: auto; /* Enable scroll if needed */
 }
-
-/* #modalVideo {
-	display: none;
-	position: fixed;
-	z-index: 11;
-	padding: 0;
-	margin: 0;
-	top: 15%;
-	left: 22.5%;
-	width: 55%;
-	height: 500px;
-	overflow: auto;
-} */
   
 #modalSeminar .modal-content,
 #modalMAstudio .modal-content,
@@ -1833,22 +1834,3 @@ textarea {
 .page-foyer .floor {
 	margin-bottom: 100px;
 }
-
-/* .svgFloor1 {
-	width: 100%;
-	height: auto;
-	margin: 0;
-	padding: 0;
-}
-
-.svgFloor2 {
-	width: 100%;
-	height: auto;
-	margin: 0;
-	padding: 0;
-}
-
-#Path_7046:hover {
-	fill: red;
-	cursor: pointer;
-} */
