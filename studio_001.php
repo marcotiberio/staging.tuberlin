@@ -88,17 +88,22 @@
             <div class="gallery_studio">
             <?php if( have_rows('seminar-gallery_studio') ): ?>
 
+                <ul>
+
                 <?php while( have_rows('seminar-gallery_studio') ): the_row(); 
 
                     // vars
                     $image = get_sub_field('image_new');
                     ?>
 
-                    
+                    <li>
                         <img src="<?php echo $image['url']; ?>" />
-
+                    </li>
+                    
 
                 <?php endwhile; ?>
+
+                </ul>
 
                 <?php endif; ?>
             </div>
