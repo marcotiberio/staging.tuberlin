@@ -86,19 +86,20 @@
         <div class="modal-content">
             <span id="closeSeminar">&times;</span>
             <div class="gallery_studio">
-                <?php 
-                $images = get_field('seminar-gallery_studio');
-                if( $images ): ?>
-                    <ul>
-                        <?php foreach( $images as $image ): ?>
-                            <li>
-                                <a href="<?php echo $image['url']; ?>">
-                                    <img src="<?php echo $image['sizes']['large']; ?>" alt="<?php echo $image['alt']; ?>" />
-                                </a>
-                                <p><?php echo $image['caption']; ?></p>
-                            </li>
-                        <?php endforeach; ?>
-                    </ul>
+            <?php if( have_rows('seminar-gallery_studio') ): ?>
+
+                <?php while( have_rows('seminar-gallery_studio') ): the_row(); 
+
+                    // vars
+                    $image = get_sub_field('image_new');
+                    ?>
+
+                    
+                        <img src="<?php echo $image['url']; ?>" />
+
+
+                <?php endwhile; ?>
+
                 <?php endif; ?>
             </div>
         </div>
