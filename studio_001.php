@@ -84,6 +84,7 @@
     <!-- Modal Seminar -->
     <div id="modalSeminar" class="modal">
         <div class="modal-content">
+            <span><?php the_field('seminar_code'); ?></span>
             <span id="closeSeminar">&times;</span>
             <div class="gallery_studio">
             <?php if( have_rows('seminar-gallery_studio') ): ?>
