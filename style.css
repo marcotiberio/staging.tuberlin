@@ -1707,10 +1707,12 @@ textarea {
 #closeMAstudio:hover,
 #closeBachelor:hover,
 #closeLiveproject:hover,
+#closeInsidemodal:hover,
 #closeSeminar:focus,
 #closeMAstudio:focus,
 #closeBachelor:focus,
-#closeLiveprojectfocus {
+#closeLiveproject:focus,
+#closeInsidemodal:focus {
 	color: #1717E2;
 	text-decoration: none;
 	cursor: pointer;

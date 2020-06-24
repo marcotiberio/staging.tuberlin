@@ -98,6 +98,7 @@
 
                     <li id="openInsidemodal">
                         <img src="<?php echo $image['url']; ?>" />
+                        
                         <div id="insideModal" class="modal">
                             <div class="modal-content">
                                 <span id="closeInsidemodal">&times;</span>
