@@ -1660,8 +1660,8 @@ textarea {
 } */
   
 #modalSeminar .modal-content,
-#modalMAstudio .modal-content
-#modalBachelor .modal-content
+#modalMAstudio .modal-content,
+#modalBachelor .modal-content,
 #modalLiveproject .modal-content {
 	background-color: #F3F3F3;
 	margin: 6% auto;
