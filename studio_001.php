@@ -58,13 +58,13 @@
                         <li class="item" id="openSeminar"><?php the_field('seminar_label'); ?></li>
                     <?php endif; ?>
                     <?php if( get_field('ma-studio_label') ): ?>
-                        <li class="item" id="openMastudio"><?php the_field('ma-studio_label'); ?></li>
+                        <li class="item" id="openMastudio"><?php the_field('mastudio_label'); ?></li>
                     <?php endif; ?>
                     <?php if( get_field('bachelor_label') ): ?>
                         <li class="item" id="openBachelor"><?php the_field('bachelor_label'); ?></li>
                     <?php endif; ?>
                     <?php if( get_field('live-project_label') ): ?>
-                        <li class="item" id="openLiveproject"><?php the_field('live-project_label'); ?></li>
+                        <li class="item" id="openLiveproject"><?php the_field('liveproject_label'); ?></li>
                     <?php endif; ?>
                 </ul>
             </div>
@@ -81,13 +81,82 @@
         </div>
     </section>
 
-    <!-- Modal Gallery -->
+    <!-- Modal Seminar -->
     <div id="modalSeminar" class="modal">
         <div class="modal-content">
             <span id="closeSeminar">&times;</span>
             <div class="gallery_studio">
                 <?php 
                 $images = get_field('seminar-gallery_studio');
+                if( $images ): ?>
+                    <ul>
+                        <?php foreach( $images as $image ): ?>
+                            <li>
+                                <a href="<?php echo $image['url']; ?>">
+                                    <img src="<?php echo $image['sizes']['large']; ?>" alt="<?php echo $image['alt']; ?>" />
+                                </a>
+                                <p><?php echo $image['caption']; ?></p>
+                            </li>
+                        <?php endforeach; ?>
+                    </ul>
+                <?php endif; ?>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal MA Studio -->
+    <div id="modalMAstudio" class="modal">
+        <div class="modal-content">
+            <span id="closeSeminar">&times;</span>
+            <div class="gallery_studio">
+                <?php 
+                $images = get_field('mastudio-gallery_studio');
+                if( $images ): ?>
+                    <ul>
+                        <?php foreach( $images as $image ): ?>
+                            <li>
+                                <a href="<?php echo $image['url']; ?>">
+                                    <img src="<?php echo $image['sizes']['large']; ?>" alt="<?php echo $image['alt']; ?>" />
+                                </a>
+                                <p><?php echo $image['caption']; ?></p>
+                            </li>
+                        <?php endforeach; ?>
+                    </ul>
+                <?php endif; ?>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal Seminar -->
+    <div id="modalBachelor" class="modal">
+        <div class="modal-content">
+            <span id="closeSeminar">&times;</span>
+            <div class="gallery_studio">
+                <?php 
+                $images = get_field('bachelor-gallery_studio');
+                if( $images ): ?>
+                    <ul>
+                        <?php foreach( $images as $image ): ?>
+                            <li>
+                                <a href="<?php echo $image['url']; ?>">
+                                    <img src="<?php echo $image['sizes']['large']; ?>" alt="<?php echo $image['alt']; ?>" />
+                                </a>
+                                <p><?php echo $image['caption']; ?></p>
+                            </li>
+                        <?php endforeach; ?>
+                    </ul>
+                <?php endif; ?>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal Seminar -->
+    <div id="modalLiveproject" class="modal">
+        <div class="modal-content">
+            <span id="closeSeminar">&times;</span>
+            <div class="gallery_studio">
+                <?php 
+                $images = get_field('liveproject-gallery_studio');
                 if( $images ): ?>
                     <ul>
                         <?php foreach( $images as $image ): ?>
