@@ -58,7 +58,7 @@
                         <li class="item" id="openSeminar"><?php the_field('seminar_label'); ?></li>
                     <?php endif; ?>
                     <?php if( get_field('ma-studio_label') ): ?>
-                        <li class="item" id="openMastudio"><?php the_field('mastudio_label'); ?></li>
+                        <li class="item" id="openMAstudio"><?php the_field('mastudio_label'); ?></li>
                     <?php endif; ?>
                     <?php if( get_field('bachelor_label') ): ?>
                         <li class="item" id="openBachelor"><?php the_field('bachelor_label'); ?></li>
@@ -107,7 +107,7 @@
     <!-- Modal MA Studio -->
     <div id="modalMAstudio" class="modal">
         <div class="modal-content">
-            <span id="closeSeminar">&times;</span>
+            <span id="closeMAstudio">&times;</span>
             <div class="gallery_studio">
                 <?php 
                 $images = get_field('mastudio-gallery_studio');
@@ -130,7 +130,7 @@
     <!-- Modal Seminar -->
     <div id="modalBachelor" class="modal">
         <div class="modal-content">
-            <span id="closeSeminar">&times;</span>
+            <span id="closeBachelor">&times;</span>
             <div class="gallery_studio">
                 <?php 
                 $images = get_field('bachelor-gallery_studio');
@@ -153,7 +153,7 @@
     <!-- Modal Seminar -->
     <div id="modalLiveproject" class="modal">
         <div class="modal-content">
-            <span id="closeSeminar">&times;</span>
+            <span id="closeLiveproject">&times;</span>
             <div class="gallery_studio">
                 <?php 
                 $images = get_field('liveproject-gallery_studio');

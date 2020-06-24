@@ -5,12 +5,41 @@ $(document).ready(function(){
     });
 });
 
+// Studio Programs Modals
+
 $(document).ready(function(){
     $("#openSeminar").click(function(){
         $("#modalSeminar").show();
     });
     $("#closeSeminar").click(function(){
         $("#modalSeminar").hide();
+    });
+});
+
+$(document).ready(function(){
+    $("#openMAstudio").click(function(){
+        $("#modalMAstudio").show();
+    });
+    $("#closeMAstudio").click(function(){
+        $("#modalMAstudio").hide();
+    });
+});
+
+$(document).ready(function(){
+    $("#openBachelor").click(function(){
+        $("#modalBachelor").show();
+    });
+    $("#closeBachelor").click(function(){
+        $("#modalBachelor").hide();
+    });
+});
+
+$(document).ready(function(){
+    $("#openLiveproject").click(function(){
+        $("#modalLiveproject").show();
+    });
+    $("#closeLiveproject").click(function(){
+        $("#modalLiveproject").hide();
     });
 });
 
