@@ -96,7 +96,7 @@
                     $image = get_sub_field('image_new');
                     ?>
 
-                    <li>
+                    <li id="openInsidemodal">
                         <img src="<?php echo $image['url']; ?>" />
                     </li>
                     
@@ -104,6 +104,30 @@
                 <?php endwhile; ?>
 
                 </ul>
+
+                <div id="insideModal" class="modal">
+                    <div class="modal-content">
+                        <!-- <span id="closeMAstudio">&times;</span> -->
+                        <div class="gallery-news">
+                            <?php if( have_rows('slide_repeater') ): ?>
+
+                                <?php while( have_rows('slide_repeater') ): the_row(); 
+
+                                    // vars
+                                    $slide = get_sub_field('slide_image');
+                                    ?>
+
+                                    
+                                    <img src="<?php echo $slide['url']; ?>" />
+                        
+
+                                <?php endwhile; ?>
+                            
+                            <?php endif; ?>
+
+                            </div>
+                    </div>
+                </div>
 
                 <?php endif; ?>
             </div>

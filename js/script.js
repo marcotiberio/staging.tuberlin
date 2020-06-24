@@ -44,6 +44,12 @@ $(document).ready(function(){
     });
 });
 
+$(document).ready(function(){
+    $("#openInsidemodal").click(function(){
+        $("#insideModal").show();
+    });
+});
+
 
 // Studio Modals
 $(document).ready(function(){
