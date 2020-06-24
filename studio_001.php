@@ -100,7 +100,7 @@
                         <img src="<?php echo $image['url']; ?>" />
                         <div id="insideModal" class="modal">
                             <div class="modal-content">
-                                <!-- <span id="closeMAstudio">&times;</span> -->
+                                <span id="closeInsidemodal">&times;</span>
                                 <div class="gallery-insidemodal">
                                 <?php if( have_rows('slide_repeater') ): ?>
 

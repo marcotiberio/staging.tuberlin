@@ -48,6 +48,9 @@ $(document).ready(function(){
     $("#openInsidemodal").click(function(){
         $("#insideModal").show();
     });
+    $("#closeInsidemodal").click(function(){
+        $("#insideModal").hide();
+    });
 });
 
 
