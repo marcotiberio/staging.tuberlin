@@ -127,7 +127,7 @@
         </div>
     </div>
 
-    <!-- Modal Seminar -->
+    <!-- Modal Bahelor -->
     <div id="modalBachelor" class="modal">
         <div class="modal-content">
             <span id="closeBachelor">&times;</span>
@@ -150,7 +150,7 @@
         </div>
     </div>
 
-    <!-- Modal Seminar -->
+    <!-- Modal Live Project -->
     <div id="modalLiveproject" class="modal">
         <div class="modal-content">
             <span id="closeLiveproject">&times;</span>
