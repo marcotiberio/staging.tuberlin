@@ -1632,7 +1632,8 @@ textarea {
 #modalSeminar, 
 #modalMAstudio, 
 #modalBachelor, 
-#modalLiveproject {
+#modalLiveproject,
+#insideModal {
 	display: none;
 	position: fixed;
 	z-index: 20;
@@ -1663,7 +1664,8 @@ textarea {
 #modalSeminar .modal-content,
 #modalMAstudio .modal-content,
 #modalBachelor .modal-content,
-#modalLiveproject .modal-content {
+#modalLiveproject .modal-content,
+#insideModal .modal-content {
 	background-color: #F3F3F3;
 	margin: 6% auto;
     padding: 0 5%;
