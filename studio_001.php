@@ -108,7 +108,7 @@
                 <div id="insideModal" class="modal">
                     <div class="modal-content">
                         <!-- <span id="closeMAstudio">&times;</span> -->
-                        <div class="gallery-news">
+                        <div class="gallery-insidemodal">
                             <?php if( have_rows('slide_repeater') ): ?>
 
                                 <?php while( have_rows('slide_repeater') ): the_row(); 
@@ -125,7 +125,7 @@
                             
                             <?php endif; ?>
 
-                            </div>
+                        </div>
                     </div>
                 </div>
 
