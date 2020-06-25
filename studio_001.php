@@ -97,7 +97,7 @@
                     ?>
 
                     <li>
-                        <img id="openInsidemodal" id="imgInsidemodal" src="<?php echo $image['url']; ?>" />
+                        <img id="openInsidemodal" class="imgInsidemodal" src="<?php echo $image['url']; ?>" />
                     </li>
                         
                         <div class="insidemodal">
