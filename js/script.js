@@ -1,10 +1,22 @@
 // Menu Toggle
 $(document).ready(function(){
     $("#openMenu").click(function(){
-        $("#site-navigation").toggle();
-        $("#navigationSearch").toggle();
+        $("#site-navigation").slideToggle(fast);
+        $("#navigationSearch").slideToggle(fast);
     });
 });
+
+// $(document).ready(function(){
+//   $("#open_menuOverlay").click(function(){
+//     $("#menuOverlay").slideToggle("fast");
+//   });
+// });
+
+// $(document).ready(function(){
+//   $("#menu-toggleMobile").click(function(){
+//     $("#menuOverlay").slideToggle("fast");
+//   });
+// });
 
 
 // Studio Programs Modals
