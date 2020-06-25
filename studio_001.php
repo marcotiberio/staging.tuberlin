@@ -99,7 +99,7 @@
                     <li id="openInsidemodal">
                         <img id="imgInsidemodal" src="<?php echo $image['url']; ?>" />
                         
-                        <div class="insideModal">
+                        <div class="insidemodal">
                             <div class="modal-content">
                                 <span id="closeInsidemodal">&times;</span>
                                 <div class="gallery-insidemodal">
@@ -113,7 +113,7 @@
                                         ?>
 
                                         
-                                        <a href="<?php echo $call['url']; ?>" target="_blank" rel="noopener noreferrer">
+                                        <a href="#>" target="_blank" rel="noopener noreferrer">
                                             <img src="<?php echo $photo['url']; ?>" />
                                         </a>
 
