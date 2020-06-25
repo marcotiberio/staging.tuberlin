@@ -99,7 +99,7 @@
                     <li id="openInsidemodal">
                         <img id="imgInsidemodal" src="<?php echo $image['url']; ?>" />
                         
-                        <div id="<?php the_field('insidemodal_id'); ?>" class="modal">
+                        <div id="insideModal" class="modal">
                             <div class="modal-content">
                                 <span id="closeInsidemodal">&times;</span>
                                 <div class="gallery-insidemodal">
@@ -109,13 +109,10 @@
 
                                         // vars
                                         $photo = get_sub_field('slide_image');
-                                        $call = get_sub_field('slide_call');
                                         ?>
 
                                         
-                                        <a href="#>" target="_blank" rel="noopener noreferrer">
-                                            <img src="<?php echo $photo['url']; ?>" />
-                                        </a>
+                                        <img src="<?php echo $photo['url']; ?>" />
 
 
                                     <?php endwhile; ?>
