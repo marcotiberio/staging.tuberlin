@@ -58,7 +58,7 @@ $(document).ready(function(){
 
 $(document).ready(function(){
     $("#openInsidemodal").click(function(){
-        $("#insideModal").show();
+        $(".insideModal").show();
     });
     $("#closeInsidemodal").click(function(){
         $("#openInsidemodal").hide();
