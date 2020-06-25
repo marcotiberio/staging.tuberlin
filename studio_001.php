@@ -109,7 +109,6 @@
 
                                         // vars
                                         $photo = get_sub_field('slide_image');
-                                        $call = get_sub_field('slide_call');
                                         ?>
 
                                         
