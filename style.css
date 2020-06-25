@@ -1765,7 +1765,7 @@ textarea {
 	margin-top: 10%;
 }
 
-.insideModal {
+.insidemodal {
 	display: none;
 	position: fixed;
 	z-index: 20;
@@ -1779,7 +1779,7 @@ textarea {
 	border: 16px solid #1717E2;
 }
 
-.insideModal .modal-content {
+.insidemodal .modal-content {
     background-color: #F3F3F3;
     margin: 6% auto;
     padding: 0 5%;
