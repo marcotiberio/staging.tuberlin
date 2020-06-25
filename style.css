@@ -1632,7 +1632,8 @@ textarea {
 #modalSeminar, 
 #modalMAstudio, 
 #modalBachelor, 
-#modalLiveproject {
+#modalLiveproject,
+.insidemodal {
 	display: none;
 	position: fixed;
 	z-index: 20;
