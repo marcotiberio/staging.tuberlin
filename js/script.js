@@ -58,10 +58,10 @@ $(document).ready(function(){
 
 $(document).ready(function(){
     $("#openInsidemodal").click(function(){
-        $(".insidemodal").show();
+        $("#insideModal").show();
     });
     $("#closeInsidemodal").click(function(){
-        $(".insidemodal").hide();
+        $("#openInsidemodal").hide();
     });
 });
 

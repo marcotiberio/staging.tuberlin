@@ -1633,7 +1633,7 @@ textarea {
 #modalMAstudio, 
 #modalBachelor, 
 #modalLiveproject,
-.insidemodal {
+#insideModal {
 	display: none;
 	position: fixed;
 	z-index: 20;
@@ -1665,7 +1665,7 @@ textarea {
 #modalMAstudio .modal-content,
 #modalBachelor .modal-content,
 #modalLiveproject .modal-content,
-.insidemodal .modal-content{
+#insideModal .modal-content{
 	background-color: #F3F3F3;
 	margin: 6% auto;
     padding: 0 5%;
