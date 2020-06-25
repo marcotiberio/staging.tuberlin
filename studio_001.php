@@ -99,7 +99,7 @@
                     <li id="openInsidemodal">
                         <img id="imgInsidemodal" src="<?php echo $image['url']; ?>" />
                         
-                        <div id="insideModal" class="modal">
+                        <div id="<?php the_field('insidemodal_id'); ?>" class="modal">
                             <div class="modal-content">
                                 <span id="closeInsidemodal">&times;</span>
                                 <div class="gallery-insidemodal">
