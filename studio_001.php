@@ -101,7 +101,7 @@
                         
                         <div id="insideModal" class="modal">
                             <div class="modal-content">
-                                <span id="closeInsidemodal">&times;</span>
+                                <span id="closeInsidemodal">CLOSE;</span>
                                 <div class="gallery-insidemodal">
                                 <?php if( have_rows('slide_repeater') ): ?>
 

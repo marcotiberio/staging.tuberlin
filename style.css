@@ -1696,7 +1696,8 @@ textarea {
 #closeSeminar,
 #closeMAstudio,
 #closeBachelor,
-#closeLiveproject {
+#closeLiveproject,
+#closeInsidemodal {
 	color: #1717E2;
 	float: right;
 	font-size: 20px;
