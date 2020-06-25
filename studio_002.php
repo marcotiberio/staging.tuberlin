@@ -57,13 +57,13 @@
                     <?php if( get_field('seminar_label') ): ?>
                         <li class="item" id="openSeminar"><?php the_field('seminar_label'); ?></li>
                     <?php endif; ?>
-                    <?php if( get_field('ma-studio_label') ): ?>
+                    <?php if( get_field('mastudio_label') ): ?>
                         <li class="item" id="openMAstudio"><?php the_field('mastudio_label'); ?></li>
                     <?php endif; ?>
                     <?php if( get_field('bachelor_label') ): ?>
                         <li class="item" id="openBachelor"><?php the_field('bachelor_label'); ?></li>
                     <?php endif; ?>
-                    <?php if( get_field('live-project_label') ): ?>
+                    <?php if( get_field('liveproject_label') ): ?>
                         <li class="item" id="openLiveproject"><?php the_field('liveproject_label'); ?></li>
                     <?php endif; ?>
                 </ul>
