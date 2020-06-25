@@ -61,7 +61,7 @@ $(document).ready(function(){
         $(".insidemodal").show();
     });
     $("#closeInsidemodal").click(function(){
-        $("#openInsidemodal").hide();
+        $(".insidemodal").hide();
     });
 });
 
