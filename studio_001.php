@@ -96,8 +96,8 @@
                     $image = get_sub_field('image_new');
                     ?>
 
-                    <li>
-                        <img id="openInsidemodal" class="imgInsidemodal" src="<?php echo $image['url']; ?>" />
+                    <li id="openInsidemodal">
+                        <img class="imgInsidemodal" src="<?php echo $image['url']; ?>" />
                     </li>
                         
                         <div class="insidemodal">
