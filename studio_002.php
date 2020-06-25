@@ -1,7 +1,7 @@
 <?php
 /*
  * Template Name: Studio - Floor 2
- * Template Post Type: post, page, product
+ * Template Post Type: post
  */
   
  get_header();  ?>
