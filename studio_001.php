@@ -113,9 +113,7 @@
                                         ?>
 
                                         
-                                        <a href="<?php echo $call['url']; ?>" target="_blank" rel="noopener noreferrer">
                                             <img src="<?php echo $photo['url']; ?>" />
-                                        </a>
 
 
                                     <?php endwhile; ?>
