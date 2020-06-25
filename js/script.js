@@ -1,8 +1,8 @@
 // Menu Toggle
 $(document).ready(function(){
     $("#openMenu").click(function(){
-        $("#site-navigation").slideToggle(fast);
-        $("#navigationSearch").slideToggle(fast);
+        $("#site-navigation").toggle();
+        $("#navigationSearch").toggle();
     });
 });
 
