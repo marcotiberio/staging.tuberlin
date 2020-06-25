@@ -98,31 +98,31 @@
 
                     <li>
                         <img id="openInsidemodal" id="imgInsidemodal" src="<?php echo $image['url']; ?>" />
+                    </li>
                         
                         <div class="insidemodal">
                             <div class="modal-content">
                                 <span id="closeInsidemodal">X</span>
                                 <div class="gallery-insidemodal">
-                                <?php if( have_rows('slide_repeater') ): ?>
+                                    <?php if( have_rows('slide_repeater') ): ?>
 
-                                    <?php while( have_rows('slide_repeater') ): the_row(); 
+                                        <?php while( have_rows('slide_repeater') ): the_row(); 
 
-                                        // vars
-                                        $photo = get_sub_field('slide_image');
-                                        ?>
+                                            // vars
+                                            $photo = get_sub_field('slide_image');
+                                            ?>
 
-                                        
-                                            <img src="<?php echo $photo['url']; ?>" />
+                                            
+                                                <img src="<?php echo $photo['url']; ?>" />
 
 
-                                    <?php endwhile; ?>
+                                        <?php endwhile; ?>
 
                                     <?php endif; ?>
 
                                 </div>
                             </div>
                         </div>
-                    </li>
                     
 
                 <?php endwhile; ?>
