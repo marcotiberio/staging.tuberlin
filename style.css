@@ -1664,7 +1664,8 @@ textarea {
 #modalSeminar .modal-content,
 #modalMAstudio .modal-content,
 #modalBachelor .modal-content,
-#modalLiveproject .modal-content {
+#modalLiveproject .modal-content,
+.insidemodal .modal-content{
 	background-color: #F3F3F3;
 	margin: 6% auto;
     padding: 0 5%;
@@ -1766,26 +1767,7 @@ textarea {
 	margin-top: 10%;
 }
 
-.insidemodal {
-	display: none;
-	position: fixed;
-	z-index: 20;
-	padding: 0;
-	margin: 0;
-	left: 0;
-	top: 0;
-	width: 100%;
-	height: 100%;
-	overflow: auto; /* Enable scroll if needed */
-	border: 16px solid #1717E2;
-}
 
-.insidemodal .modal-content {
-    background-color: #F3F3F3;
-    margin: 6% auto;
-    padding: 0 5%;
-    width: 70%;
-}
 
 
 .gallery-insidemodal {
