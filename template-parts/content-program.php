@@ -34,6 +34,5 @@
 	</div><!-- .entry-content -->
 
 	<footer class="entry-footer">
-		<?php tu_berlin_entry_footer(); ?>
 	</footer><!-- .entry-footer -->
 </article><!-- #post-<?php the_ID(); ?> -->
