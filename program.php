@@ -35,7 +35,33 @@ get_header();
             <div class="bottom-right">
                 <img id="openInfo" src="http://staging-tuberlinifa.kinsta.cloud/wp-content/uploads/2020/06/info-icon.png" alt="Icon Info">
             </div>
+		</div>
+		
+		<!-- Modal Info -->
+		<div id="modalInfo" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>            
+                <?php the_field('info_studio'); ?>
+            <div id="openVideo">
+                <span><img src="http://staging-tuberlinifa.kinsta.cloud/wp-content/uploads/2020/06/play-button.png" alt="Play Button"></span>
+                <h3>Interview</h3>
+            </div>
         </div>
+    </div>
+
+    <!-- Modal Video -->
+    <div id="modalVideo" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>            
+            <?php
+            $videostudio = get_field('video_studio');
+
+            if ('' !== strval($videostudio)) {
+                echo '<iframe width="100%" height="100%" src="https://player.vimeo.com/video/' . $videostudio . '" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay;"></iframe>';
+            }
+        ?>
+        </div>
+    </div>
 
 	</main><!-- #main -->
 
