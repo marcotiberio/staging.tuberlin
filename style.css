@@ -1219,15 +1219,17 @@ textarea {
 ## Landing Page
 --------------------------------------------------------------*/
 
-/* .page-template-template_landingpage {
-	overflow: hidden !important;
+.page-template-template_landingpage {
+	height: inherit;
+	padding: 0;
+	margin: 0;
 }
 
-.page-template-template_landingpage .entry-content {
-	margin: 0;
-	padding: 0;
-	width: 100vw;
+.page-template-template_landingpage .page {
 	height: auto;
+	padding: 0;
+	margin: 0;
+	overflow: hidden;
 }
 
 .background_landing {
@@ -1235,41 +1237,23 @@ textarea {
 	margin: 0;
 }
 
-.wp-block-video {
-	margin: 0;
-	padding: 0;
-	width: 100vw;
+.landing-video {
+	padding: 0 !important;
+	margin: 0 !important;
 }
 
-.wp-block-video video {
-	width: 100vw;
-    height: 100vh;
-    margin: 0;
-    padding: 0;
+.landing-video video {
+	width: 100vw !important;
+	height: auto !important;
 }
 
-.page-template-template_landingpage header {
+.page-template-landing-page header {
 	display: none;
 }
 
-.page-template-template_landingpage footer {
+.page-template-landing-page footer {
 	display: none;
 }
-
-.button_logo-landing {
-	margin: 0;
-    padding: 10px 20px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-
-.button_logo-landing img {
-	height: auto;
-  	width: 200px;
-  	margin: 15%;
-} */
 
 /*--------------------------------------------------------------
 ## Page - Global
@@ -1484,7 +1468,7 @@ textarea {
 ## Post - Global
 --------------------------------------------------------------*/
 
-.post-template {
+/* .post-template {
 	height: 100vh;
     width: auto;
 }
@@ -1841,7 +1825,7 @@ textarea {
 		font-size: 1rem;
 		font-weight: 300;
 	}
-}
+} */
 
 /*--------------------------------------------------------------
 ## Page - Foyer
