@@ -1465,8 +1465,270 @@ textarea {
 }
 
 /*--------------------------------------------------------------
-## Post - Global
+## Parent, Child - Pages
 --------------------------------------------------------------*/
+
+.page-template-template-parent-page,
+.page-template-template-child {
+	height: 100vh;
+	width: auto;
+}
+
+.page-template-template-child .studio-code {
+		position: absolute;
+    top: 11%;
+    right: 24%;
+}
+
+
+.page-template-template-parent-page .entry-content,
+.page-template-template-child .entry-content{
+		position: absolute;
+   	top: 15%;
+    left: 22.5%;
+    width: 55%;
+    height: 500px;
+		margin: 0 auto;
+		padding: 0;
+		overflow: auto;
+}
+
+.page-template-template-parent-page #site-navigation,
+.page-template-template-parent-page #navigationSearch,
+.page-template-template-parent-page .post-thumbnail,
+.page-template-template-child #site-navigation,
+.page-template-template-child #navigationSearch,
+.page-template-template-child .post-thumbnail{
+	display: none;
+}
+
+.page-template-template-parent-page .menu-menu-main-container,
+.page-template-template-child .menu-menu-main-container{
+	display: block;
+}
+
+.page-template-template-parent-page .site-main #logoStudio,
+.page-template-template-child .site-main #logoStudio{
+	display: block;
+	position: absolute;
+	margin: 0;
+	padding: 0;
+	top: 15%;
+	right: 6%;
+	cursor: pointer;
+	z-index: 2001 !important;
+}
+
+.page-template-template-parent-page .site-main #logoStudio img,
+.page-template-template-child .site-main #logoStudio img{
+	max-height: 150px;
+	width: auto;
+}
+
+.page-template-template-parent-page .site-main .footer,
+.page-template-template-child .site-main .footer{
+	margin: 0;
+	padding: 0 4rem;
+	position: fixed;
+	bottom: 4rem;
+	left: 0;
+	width: 100vw;
+	height: 60px;
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-template-rows: 1fr;
+	/* z-index: 1000; */
+}
+
+.page-template-template-parent-page .site-main .bottom-right,
+.page-template-template-child .site-main .bottom-right{
+	text-align: right;
+}
+
+.page-template-template-parent-page .site-main .bottom-left,
+.page-template-template-child .site-main .bottom-left{
+	text-align: left;
+}
+
+.page-template-template-parent-page .site-main .top-right img,
+.page-template-template-child .site-main .top-right img{
+	max-height: 150px;
+	width: auto;
+}
+
+.page-template-template-parent-page .site-main .bottom-left img,
+.page-template-template-parent-page .site-main .bottom-right img,
+.page-template-template-child .site-main .bottom-left img,
+.page-template-template-child .site-main .bottom-right img{
+	max-height: 80px;
+	width: auto;
+}
+
+.page-template-template-parent-page .site-main #logoStudio img:hover,
+.page-template-template-parent-page .site-main .footer .bottom-right img:hover,
+.page-template-template-parent-page .site-main .footer .bottom-left img:hover,
+.page-template-template-child .site-main #logoStudio img:hover,
+.page-template-template-child .site-main .footer .bottom-right img:hover,
+.page-template-template-child .site-main .footer .bottom-left img:hover{
+	opacity: 0.7;
+	cursor: pointer;
+}
+
+.page-template-template-parent-page .entry-title,
+.page-template-template-child .entry-title{
+	display: none;
+}
+
+.entry-content .slick-dots {
+	display: none !important;
+}
+
+
+/*--------------------------------------------------------------
+## Program - post
+--------------------------------------------------------------*/
+
+.post-template-program .entry-content {
+		position: absolute;
+   	top: 15%;
+    left: 22.5%;
+    width: 55%;
+    height: 500px;
+		margin: 0 auto;
+		padding: 0;
+		overflow: auto;
+}
+
+.post-template-program .entry-footer span {
+	display: none;
+}
+
+.post-template-program .site-main #logoStudio {
+	display: block;
+	position: absolute;
+	margin: 0;
+	padding: 0;
+	top: 15%;
+	right: 6%;
+	cursor: pointer;
+	z-index: 2001 !important;
+}
+
+.post-template-program .site-main #logoStudio img {
+	max-height: 150px;
+	width: auto;
+}
+
+.post-template-program .site-main .footer {
+	margin: 0;
+	padding: 0 4rem;
+	position: fixed;
+	bottom: 4rem;
+	left: 0;
+	width: 100vw;
+	height: 60px;
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-template-rows: 1fr;
+	/* z-index: 1000; */
+}
+
+.post-template-program .site-main .bottom-right {
+	text-align: right;
+}
+
+.post-template-program .site-main .bottom-left {
+	text-align: left;
+}
+
+.post-template-program .site-main .top-right img {
+	max-height: 150px;
+	width: auto;
+}
+
+.post-template-program .site-main .bottom-left img,
+.post-template-program .site-main .bottom-right img  {
+	max-height: 80px;
+	width: auto;
+}
+
+.post-template-program .site-main #logoStudio img:hover,
+.post-template-program .site-main .footer .bottom-right img:hover,
+.post-template-program .site-main .footer .bottom-left img:hover {
+	opacity: 0.7;
+	cursor: pointer;
+}
+
+
+.wp-block-getwid-custom-post-type__content-wrapper {
+	display: none;
+}
+
+.wp-block-getwid-custom-post-type__wrapper.getwid-columns.getwid-columns-3 {
+	margin-left: 0 !important;
+	margin-right: 0 !important;
+}
+
+.getwid-columns-3 {
+    padding: 0 !important;
+}
+
+.wp-block-getwid-custom-post-type__post {
+	margin-top: 0 !important;
+	padding-left: 10px !important;
+	padding-right: 10px !important;
+}
+
+.getwid-columns-3 {
+	padding: 0 10px !important;
+}
+
+/*--------------------------------------------------------------
+## Page - Foyer
+--------------------------------------------------------------*/
+
+.page-template-template_foyer {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100vw;
+	height: 3000px;
+}
+
+.page-template #site-navigation,
+.page-template #navigationSearch {
+	display: none;
+}
+
+.page-foyer {
+	position: absolute;
+	top: 2.5%;
+	left: 20%;
+	margin: 0 auto;
+	padding: 0;
+	width: 60%;
+	height: auto;
+	overflow: auto;
+}
+
+.floor-pad {
+	position: fixed;
+	bottom: 100px;
+	right: 100px;
+}
+
+.page-foyer .floor {
+	margin-bottom: 100px;
+}
+
+
+
+
+/*--------------------------------------------------------------
+## Old Post
+--------------------------------------------------------------*/
+
+
 
 .post-template {
 	height: 100vh;
@@ -1825,42 +2087,4 @@ textarea {
 		font-size: 1rem;
 		font-weight: 300;
 	}
-}
-
-/*--------------------------------------------------------------
-## Page - Foyer
---------------------------------------------------------------*/
-
-.page-template-template_foyer {
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100vw;
-	height: 3000px;
-}
-
-.page-template #site-navigation,
-.page-template #navigationSearch {
-	display: none;
-}
-
-.page-foyer {
-	position: absolute;
-	top: 2.5%;
-	left: 20%;
-	margin: 0 auto;
-	padding: 0;
-	width: 60%;
-	height: auto;
-	overflow: auto;
-}
-
-.floor-pad {
-	position: fixed;
-	bottom: 100px;
-	right: 100px;
-}
-
-.page-foyer .floor {
-	margin-bottom: 100px;
 }
