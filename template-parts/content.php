@@ -11,7 +11,7 @@
 
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 	<header class="entry-header">
-		<?php echo get_the_title( $ID ); ?>
+		
 	</header><!-- .entry-header -->
 
 	<?php tu_berlin_post_thumbnail(); ?>
