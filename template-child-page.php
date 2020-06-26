@@ -1,6 +1,8 @@
 <?php 
 	/* Template Name: Child */ 
-?>
+
+
+get_header();  ?>
 
 	<main id="primary" class="site-main">
 
