@@ -1468,46 +1468,46 @@ textarea {
 ## Parent, Child - Pages
 --------------------------------------------------------------*/
 
-.page-template-template-parent-page,
+.page-template-template-parent,
 .page-template-template-child {
 	height: 100vh;
 	width: auto;
 }
 
 .page-template-template-child .studio-code {
-		position: absolute;
+	position: absolute;
     top: 11%;
     right: 24%;
 }
 
 
-.page-template-template-parent-page .entry-content,
+.page-template-template-parent .entry-content,
 .page-template-template-child .entry-content{
-		position: absolute;
+	position: absolute;
    	top: 15%;
     left: 22.5%;
     width: 55%;
     height: 500px;
-		margin: 0 auto;
-		padding: 0;
-		overflow: auto;
+	margin: 0 auto;
+	padding: 0;
+	overflow: auto;
 }
 
-.page-template-template-parent-page #site-navigation,
-.page-template-template-parent-page #navigationSearch,
-.page-template-template-parent-page .post-thumbnail,
+.page-template-template-parent #site-navigation,
+.page-template-template-parent #navigationSearch,
+.page-template-template-parent .post-thumbnail,
 .page-template-template-child #site-navigation,
 .page-template-template-child #navigationSearch,
 .page-template-template-child .post-thumbnail{
 	display: none;
 }
 
-.page-template-template-parent-page .menu-menu-main-container,
+.page-template-template-parent .menu-menu-main-container,
 .page-template-template-child .menu-menu-main-container{
 	display: block;
 }
 
-.page-template-template-parent-page .site-main #logoStudio,
+.page-template-template-parent .site-main #logoStudio,
 .page-template-template-child .site-main #logoStudio{
 	display: block;
 	position: absolute;
@@ -1519,13 +1519,13 @@ textarea {
 	z-index: 2001 !important;
 }
 
-.page-template-template-parent-page .site-main #logoStudio img,
+.page-template-template-parent .site-main #logoStudio img,
 .page-template-template-child .site-main #logoStudio img{
 	max-height: 150px;
 	width: auto;
 }
 
-.page-template-template-parent-page .site-main .footer,
+.page-template-template-parent .site-main .footer,
 .page-template-template-child .site-main .footer{
 	margin: 0;
 	padding: 0 4rem;
@@ -1540,33 +1540,33 @@ textarea {
 	/* z-index: 1000; */
 }
 
-.page-template-template-parent-page .site-main .bottom-right,
+.page-template-template-parent .site-main .bottom-right,
 .page-template-template-child .site-main .bottom-right{
 	text-align: right;
 }
 
-.page-template-template-parent-page .site-main .bottom-left,
+.page-template-template-parent .site-main .bottom-left,
 .page-template-template-child .site-main .bottom-left{
 	text-align: left;
 }
 
-.page-template-template-parent-page .site-main .top-right img,
+.page-template-template-parent .site-main .top-right img,
 .page-template-template-child .site-main .top-right img{
 	max-height: 150px;
 	width: auto;
 }
 
-.page-template-template-parent-page .site-main .bottom-left img,
-.page-template-template-parent-page .site-main .bottom-right img,
+.page-template-template-parent .site-main .bottom-left img,
+.page-template-template-parent .site-main .bottom-right img,
 .page-template-template-child .site-main .bottom-left img,
 .page-template-template-child .site-main .bottom-right img{
 	max-height: 80px;
 	width: auto;
 }
 
-.page-template-template-parent-page .site-main #logoStudio img:hover,
-.page-template-template-parent-page .site-main .footer .bottom-right img:hover,
-.page-template-template-parent-page .site-main .footer .bottom-left img:hover,
+.page-template-template-parent .site-main #logoStudio img:hover,
+.page-template-template-parent .site-main .footer .bottom-right img:hover,
+.page-template-template-parent .site-main .footer .bottom-left img:hover,
 .page-template-template-child .site-main #logoStudio img:hover,
 .page-template-template-child .site-main .footer .bottom-right img:hover,
 .page-template-template-child .site-main .footer .bottom-left img:hover{
@@ -1574,7 +1574,7 @@ textarea {
 	cursor: pointer;
 }
 
-.page-template-template-parent-page .entry-title,
+.page-template-template-parent .entry-title,
 .page-template-template-child .entry-title{
 	display: none;
 }
@@ -1589,14 +1589,14 @@ textarea {
 --------------------------------------------------------------*/
 
 .post-template-program .entry-content {
-		position: absolute;
+	position: absolute;
    	top: 15%;
     left: 22.5%;
     width: 55%;
     height: 500px;
-		margin: 0 auto;
-		padding: 0;
-		overflow: auto;
+	margin: 0 auto;
+	padding: 0;
+	overflow: auto;
 }
 
 .post-template-program .entry-footer span {
