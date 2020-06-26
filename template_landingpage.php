@@ -6,19 +6,14 @@
 
 <section class="background_landing">
 
-    <?php
-		while ( have_posts() ) :
-			the_post();
-
-			get_template_part( 'template-parts/content', 'page' );
-
-			// If comments are open or we have at least one comment, load up the comment template.
-			if ( comments_open() || get_comments_number() ) :
-				comments_template();
-			endif;
-
-		endwhile; // End of the loop.
-	?>
+    <main>
+		<?php
+            $videolanding = get_field('video_landing');
+            if ('' !== strval($videolanding)) {
+                echo '<iframe width="100%" height="100%" src="https://player.vimeo.com/video/' . $videolanding . '" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay;"></iframe>';
+            }
+        ?>
+	</main>
 
     <div class="button_logo-landing">
 		<a href="http://staging-tuberlinifa.kinsta.cloud/ifa">
