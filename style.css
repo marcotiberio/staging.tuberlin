@@ -1468,7 +1468,7 @@ textarea {
 ## Post - Global
 --------------------------------------------------------------*/
 
-/* .post-template {
+.post-template {
 	height: 100vh;
     width: auto;
 }
@@ -1825,7 +1825,7 @@ textarea {
 		font-size: 1rem;
 		font-weight: 300;
 	}
-} */
+}
 
 /*--------------------------------------------------------------
 ## Page - Foyer
