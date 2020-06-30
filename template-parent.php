@@ -46,6 +46,40 @@ get_header();  ?>
         </div>
     </div>
 
+    <div class="site-main_mobile">
+        
+        <div class="cover-mobile" style="background-image: url(<?php the_field('cover_mobile'); ?>);
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-position: center;"></div>
+
+        <div class="intro-mobile">
+            <?php the_field('intro_studio'); ?>
+        </div>
+
+        <div class="gallery-mobile">
+            <?php 
+                $images = get_field('gallery_studio');
+                if( $images ): ?>
+                    <ul>
+                        <?php foreach( $images as $image ): ?>
+                            <li>
+                                <a href="<?php echo $image['url']; ?>">
+                                    <img src="<?php echo $image['sizes']['large']; ?>" alt="<?php echo $image['alt']; ?>" />
+                                </a>
+                                <p><?php echo $image['caption']; ?></p>
+                            </li>
+                        <?php endforeach; ?>
+                    </ul>
+                <?php endif; ?>
+            </div>
+
+        <div class="info-mobile">
+            <?php the_field('info_studio'); ?>
+        </div>
+
+    </div>
+
     <!-- Modal Video -->
     <div id="modalVideo" class="modal">
         <div class="modal-content">

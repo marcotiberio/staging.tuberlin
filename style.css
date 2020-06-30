@@ -1468,6 +1468,10 @@ textarea {
 ## Parent, Child - Pages
 --------------------------------------------------------------*/
 
+.site-main_mobile {
+	display: none;
+}
+
 .page-template-template-parent,
 .page-template-template-child {
 	height: 100vh;
