@@ -46,7 +46,23 @@ get_header();  ?>
         </div>
     </div>
 
-    <div class="site-main_mobile">
+    <!-- Modal Video -->
+    <div id="modalVideo" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>            
+            <?php
+            $videostudio = get_field('video_studio');
+
+            if ('' !== strval($videostudio)) {
+                echo '<iframe width="100%" height="100%" src="https://player.vimeo.com/video/' . $videostudio . '" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay;"></iframe>';
+            }
+        ?>
+        </div>
+    </div>
+
+	</main><!-- #main -->
+
+    <div class="site-main_mobile"> <!-- #main mobile -->
         
         <div class="cover-mobile" style="background-image: url(<?php the_field('cover_mobile'); ?>);
                 background-repeat: no-repeat;
@@ -78,23 +94,7 @@ get_header();  ?>
             <?php the_field('info_studio'); ?>
         </div>
 
-    </div>
-
-    <!-- Modal Video -->
-    <div id="modalVideo" class="modal">
-        <div class="modal-content">
-            <span class="close">&times;</span>            
-            <?php
-            $videostudio = get_field('video_studio');
-
-            if ('' !== strval($videostudio)) {
-                echo '<iframe width="100%" height="100%" src="https://player.vimeo.com/video/' . $videostudio . '" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay;"></iframe>';
-            }
-        ?>
-        </div>
-    </div>
-
-	</main><!-- #main -->
+    </div> <!-- #main mobile -->
 
 <?php
 get_footer();
