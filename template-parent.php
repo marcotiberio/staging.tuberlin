@@ -64,10 +64,13 @@ get_header();  ?>
 
     <div class="site-main_mobile"> <!-- #main mobile -->
         
-        <div class="cover-mobile" style="background-image: url(<?php the_field('cover_mobile'); ?>);
-                background-repeat: no-repeat;
-                background-size: cover;
-                background-position: center;"></div>
+        <div class="cover-mobile">
+            <?php 
+                $image = get_field('cover-mobile');
+                if( !empty( $image ) ): ?>
+                    <img src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" />
+            <?php endif; ?>
+        </div>
 
         <div class="intro-mobile">
             <?php the_field('intro_studio'); ?>
@@ -75,7 +78,7 @@ get_header();  ?>
 
         <div class="gallery-mobile">
             <?php 
-                $images = get_field('gallery_studio');
+                $images = get_field('gallery_mobile');
                 if( $images ): ?>
                     <ul>
                         <?php foreach( $images as $image ): ?>
