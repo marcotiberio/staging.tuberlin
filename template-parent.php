@@ -74,13 +74,8 @@ get_header();  ?>
             <?php endif; ?>
         </div>
 
-        <div class="cover-mobile">
-            <?php 
-                $image = get_field('cover_mobile');
-                if( !empty( $image ) ): ?>
-                    <img src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" />
-            <?php endif; ?>
-        </div>
+        <div class="cover-mobile" style="background-image: url(<?php the_field('cover_mobile'); ?>);">
+        
 
         <div class="intro-mobile">
             <?php the_field('intro_studio'); ?>
