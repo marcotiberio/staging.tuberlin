@@ -44,10 +44,10 @@
 				)
 			);
 			?>
-			<div class="nav--search" id="navigationSearch">
+		</nav><!-- #site-navigation -->
+		<div class="nav--search" id="navigationSearch">
 			<?php get_search_form(); ?>
 		</div>
-		</nav><!-- #site-navigation -->
 		<div class="nav--overlay">
 			<i class="fas fa-bars" id="open_menuOverlay"></i>
 		</div>
