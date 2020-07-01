@@ -1436,8 +1436,8 @@ textarea {
 }
 
 .page-news {
-	height: auto;
-	padding-top: 170px;
+	height: 100vh;
+	padding: 0;
 	margin: 0;
 	overflow: hidden;
 }
