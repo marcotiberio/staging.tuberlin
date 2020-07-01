@@ -48,7 +48,7 @@
 		<div class="nav--search" id="navigationSearch">
 			<?php get_search_form(); ?>
 		</div>
-		<div class="nav--overlay">
+		<!-- <div class="nav--overlay">
 			<i class="fas fa-bars" id="open_menuOverlay"></i>
 		</div>
 
@@ -61,6 +61,6 @@
 				) );
 				?>
 			</main>
-		</section>
+		</section> -->
 
 	</header><!-- #masthead -->
