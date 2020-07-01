@@ -1295,6 +1295,11 @@ textarea {
 ## Page - Template Static 2 Columns
 --------------------------------------------------------------*/
 
+.page-template-template_staticpage_twocol #site-navigation,
+.page-template-template_staticpage_twocol #navigationSearch {
+	display: block;
+}
+
 .page-static-layout {
 	width: 100%;
 	height: auto;
@@ -1350,6 +1355,11 @@ textarea {
 /*--------------------------------------------------------------
 ## Page - Template Static 3 Columns
 --------------------------------------------------------------*/
+
+.page-template-template_staticpage_threecol #site-navigation,
+.page-template-template_staticpage_threecol #navigationSearch {
+	display: block;
+}
 
 .page-template-template_staticpage_threecol {
 	width: auto;
@@ -1410,6 +1420,11 @@ textarea {
 ## Page - Chatroom
 --------------------------------------------------------------*/
 
+.page-template-template_chatroom #site-navigation,
+.page-template-template_chatroom #navigationSearch {
+	display: block;
+}
+
 .page-template-template_chatroom {
 	height: auto;
 }
@@ -1428,6 +1443,11 @@ textarea {
 /*--------------------------------------------------------------
 ## Page - News
 --------------------------------------------------------------*/
+
+.page-template-template_news #site-navigation,
+.page-template-template_news #navigationSearch {
+	display: block;
+}
 
 .page-template-template_news {
 	height: auto;
