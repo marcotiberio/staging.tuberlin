@@ -1113,7 +1113,7 @@ textarea {
 	outline: none;
 }
 
-@media (max-width: 35rem) {
+@media (max-width: 1024px) {
 	
 	.main-navigation {
     	display: block;
@@ -1368,7 +1368,7 @@ textarea {
 	text-decoration: underline;
 }
 
-@media (max-width: 35rem) {
+@media (max-width: 1024px) {
 	
 	.page-template-template_staticpage_threecol {
 	width: auto;
@@ -1455,7 +1455,7 @@ textarea {
 	width: auto;
 }
 
-@media (max-width: 35rem) {
+@media (max-width: 1024px) {
 	
 	.gallery-news a {
 		display: block;
@@ -2052,7 +2052,7 @@ textarea {
 	width: auto;
 }
 
-@media (max-width: 35rem) {
+@media (max-width: 1024px) {
 	
 	.post-template-studio_001 .post-main .central {
 		display: block;
