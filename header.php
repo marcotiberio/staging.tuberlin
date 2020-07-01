@@ -52,7 +52,7 @@
 			<i class="fas fa-bars" id="open_menuOverlay"></i>
 		</div>
 
-		<!-- <section id="menuOverlay">
+		<section id="menuOverlay">
 			<main class="menuOverlay--inside">
 				<?php
 				wp_nav_menu( array(
@@ -89,6 +89,6 @@
 				<div class="sponsor-image"><img src="https://gupmagazine.kinsta.cloud/wp-content/uploads/2020/04/Fritz-Kola-Logo.png" alt=""></div>
 				<div class="sponsor-image"><img src="https://gupmagazine.kinsta.cloud/wp-content/uploads/2020/04/BRINKHOF_BLACK.png" alt=""></div>
 			</main>
-		</section> -->
+		</section>
 
 	</header><!-- #masthead -->

@@ -1,7 +1,7 @@
 // Menu Toggle
 $(document).ready(function(){
     $("#openMenu").click(function(){
-        $("#site-navigation").toggle();
+        $("#menuOverlay").toggle();
         $("#navigationSearch").toggle();
     });
 });
