@@ -75,8 +75,9 @@ get_header();  ?>
         </div>
 
         <div class="cover-mobile" style="background-image: url(<?php the_field('cover_mobile'); ?>);
-                                        background-position: center;
-                                        background-repeat: no-repeat;"></div>
+                                        background-position: center;fix
+                                        background-repeat: no-repeat;
+                                        background-size: cover;"></div>
         
 
         <div class="intro-mobile">
