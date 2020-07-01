@@ -66,6 +66,14 @@ get_header();  ?>
 
     <div class="site-main_mobile"> <!-- #main mobile -->
         
+        <div class="logo-studio_mobile">
+            <?php 
+                $image = get_field('logo_studio');
+                if( !empty( $image ) ): ?>
+                    <img src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" />
+            <?php endif; ?>
+        </div>
+
         <div class="cover-mobile">
             <?php 
                 $image = get_field('cover_mobile');
