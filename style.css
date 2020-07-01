@@ -1216,6 +1216,11 @@ textarea {
 	#menuOverlay .column .social-footer div a:hover {
 		color: lightgray !important;
 	}
+
+	.nav--search {
+		position: absolute;
+		bottom: 0;
+	}
   
 }
 
