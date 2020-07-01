@@ -1513,7 +1513,7 @@ textarea {
 .page-template-template-child #site-navigation,
 .page-template-template-child #navigationSearch,
 .page-template-template-child .post-thumbnail{
-	display: none;
+	display: block;
 }
 
 .page-template-template-parent .menu-menu-main-container,
