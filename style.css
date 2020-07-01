@@ -1315,7 +1315,7 @@ textarea {
 
 .page-static-layout div,
 .page-static-layout p {
-	font-size: 1rem;
+	font-size: 1.2rem;
 	font-weight: 300;
 }
 
@@ -1379,7 +1379,7 @@ textarea {
 .page-static-layout_3 div,
 .page-static-layout_3 p, 
 .page-static-layout_3 a {
-	font-size: 1rem;
+	font-size: 1.2rem;
 	font-weight: 300;
 	text-decoration: none;
 }
