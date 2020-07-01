@@ -1398,7 +1398,7 @@ textarea {
 		width: 100vw;
 		height: auto;
 		margin: 0;
-		padding: 5% 2%;
+		padding: 170px 2%;
 		display: grid;
 		grid-template-columns: 1fr;
 		grid-template-rows: repeat(3, 1fr);
@@ -1437,7 +1437,7 @@ textarea {
 
 .page-news {
 	height: auto;
-	padding: 0;
+	padding-top: 170px;
 	margin: 0;
 	overflow: hidden;
 }
