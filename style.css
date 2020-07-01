@@ -1430,7 +1430,7 @@ textarea {
 --------------------------------------------------------------*/
 
 .page-template-template_news {
-	height: inherit;
+	height: auto;
 	padding: 0;
 	margin: 0;
 }
