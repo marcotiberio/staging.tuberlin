@@ -66,7 +66,7 @@ get_header();  ?>
 
     <div class="site-main_mobile"> <!-- #main mobile -->
             
-        <ul class="floor-pad" id="floorPad">
+        <!-- <ul class="floor-pad" id="floorPad">
           <li>
             <a href="#">7</a>
           </li>
@@ -103,7 +103,11 @@ get_header();  ?>
           <li>
             <a href="#"></a>
           </li>
-        </ul>
+        </ul> -->
+
+        <div class="floor-pad_mobile">
+            <img src="http://staging-tuberlinifa.kinsta.cloud/wp-content/uploads/2020/07/floorpad-mobile.png" alt="floorpad mobile">
+        </div>
         
         <div class="logo-studio_mobile">
             <?php 
