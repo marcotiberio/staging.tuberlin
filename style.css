@@ -1127,11 +1127,11 @@ textarea {
 	.main-navigation .menu-menu-main-container {
 		position: absolute;
 		left: 0;
-		top: 170px;
-		background-color: green;
+		top: 140px;
+		background-color: #F3F3F3;
 		z-index: 1000;
 		width: calc(100% - 32px);
-		height: calc(100% - 170px);
+		height: 75vh;
 	}
 
 	.main-navigation #primary-menu {
