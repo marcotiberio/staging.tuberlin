@@ -1299,7 +1299,7 @@ textarea {
 	width: 100%;
 	height: auto;
 	margin: 0;
-	padding-top: 14%; 
+	padding-top: 170px; 
 	padding-left: 8%;
 	display: grid;
 	grid-template-columns: repeat(2, 1fr);
@@ -1446,7 +1446,7 @@ textarea {
 	position: relative;
 	width: 100%;
   	height: auto;
-	margin-top: 14%;
+	margin-top: 170px;
   	overflow: auto;
   	white-space: nowrap;
 }
