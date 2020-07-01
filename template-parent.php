@@ -74,7 +74,9 @@ get_header();  ?>
             <?php endif; ?>
         </div>
 
-        <div class="cover-mobile" style="background-image: url(<?php the_field('cover_mobile'); ?>);"></div>
+        <div class="cover-mobile" style="background-image: url(<?php the_field('cover_mobile'); ?>);
+                                        background-position: center;
+                                        background-repeat: no-repeat;"></div>
         
 
         <div class="intro-mobile">
