@@ -52,6 +52,7 @@ if ( ! function_exists( 'tu_berlin_setup' ) ) :
 			array(
 				'menu-main' => esc_html__( 'Primary', 'tu-berlin' ),
 				'menu-mobile' => esc_html__( 'Mobile', 'tu-berlin' ),
+				'menu-overlay' => esc_html__( 'Overlay', 'tu-berlin' ),
 			)
 		);
 
