@@ -56,8 +56,8 @@
 			<main class="menuOverlay--inside">
 				<?php
 				wp_nav_menu( array(
-					'theme_location' => 'overlay',
-					'menu_id'        => 'overlay',
+					'theme_location' => 'menu-overlay',
+					'menu_id'        => 'menu-overlay',
 				) );
 				?>
 			</main>
