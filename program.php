@@ -9,12 +9,14 @@ get_header();
 
 	<main id="primary" class="site-main">
 
-		<div id="logoStudio">
-			<?php 
-				$image = get_field('logo_studio');
-				if( !empty( $image ) ): ?>
-					<img src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" />
-			<?php endif; ?>
+    <div id="logoStudio">
+            <a href="<?php the_field('page_link'); ?>">
+                <?php 
+                    $image = get_field('logo_studio');
+                    if( !empty( $image ) ): ?>
+                        <img src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" />
+                <?php endif; ?>
+            </a>
 		</div>
 
 		<?php
