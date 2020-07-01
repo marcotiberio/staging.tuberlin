@@ -1693,6 +1693,8 @@ textarea {
 	cursor: pointer;
 }
 
+/* Getwid
+--------------------------------------------- */
 
 .wp-block-getwid-custom-post-type__content-wrapper {
 	display: none;
@@ -1715,6 +1717,20 @@ textarea {
 
 .getwid-columns-3 {
 	padding: 0 10px !important;
+}
+
+.wp-block-getwid-template-post-title__link,
+.wp-block-getwid-template-post-title__link:visited,
+.wp-block-getwid-template-post-title__link:active {
+    color: inherit;
+    font-size: 1.2rem;
+    font-weight: 300;
+    text-decoration: none;
+}
+
+.wp-block-getwid-template-post-title__link:hover {
+		text-decoration: underline;
+  	text-shadow: -0.2px 0 #1717E2, 0 0.2px #1717E2, 0.2px 0 #1717E2, 0 -0.2px #1717E2;
 }
 
 /*--------------------------------------------------------------
