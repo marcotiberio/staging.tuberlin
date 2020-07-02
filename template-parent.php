@@ -84,8 +84,8 @@ get_header();  ?>
                                         background-size: cover;"></div>
         
 
-        <div class="intro-mobile">
-            <?php the_field('intro_studio'); ?>
+        <div class="studio-list-mobile">
+            <?php the_field('studio-list_mobile'); ?>
         </div>
 
         <div class="gallery-mobile">
