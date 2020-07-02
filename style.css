@@ -1160,6 +1160,16 @@ textarea {
 		width: 80px;
 	}
 
+	.main-navigation li {
+		margin: 5px;
+		width: fit-content;
+	}
+
+	.main-navigation li a {
+		font-size: 0.8rem;
+		font-weight: 300;
+	}
+
 	.nav--overlay {
 		display: none;
 		padding-top: 18px;
