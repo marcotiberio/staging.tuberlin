@@ -775,7 +775,7 @@
 		</main><!-- #main -->
     
     <div class="foyer-mobile">
-      <img src="http://staging-tuberlinifa.kinsta.cloud/wp-content/uploads/2020/07/long.png" alt="">
+      <!-- <img src="http://staging-tuberlinifa.kinsta.cloud/wp-content/uploads/2020/07/long.png" alt=""> -->
     </div>
 
 
