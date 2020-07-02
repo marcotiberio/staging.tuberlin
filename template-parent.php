@@ -104,10 +104,16 @@ get_header();  ?>
                     </ul>
                 <?php endif; ?>
             </div>
+        </div>
+
+        <div class="intro-mobile">
+            <?php the_field('intro_mobile'); ?>
+        </div>
 
         <div class="info-mobile">
             <?php the_field('info_studio'); ?>
         </div>
+        
 
     </div> <!-- #main mobile -->
 
