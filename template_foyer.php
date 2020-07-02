@@ -777,7 +777,7 @@
     <div class="foyer-mobile">
       <img src="http://staging-tuberlinifa.kinsta.cloud/wp-content/uploads/2020/07/long.png" alt="">
       <div class="studio-names">
-        <img src="assets/img/lia.svg" alt="">
+        <img src="assets/img/lia@2x.png" alt="">
         <img src="" alt="">
         <img src="" alt="">
         <img src="" alt="">
