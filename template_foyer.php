@@ -2538,7 +2538,7 @@
           <path id="Path_24772" data-name="Path 24772" d="M14652.215,1880.658l-3.809,2.237V1860.75l3.809-2.249Z" transform="translate(-14509.413 -1828.171)"/>
           <path id="Path_24773" data-name="Path 24773" d="M14670.508,1857.639l-6.091,3.487v5.866l7.237-4.117v3.712l-11.045,6.355V1850.8l10.94-6.343v3.725l-7.133,4.1v5.236l6.091-3.487Z" transform="translate(-14514.501 -1822.34)"/>
         </g>
-        <g id="_09_LIA_TEXT" data-name="09_LIA_TEXT" transform="translate(977.127 810.82)">
+        <g id="_09_LIA_TEXT" data-name="09_LIA_TEXT" transform="translate(977.127 810.82)" onclick="window.location.href='http://staging-tuberlinifa.kinsta.cloud/nbl'">
           <path id="Path_24774" data-name="Path 24774" d="M15023.511,1544l20.535,11.832V1567l-32.249-18.556v-66.74l11.714,6.743Z" transform="translate(-15011.797 -1481.707)"/>
           <path id="Path_24775" data-name="Path 24775" d="M15067.71,1580.769l-11.57-6.733V1507.3l11.57,6.734Z" transform="translate(-15016.75 -1484.552)"/>
           <path id="Path_24776" data-name="Path 24776" d="M15107.433,1591.275l-15.915-9.183-3.181,11.877-12.289-7.14,18.073-56.3,10.707,6.165,18.074,77.234-12.433-7.2Zm-13.312-18.953,10.707,6.245-5.5-26.916Z" transform="translate(-15018.888 -1487.116)"/>
