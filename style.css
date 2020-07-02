@@ -1157,6 +1157,7 @@ textarea {
 		width: min-content;
 		display: flex;
 		flex-wrap: wrap;
+		width: 80px;
 	}
 
 	.nav--overlay {
