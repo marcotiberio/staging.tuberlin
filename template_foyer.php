@@ -775,7 +775,7 @@
 		</main><!-- #main -->
     
     <div class="foyer-mobile">
-      <img src="http://staging-tuberlinifa.kinsta.cloud/wp-content/uploads/2020/07/long.png" alt="">  
+      <!-- <img src="http://staging-tuberlinifa.kinsta.cloud/wp-content/uploads/2020/07/long.png" alt="">   -->
       <div class="background-names">
       <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="375" height="7308" viewBox="0 0 375 7308">
   <defs>
