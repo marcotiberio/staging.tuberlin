@@ -70,7 +70,7 @@ get_header();  ?>
         <div id="modalIntro" class="modal">
             <div class="modal-content">
                 <span class="close">&times;</span>            
-                <?php the_field('intro_studio'); ?>
+                <?php the_field('intro-year_studio'); ?>
             </div>
         </div>
 
