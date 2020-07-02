@@ -2260,7 +2260,7 @@ textarea {
 	height: 500px;
 }
 
-#modalIntro . .modal-content {
+#modalIntro .modal-content {
 	background-color: #1717E2;
 	color: rgba(245,245,245,0.7);
 	margin: 0;
