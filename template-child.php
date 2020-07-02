@@ -7,7 +7,7 @@ get_header();  ?>
 	<main id="primary" class="site-main">
 
         <div class="studio-code">
-            <p><?php the_field('code_studio'); ?><p>
+            <p id="openIntro"><?php the_field('code_studio'); ?><p>
         </div>
 
 		<div id="logoStudio">

@@ -83,6 +83,13 @@ $(document).ready(function(){
     });
 });
 
+$(document).ready(function(){
+    $("#openIntro").click(function(){
+        $("#modalIntro").toggle();
+        $("#modalInfo").hide();
+    });
+});
+
 
 // Go Back One Page
 function goBack() {
