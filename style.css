@@ -1717,12 +1717,12 @@ textarea {
     opacity: 1;
 }
 
-.slick-next:before {
-    content: url("http://staging-tuberlinifa.kinsta.cloud/wp-content/uploads/2020/07/next.png");
+.slick-prev:before {
+    content: url("http://staging-tuberlinifa.kinsta.cloud/wp-content/uploads/2020/07/prev-1.png");
 }
 
-.slick-prev:before {
-	content: url("http://staging-tuberlinifa.kinsta.cloud/wp-content/uploads/2020/07/prev.png");
+.slick-next:before {
+    content: url("http://staging-tuberlinifa.kinsta.cloud/wp-content/uploads/2020/07/next-1.png");
 }
 
 .wp-block-getwid-template-post-title__link,
