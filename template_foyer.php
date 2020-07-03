@@ -17,9 +17,9 @@
           <li><a href="#firstFloor">1</a></li>
           <li><a href="#secondFloor">2</a></li>
           <li><a href="#thirdFloor">3</a></li>
-          <li><a href="#"></a></li>
+          <li></li>
           <li><a href="#groundFloor">0</a></li>
-          <li><a href="#"></a></li>
+          <li></li>
         </ul>
 
         <section class="page-foyer">
