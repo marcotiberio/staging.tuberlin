@@ -1126,7 +1126,7 @@ textarea {
     	width: fit-content;
     	height: 100vh;
     	margin-top: 130px;
-}
+	}
 
 	.nav--search {
 		position: fixed;
@@ -1338,6 +1338,14 @@ textarea {
 
 .site-main .entry-title {
 	display: none;
+}
+
+@media (max-width: 1024px) {
+
+	.main-navigation {
+		display: none;
+	}
+
 }
 
 /*--------------------------------------------------------------
