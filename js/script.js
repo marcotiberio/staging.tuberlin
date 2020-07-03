@@ -145,8 +145,10 @@ $(window).scroll(function(){
 });
 
 
-$(function() {
-    $('.initialclass').click(function() {
-        $(this).addClass("active-floor");
-    });
-});
+function activeFloor(elem) {
+    var a = document.getElementsByTagName('a')
+    for (i = 0; i < a.length; i++) {
+        a[i].classList.remove('active')
+    }
+    elem.classList.add('active');
+}

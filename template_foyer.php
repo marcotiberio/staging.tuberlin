@@ -29,10 +29,10 @@
             <a href="#">6</a>
           </li>
           <li>
-            <a href="#firstFloor" class="initialclass">1</a>
+            <a href="#firstFloor" onclick="activeFloor(this)">1</a>
           </li>
           <li>
-            <a href="#secondFloor" class="initialclass">2</a>
+            <a href="#secondFloor" onclick="activeFloor(this)">2</a>
           </li>
           <li>
             <a href="#">3</a>
