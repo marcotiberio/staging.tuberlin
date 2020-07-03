@@ -1312,6 +1312,11 @@ textarea {
     transform: translate(-50%, -50%);
 }
 
+.button_logo-landing img {
+	max-width: 80%;
+	height: auto;
+}
+
 @media (max-width: 1024px) {
 
 	.page-template-template_landingpage {
