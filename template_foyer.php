@@ -7,6 +7,8 @@
 	<div id="primary--page-main" class="content-area--page-main">
 		<main id="main--page-main" class="site-main--page-main">
 
+        <section class="page-foyer">
+
         <ul class="floor-pad" id="floorPad">
           <li>
             <a href="#">7</a>
@@ -45,8 +47,6 @@
             <a href="#"></a>
           </li>
         </ul>
-
-        <section class="page-foyer">
 
           <div class="floor" id="firstFloor">
             <svg xmlns="http://www.w3.org/2000/svg" id="svgFloor1" viewBox="0 0 1197.871 752.334">
