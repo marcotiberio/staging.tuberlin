@@ -2544,10 +2544,26 @@ textarea {
 		z-index: 10;
 		padding: 0;
 		margin: 0;
-		top: 170px;
+		top: 0;
 		left: 16px;
 		width: calc(100vw - 32px);
 		height: 550px;
 		overflow: auto; /* Enable scroll if needed */
+	}
+
+	#modalInfo .modal-content {
+		background-color: #1717E2;
+		backdrop-filter: blur(8px);
+		margin: 0;
+		padding: 2%;
+		height: 500px;
+		color: #F3F3F3:
+	}
+	
+	#modalVideo .modal-content {
+		background-color: #1717E2;
+		margin: 0;
+		padding: 0;
+		height: 500px;
 	}
 }
