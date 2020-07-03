@@ -1271,6 +1271,15 @@ textarea {
 	overflow: hidden;
 }
 
+.page-template-template_landingpage .entry-content {
+	padding: 0;
+	margin: 0;
+}
+
+.page-template-template_landingpage .site-branding {
+	display: none;
+}
+
 .background_landing {
 	padding: 0;
 	margin: 0;
