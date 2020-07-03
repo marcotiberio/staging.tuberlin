@@ -8,42 +8,18 @@
 		<main id="main--page-main" class="site-main--page-main">
 
         <ul class="floor-pad" id="floorPad">
-          <li>
-            <a href="#">7</a>
-          </li>
-          <li>
-            <a href="#">8</a>
-          </li>
-          <li>
-            <a href="#">9</a>
-          </li>
-          <li>
-            <a href="#">4</a>
-          </li>
-          <li>
-            <a href="#">5</a>
-          </li>
-          <li>
-            <a href="#">6</a>
-          </li>
-          <li class="active">
-            <a href="#firstFloor">1</a>
-          </li>
-          <li>
-            <a href="#secondFloor">2</a>
-          </li>
-          <li>
-            <a href="#">3</a>
-          </li>
-          <li>
-            <a href="#"></a>
-          </li>
-          <li>
-            <a href="#">0</a>
-          </li>
-          <li>
-            <a href="#"></a>
-          </li>
+          <li><a href="#">7</a></li>
+          <li><a href="#">8</a></li>
+          <li><a href="#">9</a></li>
+          <li><a href="#">4</a></li>
+          <li><a href="#">5</a></li>
+          <li><a href="#">6</a></li>
+          <li><a href="#firstFloor">1</a></li>
+          <li><a href="#secondFloor">2</a></li>
+          <li><a href="#">3</a></li>
+          <li><a href="#"></a></li>
+          <li><a href="#">0</a></li>
+          <li><a href="#"></a></li>
         </ul>
 
         <section class="page-foyer">
