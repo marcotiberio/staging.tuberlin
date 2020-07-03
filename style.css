@@ -1595,6 +1595,14 @@ textarea {
 		margin: 0 20px;
 	}
 
+	.page-template-template-parent .site-main #logoStudio {
+    	position: fixed;
+    	bottom: 0;
+		right: 5%;
+		width: 10%;
+		height: fit-content;
+	}
+
 }
 
 /*--------------------------------------------------------------
@@ -1874,6 +1882,7 @@ textarea {
     	bottom: 0;
 		right: 5%;
 		width: 10%;
+		height: fit-content;
 	}
 	
 	.cover-mobile {
@@ -2059,6 +2068,7 @@ textarea {
     	bottom: 0;
 		right: 5%;
 		width: 10%;
+		height: fit-content;
 	}
 
 }
