@@ -1118,13 +1118,15 @@ textarea {
 
 	.main-navigation .menu-menu-main-container {
 		position: absolute;
-		left: 0;
-		top: 140px;
-		background-color: red;
-		z-index: 1000;
-		width: calc(100% - 32px);
-		height: 75vh;
-	}
+    	left: 0;
+    	top: 0;
+    	background-color: #1717E2;
+		color: #F3F3F3;
+    	z-index: 1000;
+    	width: fit-content;
+    	height: 100vh;
+    	margin-top: 130px;
+}
 
 	.nav--search {
 		position: fixed;
@@ -1168,6 +1170,7 @@ textarea {
 	.main-navigation li a {
 		font-size: 0.8rem;
 		font-weight: 300;
+		color: #F3F3F3;
 	}
 
 	.nav--overlay {
