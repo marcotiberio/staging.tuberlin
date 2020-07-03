@@ -1259,7 +1259,7 @@ textarea {
 --------------------------------------------------------------*/
 
 .page-template-template_landingpage {
-	height: inherit;
+	height: auto;
 	padding: 0;
 	margin: 0;
 }
@@ -1292,6 +1292,12 @@ textarea {
 
 .page-template-landing-page footer {
 	display: none;
+}
+
+.button_logo-landing {
+	position: fixed;
+    top: 20%;
+    left: 40%;
 }
 
 /*--------------------------------------------------------------
