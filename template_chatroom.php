@@ -16,7 +16,7 @@
                 endwhile; // End of the loop.
             ?>
 
-            <section class="page-chatroom" style="display: none;">
+            <section class="page-chatroom">
                 <div class="instagram-post_container">
                     <?php $instagram_url = get_field( 'instagram_post', false, false ); ?>
                     <img src="<?php echo $instagram_url; ?>media/?size=l" />
