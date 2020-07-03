@@ -143,3 +143,10 @@ $(window).scroll(function(){
          .end().filter("[href='#"+id+"']").parent().addClass("active");
    }                   
 });
+
+
+$(function() {
+    $('.initialclass').click(function() {
+        $(this).addClass("active-floor");
+    });
+});

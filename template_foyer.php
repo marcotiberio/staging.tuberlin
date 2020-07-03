@@ -28,11 +28,11 @@
           <li>
             <a href="#">6</a>
           </li>
-          <li class="active">
-            <a href="#firstFloor">1</a>
+          <li>
+            <a href="#firstFloor" class="initialclass">1</a>
           </li>
           <li>
-            <a href="#secondFloor">2</a>
+            <a href="#secondFloor" class="initialclass">2</a>
           </li>
           <li>
             <a href="#">3</a>

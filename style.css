@@ -2111,6 +2111,10 @@ textarea {
 	margin-bottom: 100px;
 }
 
+.active-floor {
+	color: #1717E2;
+}
+
 
 @media (max-width: 1024px) {
 
