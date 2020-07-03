@@ -1340,14 +1340,6 @@ textarea {
 	display: none;
 }
 
-@media (max-width: 1024px) {
-
-	.main-navigation {
-		display: none;
-	}
-
-}
-
 /*--------------------------------------------------------------
 ## Page - Home
 --------------------------------------------------------------*/
@@ -1427,6 +1419,17 @@ textarea {
 	font-weight: 300;
 }
 
+@media (max-width: 1024px) {
+
+	.page-template-template_staticpage_twocol #site-navigation,
+	.page-template-template_staticpage_twocol #navigationSearch {
+		display: none;
+	}
+
+}
+
+
+
 /*--------------------------------------------------------------
 ## Page - Template Static 3 Columns
 --------------------------------------------------------------*/
@@ -1464,11 +1467,16 @@ textarea {
 }
 
 @media (max-width: 1024px) {
+
+	.page-template-template_staticpage_threecol #site-navigation,
+	.page-template-template_staticpage_threecol #navigationSearch {
+		display: none;
+	}	
 	
 	.page-template-template_staticpage_threecol {
-	width: auto;
-	height: auto;
-	overflow-x: hidden;
+		width: auto;
+		height: auto;
+		overflow-x: hidden;
 	}
 	
 	.main-navigation {
@@ -1513,6 +1521,14 @@ textarea {
 	grid-template-columns: repeat(3, 1fr);
 	column-gap: 5%;
 	/* row-gap: 5%; */
+}
+
+@media (max-width: 1024px) {
+
+	.page-template-template_chatroom #site-navigation,
+	.page-template-template_chatroom #navigationSearch {
+		display: none;
+	}
 }
 
 /*--------------------------------------------------------------
@@ -1561,6 +1577,11 @@ textarea {
 }
 
 @media (max-width: 1024px) {
+
+	.page-template-template_news #site-navigation,
+	.page-template-template_news #navigationSearch {
+		display: none;
+	}
 
 	.page-news {
 		height: 100vh;
