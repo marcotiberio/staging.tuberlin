@@ -75,7 +75,7 @@ get_header();  ?>
                     <?php
                     $file = get_field('pdf');
                     if( $file ): ?>
-                        <a href="<?php echo $file['url']; ?>"><?php echo $file['filename']; ?>
+                        <a href="<?php echo $file['url']; ?>" target="_blank"><?php echo $file['filename']; ?>
                             <span><img src="http://staging-tuberlinifa.kinsta.cloud/wp-content/uploads/2020/07/download-button@2x.png" alt="Download Button"></span>
                             <h3>PDF</h3>
                         </a>
