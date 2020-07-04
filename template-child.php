@@ -76,7 +76,7 @@ get_header();  ?>
                     <?php
                     $file = get_field('pdf');
                     if( $file ): ?>
-                        <a href="<?php echo $file['url']; ?>" target="_blank"><?php echo $file['filename']; ?><h3>PDF</h3></a>
+                        <a href="<?php echo $file['url']; ?>" target="_blank"><h3>PDF</h3></a>
                     <?php endif; ?>
                 </div>
             </div>
