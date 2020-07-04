@@ -73,7 +73,9 @@ get_header();  ?>
                 <?php the_field('intro-year_studio'); ?>
                 <div id="linkPdf">
                     <span><img src="http://staging-tuberlinifa.kinsta.cloud/wp-content/uploads/2020/07/download-button@2x.png" alt="Play Button"></span>
-                    <h3>PDF</h3>
+                    <?php if( get_field('pdf') ): ?>
+                        <a href="<?php the_field('pdf'); ?>" ><h3>PDF</h3></a>
+                    <?php endif; ?>
                 </div>
             </div>
         </div>
