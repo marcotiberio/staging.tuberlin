@@ -2466,12 +2466,14 @@ textarea {
 #openSeminar:hover,
 #openMAstudio:hover,
 #openBachelor:hover,
-#openLiveproject:hover {
+#openLiveproject:hover,
+#linkPdf:hover {
 	cursor: pointer;
 	opacity: 0.7;
 }
 
-#openVideo {
+#openVideo,
+#linkPdf {
 	position: absolute;
     bottom: 20px;
 	right: 20px;
@@ -2481,12 +2483,14 @@ textarea {
 	column-gap: 5px;
 }
 
-#openVideo h3 {
+#openVideo h3,
+#linkPdf h3 {
 	font-weight: 300;
 	text-transform: uppercase;
 }
 
-#openVideo span img {
+#openVideo span img,
+#linkPdf span img {
 	max-width: 70%;
 	margin-top: 10%;
 }
@@ -2582,7 +2586,8 @@ textarea {
 		height: 500px;
 	}
 
-	#openVideo {
+	#openVideo,
+	#linkPdf {
 		position: absolute;
 		bottom: 60px;
 		right: 20px;
