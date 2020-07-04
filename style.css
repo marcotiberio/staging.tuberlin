@@ -2498,6 +2498,12 @@ textarea {
 	text-transform: uppercase;
 }
 
+#linkPdf h3 {
+	font-weight: 300;
+	text-transform: uppercase;
+	color: #F3F3F3;
+}
+
 #openVideo span img,
 #linkPdf span img {
 	max-width: 70%;
