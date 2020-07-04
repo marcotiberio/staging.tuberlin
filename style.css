@@ -2504,10 +2504,14 @@ textarea {
 	color: #F3F3F3;
 }
 
-#openVideo span img,
-#linkPdf span img {
+#openVideo span img {
 	max-width: 70%;
 	margin-top: 10%;
+}
+
+#linkPdf span img {
+	max-width: 70%;
+	margin-top: 20%;
 }
 
 
