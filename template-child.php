@@ -72,7 +72,7 @@ get_header();  ?>
                 <span class="close">&times;</span>            
                 <?php the_field('intro-year_studio'); ?>
                 <div id="linkPdf">
-                    <span><img src="http://staging-tuberlinifa.kinsta.cloud/wp-content/uploads/2020/07/download@2x.png" alt="Play Button"></span>
+                    <span><img src="http://staging-tuberlinifa.kinsta.cloud/wp-content/uploads/2020/07/download-button@2x.png" alt="Play Button"></span>
                     <h3>PDF</h3>
                 </div>
             </div>
