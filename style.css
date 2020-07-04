@@ -2472,13 +2472,22 @@ textarea {
 	opacity: 0.7;
 }
 
-#openVideo,
-#linkPdf {
+#openVideo {
 	position: absolute;
     bottom: 20px;
 	right: 20px;
 	display: grid;
 	grid-template-columns: 1fr 3fr;
+	grid-template-rows: 1fr;
+	column-gap: 5px;
+}
+
+#linkPdf {
+	position: absolute;
+    bottom: 20px;
+	right: 20px;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
 	grid-template-rows: 1fr;
 	column-gap: 5px;
 }
@@ -2586,13 +2595,22 @@ textarea {
 		height: 500px;
 	}
 
-	#openVideo,
-	#linkPdf {
+	#openVideo {
 		position: absolute;
 		bottom: 60px;
 		right: 20px;
 		display: grid;
 		grid-template-columns: 1fr 3fr;
+		grid-template-rows: 1fr;
+		column-gap: 5px;
+	}
+
+	#linkPdf {
+		position: absolute;
+		bottom: 60px;
+		right: 20px;
+		display: grid;
+		grid-template-columns: 1fr 1fr;
 		grid-template-rows: 1fr;
 		column-gap: 5px;
 	}
