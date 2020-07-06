@@ -4,14 +4,14 @@
 }
 
 .slides img {
-    height: 500px;
+    height: 600px;
     width: auto;
     padding: 0 3vh;
 }
 
-.slick-dots {
+/* .slick-dots {
     bottom: -20px !important;
-}
+} */
 
 .slick-initialized .slick-slide {
     outline: none;
