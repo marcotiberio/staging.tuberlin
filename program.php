@@ -35,12 +35,12 @@ get_header();
                 </a>
             </div>
             <div class="bottom-right">
-                <img id="openInfo" src="http://staging-tuberlinifa.kinsta.cloud/wp-content/uploads/2020/06/info-icon.png" alt="Icon Info">
+                <img id="openIntro" src="http://staging-tuberlinifa.kinsta.cloud/wp-content/uploads/2020/06/info-icon.png" alt="Icon Info">
             </div>
 		</div>
 		
 		<!-- Modal Info -->
-		<div id="modalInfo" class="modal">
+		<div id="modalIntro" class="modal">
         <div class="modal-content">
             <span class="close">&times;</span>            
             <?php the_field('intro_group'); ?>
