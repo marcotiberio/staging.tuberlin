@@ -1760,13 +1760,6 @@ textarea {
   	left: 45%;
 }
 
-.studio-code p:hover {
-	cursor: pointer;
-	text-decoration: underline;
-  	text-decoration: underline;
-  	text-shadow: -0.2px 0 #1717E2, 0 0.2px #1717E2, 0.2px 0 #1717E2, 0 -0.2px #1717E2;
-}
-
 /* Getwid
 --------------------------------------------------------------*/
 
@@ -1834,7 +1827,7 @@ textarea {
 	}
 	
 	.studio-code {
-		display: none;
+		display: block;
 	}
 	
 	.page-template-template-parent .site-main_mobile {
