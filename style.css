@@ -1827,7 +1827,9 @@ textarea {
 	}
 	
 	.studio-code {
-		display: block;
+		position: absolute;
+    	top: 134px;
+    	left: 35%;
 	}
 	
 	.page-template-template-parent .site-main_mobile {
