@@ -2118,13 +2118,14 @@ textarea {
 
 #mtphr-dnt-1922 {
 	position: relative;
-	top: 91vh;
+	top: 94vh;
 }
 
 #mtphr-dnt-1922 a {
 	color: grey;
 	text-transform: uppercase;
 	text-decoration: none;
+	font-style: oblique;
 }
 
 @media (max-width: 1024px) {
