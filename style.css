@@ -2593,7 +2593,8 @@ textarea {
 	}
 
 	#modalInfo, 
-	#modalVideo {
+	#modalVideo,
+	#modalIntro {
 		display: none;
 		position: fixed;
 		z-index: 10;
