@@ -9,9 +9,9 @@
     padding: 0 3vh;
 }
 
-/* .slick-dots {
-    bottom: -20px !important;
-} */
+.slick-dots {
+    bottom: 0 !important;
+}
 
 .slick-initialized .slick-slide {
     outline: none;
