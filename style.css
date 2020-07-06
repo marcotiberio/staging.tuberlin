@@ -2608,11 +2608,12 @@ textarea {
 		z-index: 20000;
 	}
 
-	#modalInfo .modal-content {
+	#modalInfo .modal-content,
+	#modalIntro .modal-content {
 		background-color: #1717E2;
 		backdrop-filter: blur(8px);
 		margin: 0;
-		padding: 2%;
+		padding: 4% 2%;
 		height: 500px;
 		color: #F3F3F3;
 	}
