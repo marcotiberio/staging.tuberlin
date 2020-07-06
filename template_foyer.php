@@ -7,6 +7,11 @@
 	<div id="primary--page-main" class="content-area--page-main">
 		<main id="main--page-main" class="site-main--page-main">
 
+
+    <?php if(function_exists('ditty_news_ticker')){ditty_news_ticker(1922);} ?>
+
+
+
         <section class="page-foyer">
 
         <ul class="floor-pad" id="floorPad">
