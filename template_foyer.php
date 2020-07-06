@@ -7,8 +7,9 @@
 	<div id="primary--page-main" class="content-area--page-main">
 		<main id="main--page-main" class="site-main--page-main">
 
-
-    <?php if(function_exists('ditty_news_ticker')){ditty_news_ticker(1922);} ?>
+    <div class="ticker-news">
+      <?php if(function_exists('ditty_news_ticker')){ditty_news_ticker(1922);} ?>
+    </div>
 
 
 
