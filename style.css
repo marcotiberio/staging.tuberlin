@@ -1949,9 +1949,9 @@ textarea {
 .post-template-program .entry-content {
 	position: absolute;
    	top: 15%;
-    left: 22.5%;
-    width: 55%;
-    height: 500px;
+    left: 20%;
+    width: 60%;
+    height: 600px;
 	margin: 0 auto;
 	padding: 0;
 	overflow: auto;
