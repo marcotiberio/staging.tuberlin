@@ -1,0 +1,19 @@
+.slider {
+    padding: 0 0 5px;
+    margin-top: 70px;
+}
+
+.slides img {
+    height: 80vh;
+    width: auto;
+    padding: 0 3vh;
+}
+
+.slick-dots {
+    bottom: -20px !important;
+}
+
+.slick-initialized .slick-slide {
+    outline: none;
+    border: none;
+}
