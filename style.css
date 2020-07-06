@@ -2341,7 +2341,7 @@ textarea {
 	left: 0;
 	color: white;
 	background-color: rgba(245,245,245,0.7);
-	backdrop-filter: blur(8px);
+	/* backdrop-filter: blur(8px); */
 	color: #1717E2;
 	z-index: 20;
 
@@ -2421,7 +2421,7 @@ textarea {
 
 #modalInfo .modal-content {
 	background-color: rgba(245,245,245,0.7);
-	backdrop-filter: blur(8px);
+	/* backdrop-filter: blur(8px); */
 	margin: 0;
 	padding: 2%;
 	height: 500px;
@@ -2624,7 +2624,7 @@ textarea {
 	#modalInfo .modal-content,
 	#modalIntro .modal-content {
 		background-color: #1717E2;
-		backdrop-filter: blur(8px);
+		/* backdrop-filter: blur(8px); */
 		margin: 0;
 		padding: 4% 2%;
 		height: 500px;
