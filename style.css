@@ -1368,7 +1368,7 @@ textarea {
 }
 
 .page-static-layout {
-	width: 100%;
+	width: calc(100vw - 32px);
 	height: auto;
 	margin: 0;
 	padding-top: 170px; 
@@ -1488,7 +1488,7 @@ textarea {
 	}
   
 	.page-static-layout_3 {
-		width: 90vw;
+		width: calc(100vw - 32px);
 		height: auto;
 		margin: 0;
 		padding: 170px 2%;
@@ -1511,6 +1511,9 @@ textarea {
 
 .page-template-template_chatroom {
 	height: auto;
+	width: calc(100vw - 32px);
+	padding: 0;
+	margin: 0;
 }
 
 .page-chatroom {
@@ -1542,6 +1545,7 @@ textarea {
 }
 
 .page-template-template_news {
+	width: calc(100vw - 32px);
 	height: auto;
 	padding: 0;
 	margin: 0;
