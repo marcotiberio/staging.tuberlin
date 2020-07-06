@@ -43,10 +43,14 @@ get_header();
 		<div id="modalInfo" class="modal">
         <div class="modal-content">
             <span class="close">&times;</span>            
-                <?php the_field('info_studio'); ?>
-            <div id="openVideo">
-                <span><img src="http://staging-tuberlinifa.kinsta.cloud/wp-content/uploads/2020/06/play-button.png" alt="Play Button"></span>
-                <h3>Interview</h3>
+            <?php the_field('intro-year_studio'); ?>
+            <div id="linkPdf">
+                <span><img src="http://staging-tuberlinifa.kinsta.cloud/wp-content/uploads/2020/07/download-button@2x.png" alt="Download Button"></span>
+                <?php
+                $file = get_field('pdf');
+                if( $file ): ?>
+                    <a href="<?php echo $file['url']; ?>" target="_blank"><h3>PDF</h3></a>
+                <?php endif; ?>
             </div>
         </div>
     </div>
