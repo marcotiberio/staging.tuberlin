@@ -7,7 +7,7 @@
 	<div id="primary--page-main" class="content-area--page-main">
 		<main id="main--page-main" class="site-main--page-main">
 
-    <div class="ticker-news">
+    <div class="ticker-news" style="position: relative; top: 91vh;">
       <?php if(function_exists('ditty_news_ticker')){ditty_news_ticker(1922);} ?>
     </div>
 
