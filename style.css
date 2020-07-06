@@ -2121,6 +2121,12 @@ textarea {
 	top: 91vh;
 }
 
+#mtphr-dnt-1922 a {
+	color: lightgray;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+
 @media (max-width: 1024px) {
 
 	.page-template-template_foyer {
