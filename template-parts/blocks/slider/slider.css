@@ -4,7 +4,7 @@
 }
 
 .slides img {
-    height: 600px;
+    height: 100%;
     width: auto;
     padding: 0 3vh;
 }
