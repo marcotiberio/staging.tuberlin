@@ -1843,7 +1843,7 @@ textarea {
 	}
 	
 	.page-template-template-parent  {
-		height: auto;
+		height: inherit;
 		width: auto;
 		}
 	
@@ -1852,6 +1852,17 @@ textarea {
 		width: auto;
 		overflow: hidden !important;
 		}
+
+	.page-template-template-parent .entry-content {
+		position: absolute;
+		top: 35%;
+		left: 16px;
+		width: calc(100vw - 32px);
+		height: 500px;
+		margin: 0 auto;
+		padding: 0;
+		overflow: auto;
+	}
 	
 	.page-template-template-child .entry-content {
 		position: absolute;
@@ -2055,9 +2066,9 @@ textarea {
 
 	.post-template-program .entry-content {
 		position: absolute;
-		top: 170px;
+		top: 35%;
 		left: 16px;
-		width: calc(100% - 32px);
+		width: calc(100vw - 32px);
 		height: 500px;
 		margin: 0 auto;
 		padding: 0;
