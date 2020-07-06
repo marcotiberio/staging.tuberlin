@@ -1833,16 +1833,12 @@ textarea {
 		display: block;
 	}
 	
-	.page-template-template-parent .site-main_mobile {
-		display: none;
-	}
-	
 	.studio-code {
 		display: none;
 	}
 	
 	.page-template-template-parent .site-main_mobile {
-		display: block;
+		display: none;
 		background-color: #F3F3F3;
 	}
 	
