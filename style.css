@@ -1624,9 +1624,9 @@ textarea {
 .page-template-template-parent .entry-content {
 	position: absolute;
    	top: 15%;
-    left: 22.5%;
-    width: 55%;
-    height: 600px;
+    left: 20%;
+    width: 60%;
+    height: 100rem;
 	margin: 0 auto;
 	padding: 0;
 	overflow: auto;
@@ -1635,9 +1635,9 @@ textarea {
 .page-template-template-child .entry-content {
     position: absolute;
     top: 15%;
-    left: 22.5%;
-    width: 55%;
-    height: 600px;
+    left: 20%;
+    width: 60%;
+    height: 100rem;
 	margin: 0 auto;
 	padding: 0;
 	overflow: auto;
