@@ -1061,7 +1061,7 @@ textarea {
 }
 
 .main-navigation #primary-menu {
-	width: 80%;
+	width: 100%;
 	display: flex;
 	flex-wrap: nowrap;
 }
@@ -1104,7 +1104,7 @@ textarea {
 	}
 
 .nav--search input {
-	width: 270px;
+	width: 200px;
 	border: none;
 	border-radius: 50px;
 	padding: 5px 10px;
