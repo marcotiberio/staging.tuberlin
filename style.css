@@ -1445,7 +1445,7 @@ textarea {
 }
 
 .page-static-layout_3 {
-	width: 100vw;
+	width: calc(100vw - 32px);
 	height: auto;
 	margin: 0;
 	padding: 14% 5% 2% 10%;
@@ -1488,13 +1488,14 @@ textarea {
 	}
   
 	.page-static-layout_3 {
-		width: 100vw;
+		width: 90vw;
 		height: auto;
 		margin: 0;
 		padding: 170px 2%;
 		display: grid;
 		grid-template-columns: 1fr;
 		grid-template-rows: repeat(3, 1fr);
+		row-gap: 50px;
 	}
   
 }
