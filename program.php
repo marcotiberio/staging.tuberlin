@@ -43,7 +43,7 @@ get_header();
 		<div id="modalInfo" class="modal">
         <div class="modal-content">
             <span class="close">&times;</span>            
-            <?php the_field('intro-year_studio'); ?>
+            <?php the_field('intro_group'); ?>
             <div id="linkPdf">
                 <span><img src="http://staging-tuberlinifa.kinsta.cloud/wp-content/uploads/2020/07/download-button@2x.png" alt="Download Button"></span>
                 <?php
