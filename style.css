@@ -1830,6 +1830,10 @@ textarea {
 	}
 	
 	.page-template-template-parent .site-main {
+		display: block;
+	}
+	
+	.page-template-template-parent .site-main_mobile {
 		display: none;
 	}
 	
