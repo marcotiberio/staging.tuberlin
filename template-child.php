@@ -7,7 +7,7 @@ get_header();  ?>
 	<main id="primary" class="site-main">
 
         <div class="studio-code">
-            <p id="openIntro"><?php the_field('code_studio'); ?><p>
+            <p><?php the_field('code_studio'); ?><p>
         </div>
 
 		<div id="logoStudio">
@@ -36,7 +36,7 @@ get_header();  ?>
                 </a>
             </div>
             <div class="bottom-right">
-                <img id="openInfo" src="http://staging-tuberlinifa.kinsta.cloud/wp-content/uploads/2020/06/info-icon.png" alt="Icon Info">
+                <img id="openIntro" src="http://staging-tuberlinifa.kinsta.cloud/wp-content/uploads/2020/06/info-icon.png" alt="Icon Info">
             </div>
 		</div>
 		
