@@ -2058,6 +2058,11 @@ textarea {
   	text-shadow: -0.2px 0 #1717E2, 0 0.2px #1717E2, 0.2px 0 #1717E2, 0 -0.2px #1717E2;
 }
 
+.post-template .entry-content .slick-next .slick-arrow,
+.post-template .entry-content .slick-prev .slick-arrow{
+	display: none;
+}
+
 @media (max-width: 1024px) {
 
 	.post-template-program .entry-content {
