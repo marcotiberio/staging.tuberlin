@@ -1618,6 +1618,7 @@ textarea {
 .page-template-template-child {
 	height: 100vh;
 	width: auto;
+	overflow: hidden;
 }
 
 
@@ -1856,7 +1857,7 @@ textarea {
 		height: 500px;
 		margin: 0 auto;
 		padding: 0;
-		overflow: auto;
+		overflow: hidden;
 	}
 	
 	.page-template-template-child .entry-content {
@@ -1867,7 +1868,7 @@ textarea {
 		height: 500px;
 		margin: 0 auto;
 		padding: 0;
-		overflow: auto;
+		overflow: hidden;
 	}
 	
 	.page-template-template-parent
