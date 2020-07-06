@@ -17,3 +17,14 @@
     outline: none;
     border: none;
 }
+
+
+@media (max-width: 1024px) {
+
+    .slides img {
+        height: auto;
+        width: calc(100% - 16px);
+        padding: 0 3vh;
+    }
+
+}
