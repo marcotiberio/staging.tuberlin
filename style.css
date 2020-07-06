@@ -2116,6 +2116,10 @@ textarea {
 	color: #1717E2;
 }
 
+.ticker-news {
+	position: relative;
+	top: 91vh;
+}
 
 @media (max-width: 1024px) {
 
