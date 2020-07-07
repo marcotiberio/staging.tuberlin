@@ -152,7 +152,7 @@ $(document).ready(function(){
     $( "#arrowsTypes" ).click(function() {
         $( "#boxTypes" ).animate({
             height: "50vh", 
-            }, 1000 );
+            }, 200 );
         });
     });
     
@@ -160,7 +160,7 @@ $(document).ready(function(){
     $( "#arrowsTypes" ).click(function() {
         $( "#arrowOne" ).animate({
             margin: "0 100px", 
-            }, 1000 );
+            }, 200 );
         });
     });
     
@@ -168,7 +168,7 @@ $(document).ready(function(){
     $( "#arrowsTypes" ).click(function() {
         $( "#arrowTwo" ).animate({
             margin: "0 100px", 
-            }, 1000 );
+            }, 200 );
         });
     });
     
@@ -176,7 +176,7 @@ $(document).ready(function(){
     $( "#arrowsTypes" ).click(function() {
         $( "#arrowThree" ).animate({
             margin: "0 100px", 
-            }, 1000 );
+            }, 200 );
         });
     });
 
@@ -184,7 +184,7 @@ $(document).ready(function(){
     $( "#arrowsTypes" ).click(function() {
         $( "#knowledgeTypes" ).animate({
             margin: "-18% 0 0 0", 
-            }, 1000 );
+            }, 200 );
         });
     });
     
@@ -192,7 +192,7 @@ $(document).ready(function(){
     $( "#titleTypes" ).click(function() {
         $( "#boxTypes" ).animate({
             height: "10vh", 
-            }, 1000 );
+            }, 200 );
         });
     });
     
@@ -200,7 +200,7 @@ $(document).ready(function(){
     $( "#titleTypes" ).click(function() {
         $( "#arrowOne" ).animate({
             margin: "0", 
-            }, 1000 );
+            }, 200 );
         });
     });
     
@@ -208,7 +208,7 @@ $(document).ready(function(){
     $( "#titleTypes" ).click(function() {
         $( "#arrowTwo" ).animate({
             margin: "0", 
-            }, 1000 );
+            }, 200 );
         });
     });
     
@@ -216,7 +216,7 @@ $(document).ready(function(){
     $( "#titleTypes" ).click(function() {
         $( "#arrowThree" ).animate({
             margin: "0", 
-            }, 1000 );
+            }, 200 );
         });
     });
 
@@ -224,6 +224,6 @@ $(document).ready(function(){
     $( "#titleTypes" ).click(function() {
         $( "#knowledgeTypes" ).animate({
             margin: "0", 
-            }, 1000 );
+            }, 200 );
         });
     });
