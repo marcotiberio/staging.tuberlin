@@ -1291,22 +1291,16 @@ textarea {
 	height: auto;
 	padding: 0;
 	margin: 0;
-	overflow: hidden;
 }
 
 .page-template-template_landingpage .page {
 	height: auto;
 	padding: 0;
 	margin: 0;
-	
+	overflow: hidden;
 }
 
-.page-template-template_landingpage .entry-content {
-	padding: 0;
-	margin: 0;
-}
-
-.page-template-template_landingpage .site-branding {
+.page-template-template_landingpage .wp-block-image .size-large {
 	display: none;
 }
 
@@ -1333,29 +1327,96 @@ textarea {
 	display: none;
 }
 
-.button_logo-landing {
-	margin: 0;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+
+.nav--overlay {
+	display: none;
+	padding-top: 18px;
+	cursor: pointer;
 }
 
-.button_logo-landing img {
-	max-width: 100%;
-	height: auto;
+
+.search .site-main .entry-title {
+  display: block;
 }
+
+.search .entry-meta {
+	display: none;
+}
+
+.search .entry-footer {
+	display: none;
+}
+
+.search .site-main {
+    display: block;
+    padding: 2% 8%;
+}
+
+.post-template-studio_001 .post-main .central {
+	display: block;
+}
+
+.custom-logo-link {
+    display: inline-block;
+		position: sticky-top;
+}
+
+.central-menu {
+  width: 100%;
+	height: auto;
+	padding: 0;
+	margin: 0;
+	z-index: 1010;
+}
+
+.central-menu ul {
+	bottom: -15%;
+  display: flex;
+  margin: 0;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.central-menu ul li {
+  margin: 0 10px;
+  padding: 0;
+}
+
+.central-slider {
+	position: relative;
+	width: 100%;
+  height: auto;
+	margin: 0;
+  overflow: auto;
+  white-space: nowrap;
+}
+
+.central-slider::-webkit-scrollbar {
+  	display: none;
+}
+
+
+.central-slider img {
+  display: inline-block;
+	margin: 0;
+	height: 500px;
+	width: auto;
+}
+
 
 @media (max-width: 1024px) {
 
-	.page-template-template_landingpage {
-		width: 100vw;
-		height: 100vh;
-		padding: 0;
-		margin: 0;
-		overflow: hidden;
+	.page-template-template_landingpage .landing-video {
+		display: none;
 	}
-
+	
+	.page-template-template_landingpage .wp-block-image img {
+    max-width: auto;
+		width: auto;
+		height: 100vh;
+}
+	
 }
 
 /*--------------------------------------------------------------
