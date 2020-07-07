@@ -199,7 +199,7 @@ $(document).ready(function(){
     $(document).ready(function(){
     $( "#titleTypes" ).click(function() {
         $( "#boxTypes" ).animate({
-            height: "10vh", 
+            height: "15vh", 
             }, 200 );
         });
     });
