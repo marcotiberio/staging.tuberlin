@@ -151,7 +151,7 @@ $(window).scroll(function(){
 $(document).ready(function(){
     $( "#arrowsTypes" ).click(function() {
         $( "#boxTypes" ).animate({
-            height: "60vh", 
+            height: "65vh", 
             }, 200 );
         });
     });
