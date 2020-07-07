@@ -149,7 +149,7 @@ $(window).scroll(function(){
 
 // Types
 $(document).ready(function(){
-$( "#titleTypes" ).click(function() {
+$( "#arrowsTypes" ).click(function() {
     $( "#boxTypes" ).animate({
         height: "35vh", 
         }, 1000 );
@@ -157,7 +157,7 @@ $( "#titleTypes" ).click(function() {
 });
 
 $(document).ready(function(){
-$( "#titleTypes" ).click(function() {
+$( "#arrowsTypes" ).click(function() {
     $( "#arrowOne" ).animate({
         margin: "0 50px", 
         }, 1000 );
@@ -165,9 +165,17 @@ $( "#titleTypes" ).click(function() {
 });
 
 $(document).ready(function(){
-$( "#titleTypes" ).click(function() {
+$( "#arrowsTypes" ).click(function() {
     $( "#arrowTwo" ).animate({
         margin: "0 50px", 
         }, 1000 );
     });
 });
+
+$(document).ready(function(){
+    $( "#titleTypes" ).click(function() {
+        $( "#boxTypes" ).animate({
+            height: "10vh", 
+            }, 1000 );
+        });
+    });
