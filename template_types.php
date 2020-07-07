@@ -17,6 +17,13 @@
             <span id="arrowThree"> > </span>
             </h1>
         </div>
+        <div id="arrowsTypesMobile">
+            <h1>
+            <span id="arrowOne"> > </span>
+            <span id="arrowTwo"> > </span>
+            <span id="arrowThree"> > </span>
+            </h1>
+        </div>
         <div></div>
     </div>
     <div id="knowledgeTypesMobile">

@@ -181,6 +181,30 @@ $(document).ready(function(){
     });
 
     $(document).ready(function(){
+        $( "#arrowsTypesMobile" ).click(function() {
+            $( "#arrowOne" ).animate({
+                margin: "0 10px", 
+                }, 200 );
+            });
+        });
+        
+        $(document).ready(function(){
+        $( "#arrowsTypesMobile" ).click(function() {
+            $( "#arrowTwo" ).animate({
+                margin: "0 10px", 
+                }, 200 );
+            });
+        });
+        
+        $(document).ready(function(){
+        $( "#arrowsTypesMobile" ).click(function() {
+            $( "#arrowThree" ).animate({
+                margin: "0 10px", 
+                }, 200 );
+            });
+        });
+
+    $(document).ready(function(){
     $( "#arrowsTypes" ).click(function() {
         $( "#infoTypes" ).animate({
             margin: "5% 0 0 0", 
@@ -227,6 +251,30 @@ $(document).ready(function(){
             }, 200 );
         });
     });
+
+    $(document).ready(function(){
+        $( "#titleTypes" ).click(function() {
+            $( "#arrowOne" ).animate({
+                margin: "0", 
+                }, 200 );
+            });
+        });
+        
+        $(document).ready(function(){
+        $( "#titleTypes" ).click(function() {
+            $( "#arrowTwo" ).animate({
+                margin: "0", 
+                }, 200 );
+            });
+        });
+        
+        $(document).ready(function(){
+        $( "#titleTypes" ).click(function() {
+            $( "#arrowThree" ).animate({
+                margin: "0", 
+                }, 200 );
+            });
+        });
 
     $(document).ready(function(){
     $( "#titleTypes" ).click(function() {
