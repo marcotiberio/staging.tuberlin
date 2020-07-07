@@ -159,7 +159,7 @@ $(document).ready(function(){
     $(document).ready(function(){
     $( "#arrowsTypes" ).click(function() {
         $( "#arrowOne" ).animate({
-            margin: "0 80px", 
+            margin: "0 100px", 
             }, 200 );
         });
     });
@@ -167,7 +167,7 @@ $(document).ready(function(){
     $(document).ready(function(){
     $( "#arrowsTypes" ).click(function() {
         $( "#arrowTwo" ).animate({
-            margin: "0 80px", 
+            margin: "0 100px", 
             }, 200 );
         });
     });
@@ -175,7 +175,7 @@ $(document).ready(function(){
     $(document).ready(function(){
     $( "#arrowsTypes" ).click(function() {
         $( "#arrowThree" ).animate({
-            margin: "0 80px", 
+            margin: "0 100px", 
             }, 200 );
         });
     });
