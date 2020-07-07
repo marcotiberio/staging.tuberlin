@@ -71,12 +71,12 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
 
 @font-face {
 	font-family: "AutoscapeWeb-Regular";
-	src: url("AutoscapeWeb-Regular.woff") format("woff");
+	src: url("assets/fonts/AutoscapeWeb-Regular.woff") format("woff");
 }
   
 @font-face {
 	font-family: "AutoscapeWeb-Regular";
-	src: url("AutoscapeWeb-Regular.woff2") format("woff2");
+	src: url("assets/fonts/AutoscapeWeb-Regular.woff2") format("woff2");
 }
   
   
@@ -84,12 +84,12 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
   
 @font-face {
 	font-family: "AutoscapeSub-RegularSubset";
-	src: url("AutoscapeSub-RegularSubset.woff2") format("woff2");
+	src: url("assets/fonts/AutoscapeSub-RegularSubset.woff2") format("woff2");
 }
   
 @font-face {
 	font-family: "AutoscapeSub-RegularSubset";
-	src: url("AutoscapeSub-RegularSubset.woff") format("woff");
+	src: url("assets/fonts/AutoscapeSub-RegularSubset.woff") format("woff");
 }
 
 
@@ -2355,10 +2355,10 @@ textarea {
 	padding: 0 5%;
 	overflow: auto;
 	background: rgb(255,255,255);
-background: -moz-linear-gradient(180deg, rgba(255,255,255,0.4990371148459384) 50%, rgba(211,211,211,1) 100%);
-background: -webkit-linear-gradient(180deg, rgba(255,255,255,0.4990371148459384) 50%, rgba(211,211,211,1) 100%);
-background: linear-gradient(180deg, rgba(255,255,255,0.4990371148459384) 50%, rgba(211,211,211,1) 100%);
-filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffffff",endColorstr="#d3d3d3",GradientType=1);
+	background: -moz-linear-gradient(180deg, rgba(255,255,255,0.4990371148459384) 50%, rgba(211,211,211,1) 100%);
+	background: -webkit-linear-gradient(180deg, rgba(255,255,255,0.4990371148459384) 50%, rgba(211,211,211,1) 100%);
+	background: linear-gradient(180deg, rgba(255,255,255,0.4990371148459384) 50%, rgba(211,211,211,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffffff",endColorstr="#d3d3d3",GradientType=1);
 }
 
 .page-template-template_types #titleTypes {
