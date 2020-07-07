@@ -239,7 +239,7 @@ $(document).ready(function(){
     $(document).ready(function(){
     $( "#titleTypes" ).click(function() {
         $( "#knowledgeTypes" ).animate({
-            margin: "0", 
+            margin: "2% 0 0 0", 
             }, 200 );
         });
     });
