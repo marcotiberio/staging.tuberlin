@@ -6,13 +6,15 @@
 
 
 <div class="intro-types" id="boxTypes">
-        <div id="titleTypes">
-            <h1>TYPES</h1>
-        </div>
-        <div id="arrowsTypes">
-            <span> > </span>
-            <span> > </span>
-            <span> > </span>
+        <div class="info-type"></div>
+            <div id="titleTypes">
+                <h1>TYPES</h1>
+            </div>
+            <div id="arrowsTypes">
+                <span> > </span>
+                <span> > </span>
+                <span> > </span>
+            </div>
         </div>
         <div id="infoTypes">
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore 
