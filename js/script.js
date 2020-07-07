@@ -154,4 +154,7 @@ $(document).ready(function(){
             height: "35vh", 
             }, 1000 );
         });
-});
+        $( "#arrowOne" ).animate({
+            margin: "0 50px", 
+            }, 1000 );
+        });

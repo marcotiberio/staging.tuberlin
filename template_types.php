@@ -12,9 +12,9 @@
         </div>
         <div id="arrowsTypes">
             <h1>
-            <span> > </span>
-            <span> > </span>
-            <span> > </span>
+            <span id="arrowOne"> > </span>
+            <span id="arrowTwo"> > </span>
+            <span id="arrowThree"> > </span>
             </h1>
         </div>
     </div>
