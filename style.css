@@ -2185,7 +2185,7 @@ textarea {
 		height: auto;
 		position: absolute;
 		top: 0;
-		left: 0;
+		left: -16px;
 	}
 	
 	.foyer-mobile .background-names {
@@ -2193,7 +2193,7 @@ textarea {
 		height: auto;
 		position: absolute;
 		top: 0;
-		left: 0;
+		left: -16px;
 	}
 }
 
