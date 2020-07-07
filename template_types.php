@@ -6,24 +6,24 @@
 
 
 <div class="intro-types" id="boxTypes">
-        <div class="info-type"></div>
-            <div id="titleTypes">
-                <h1>TYPES</h1>
-            </div>
-            <div id="arrowsTypes">
-                <span> > </span>
-                <span> > </span>
-                <span> > </span>
-            </div>
+    <div class="info-type">
+        <div id="titleTypes">
+            <h1>TYPES</h1>
         </div>
-        <div id="infoTypes">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore 
-            et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut 
-            aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum 
-            dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui 
-            officia deserunt mollit anim id est laborum.</p>
+        <div id="arrowsTypes">
+            <span> > </span>
+            <span> > </span>
+            <span> > </span>
         </div>
     </div>
+    <div id="infoTypes">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore 
+        et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut 
+        aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum 
+        dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui 
+        officia deserunt mollit anim id est laborum.</p>
+    </div>
+</div>
 
 
 <section id="moviesTypes">
