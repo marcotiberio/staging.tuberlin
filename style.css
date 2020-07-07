@@ -2089,6 +2089,14 @@ textarea {
 		height: fit-content;
 	}
 
+	.slick-prev:before {
+		display: none;
+	}
+	
+	.slick-next:before {
+		display: none;
+	}
+
 }
 
 /*--------------------------------------------------------------
@@ -2669,4 +2677,10 @@ textarea {
 		grid-template-rows: 1fr;
 		column-gap: 5px;
 	}
+
+	.slides img {
+		height: auto !important;
+		width: calc(100% - 16px) !important;
+		padding: 0 !important;
+	  }
 }
