@@ -5,9 +5,7 @@
 <?php get_header(); ?>
 
 
-<section class="background_landing">
-
-    <div class="intro-types" id="boxTypes">
+<div class="intro-types" id="boxTypes">
         <div id="titleTypes">
             <h1>TYPES</h1>
         </div>
@@ -19,6 +17,9 @@
             officia deserunt mollit anim id est laborum.</p>
         </div>
     </div>
+
+
+<section id="moviesTypes">
 
     <?php
 		while ( have_posts() ) :
