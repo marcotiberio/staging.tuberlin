@@ -179,6 +179,14 @@ $(document).ready(function(){
             }, 1000 );
         });
     });
+
+    $(document).ready(function(){
+    $( "#arrowsTypes" ).click(function() {
+        $( "#knowledgeTypes" ).animate({
+            margin: "-18px 0 0 0", 
+            }, 1000 );
+        });
+    });
     
     $(document).ready(function(){
     $( "#titleTypes" ).click(function() {
@@ -207,6 +215,14 @@ $(document).ready(function(){
     $(document).ready(function(){
     $( "#titleTypes" ).click(function() {
         $( "#arrowThree" ).animate({
+            margin: "0", 
+            }, 1000 );
+        });
+    });
+
+    $(document).ready(function(){
+    $( "#titleTypes" ).click(function() {
+        $( "#knowledgeTypes" ).animate({
             margin: "0", 
             }, 1000 );
         });
