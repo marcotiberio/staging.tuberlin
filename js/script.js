@@ -171,11 +171,3 @@ $( "#arrowsTypes" ).click(function() {
         }, 1000 );
     });
 });
-
-$(document).ready(function(){
-    $( "#titleTypes" ).click(function() {
-        $( "#boxTypes" ).animate({
-            height: "10vh", 
-            }, 1000 );
-        });
-    });
