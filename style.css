@@ -2111,8 +2111,12 @@ textarea {
 	display: none;
 }
 
+.page-template-template_foyer .main-navigation {
+    padding-left: 100px;
+}
+
 .page-template-template_foyer {
-	position: absolute;
+	position: fixed;
 	top: 0;
 	left: 0;
 	width: 100vw;
@@ -2131,14 +2135,91 @@ textarea {
 	margin: 0 auto;
 	padding: 0;
 	width: 60%;
-	height: auto;
+	height: 100%;
 	overflow: auto;
+	scroll-behavior: smooth;
+}
+
+.page-foyer::-webkit-scrollbar {
+	display: none;
+}
+
+.page-foyer .floor {
+  width: 100%;
+  height: 100%;
+  margin-bottom: 100px;
+}
+
+#svgFloor1 {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: auto;
+	margin: 0;
+	padding-top: 40px;
+}
+
+#svgFloor2 {
+	position: absolute;
+	top: 1900px;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+#Path_16862:hover {
+	fill: #E0DCE8;
+	cursor: pointer;
+}
+
+#Path_6947:hover {
+	fill: red;
+	cursor: pointer;
+}
+
+#Path_7076 {
+	position: fixed;
+	
 }
 
 .floor-pad {
-	position: fixed;
-	bottom: 100px;
-	right: 100px;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-template-rows: repeat(4, 1fr);
+	grid-auto-rows: min-content;
+	column-gap: 0;
+	transform: rotateX(0deg) rotateY(50deg) rotateZ(359deg);
+}
+
+#floorPad li {
+    float: left;
+}
+
+#floorPad a {
+    display: block;
+	font-size: 3.5rem;
+	font-weight: 800;
+	line-height: 3rem;
+	text-decoration: none;
+    padding: 0;
+    text-align: center;
+    color: #1717E2;
+}
+
+#floorPad a:hover {
+	-webkit-transition: .2s all ease-out;
+    -moz-transition: .2s all ease-out;
+    transition: .2s all ease-out;
+    color: #F3F3F3;
+	-webkit-text-stroke: 2px #1717E2;
+    text-decoration: none;
+}
+
+#floorPad li.active a {
+    color: #1717E2;
 }
 
 .page-foyer .floor {
