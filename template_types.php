@@ -19,9 +19,9 @@
         </div>
         <div id="arrowsTypesMobile">
             <h1>
-            <span id="arrowOne"> > </span>
-            <span id="arrowTwo"> > </span>
-            <span id="arrowThree"> > </span>
+            <span id="arrowOneMobile"> > </span>
+            <span id="arrowTwoMobile"> > </span>
+            <span id="arrowThreeMobile"> > </span>
             </h1>
         </div>
         <div></div>

@@ -182,7 +182,7 @@ $(document).ready(function(){
 
     $(document).ready(function(){
         $( "#arrowsTypesMobile" ).click(function() {
-            $( "#arrowOne" ).animate({
+            $( "#arrowOneMobile" ).animate({
                 margin: "0 10px", 
                 }, 200 );
             });
@@ -190,7 +190,7 @@ $(document).ready(function(){
         
         $(document).ready(function(){
         $( "#arrowsTypesMobile" ).click(function() {
-            $( "#arrowTwo" ).animate({
+            $( "#arrowTwoMobile" ).animate({
                 margin: "0 10px", 
                 }, 200 );
             });
@@ -198,7 +198,7 @@ $(document).ready(function(){
         
         $(document).ready(function(){
         $( "#arrowsTypesMobile" ).click(function() {
-            $( "#arrowThree" ).animate({
+            $( "#arrowThreeMobile" ).animate({
                 margin: "0 10px", 
                 }, 200 );
             });
@@ -254,7 +254,7 @@ $(document).ready(function(){
 
     $(document).ready(function(){
         $( "#titleTypes" ).click(function() {
-            $( "#arrowOne" ).animate({
+            $( "#arrowOneMobile" ).animate({
                 margin: "0", 
                 }, 200 );
             });
@@ -262,7 +262,7 @@ $(document).ready(function(){
         
         $(document).ready(function(){
         $( "#titleTypes" ).click(function() {
-            $( "#arrowTwo" ).animate({
+            $( "#arrowTwoMobile" ).animate({
                 margin: "0", 
                 }, 200 );
             });
@@ -270,7 +270,7 @@ $(document).ready(function(){
         
         $(document).ready(function(){
         $( "#titleTypes" ).click(function() {
-            $( "#arrowThree" ).animate({
+            $( "#arrowThreeMobile" ).animate({
                 margin: "0", 
                 }, 200 );
             });
