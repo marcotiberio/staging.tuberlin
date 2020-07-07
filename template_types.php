@@ -31,6 +31,8 @@
     </div>
 </div>
 
+<div style="display: none;">
+
 <?php if( have_rows('preview_movie') ): ?>
 
     <?php while( have_rows('preview_movie') ): the_row(); 
@@ -48,6 +50,7 @@
 
 <?php endif; ?>
 
+</div>
 
 <section id="moviesTypes">
 
