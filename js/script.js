@@ -191,7 +191,7 @@ $(document).ready(function(){
     $(document).ready(function(){
     $( "#arrowsTypes" ).click(function() {
         $( "#knowledgeTypes" ).animate({
-            margin: "-300px 0 0 0", 
+            margin: "-400px 0 0 0", 
             }, 200 );
         });
     });
