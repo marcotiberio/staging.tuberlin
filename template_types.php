@@ -11,9 +11,11 @@
             <h1>TYPES</h1>
         </div>
         <div id="arrowsTypes">
-            <span> <h1>></h1> </span>
-            <span> <h1>></h1> </span>
-            <span> <h1>></h1> </span>
+            <h1>
+            <span> > </span>
+            <span> > </span>
+            <span> > </span>
+            </h1>
         </div>
     </div>
     <div id="infoTypes">
