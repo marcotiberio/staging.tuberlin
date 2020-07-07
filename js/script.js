@@ -152,6 +152,6 @@ $(document).ready(function(){
     $( "#titleTypes" ).click(function() {
         $( "#boxTypes" ).animate({
             height: "35vh", 
-            }, 1500 );
+            }, 1000 );
         });
 });
