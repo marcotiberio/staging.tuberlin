@@ -151,7 +151,7 @@ $(window).scroll(function(){
 $(document).ready(function(){
     $( "#arrowsTypes" ).click(function() {
         $( "#boxTypes" ).animate({
-            height: "55vh", 
+            height: "60vh", 
             }, 200 );
         });
     });
@@ -191,7 +191,7 @@ $(document).ready(function(){
     $(document).ready(function(){
     $( "#arrowsTypes" ).click(function() {
         $( "#knowledgeTypes" ).animate({
-            margin: "-300px 0 0 0", 
+            top: "100px", 
             }, 200 );
         });
     });
