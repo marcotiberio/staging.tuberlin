@@ -243,3 +243,9 @@ $(document).ready(function(){
             }, 200 );
         });
     });
+
+    $(document).ready(function(){
+        $('.wp-block-getwid-template-post-featured-background-image__foreground').hover(function () {
+            $(".title-preview-movies").toggle();
+        });
+    });
