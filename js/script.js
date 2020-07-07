@@ -191,7 +191,7 @@ $(document).ready(function(){
     $(document).ready(function(){
     $( "#arrowsTypes" ).click(function() {
         $( "#knowledgeTypes" ).animate({
-            top: "100px", 
+            margin: "-300px 0 0 0", 
             }, 200 );
         });
     });
@@ -239,7 +239,7 @@ $(document).ready(function(){
     $(document).ready(function(){
     $( "#titleTypes" ).click(function() {
         $( "#knowledgeTypes" ).animate({
-            top: "300px", 
+            margin: "0 0 0 0", 
             }, 200 );
         });
     });
