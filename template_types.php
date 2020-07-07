@@ -8,7 +8,7 @@
 <div class="intro-types" id="boxTypes">
     <div class="info-type">
         <div id="titleTypes">
-            <h1>TYPES</h1>
+            <h1>Types</h1>
         </div>
         <div id="arrowsTypes">
             <h1>
@@ -17,6 +17,7 @@
             <span id="arrowThree"> > </span>
             </h1>
         </div>
+        <div></div>
     </div>
     <div id="infoTypes">
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore 
@@ -26,7 +27,7 @@
         officia deserunt mollit anim id est laborum.</p>
     </div>
     <div id="knowledgeTypes">
-        <h1>of knowledge</h1>
+        <h1>of Knowledge Production</h1>
     </div>
 </div>
 
