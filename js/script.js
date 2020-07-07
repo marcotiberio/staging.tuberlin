@@ -143,3 +143,15 @@ $(window).scroll(function(){
          .end().filter("[href='#"+id+"']").parent().addClass("active");
    }                   
 });
+
+
+
+
+// Types
+$(document).ready(function(){
+    $( "#titleTypes" ).click(function() {
+        $( "#boxTypes" ).animate({
+            height: "50vh", 
+            }, 1500 );
+        });
+});

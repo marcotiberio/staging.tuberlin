@@ -7,7 +7,7 @@
 
 <section class="background_landing">
 
-    <div class="intro-types">
+    <div class="intro-types" id="boxTypes">
         <div id="titleTypes">
             <h1>TYPES</h1>
         </div>
