@@ -2103,7 +2103,7 @@ textarea {
 ## Page - Foyer
 --------------------------------------------------------------*/
 
-.foyer-mobile {
+.page-template-template_foyer .foyer-mobile {
 	display: none;
 }
 
@@ -2171,7 +2171,7 @@ textarea {
 		overflow-x: hidden !important;
 	}
 	
-	.foyer-mobile {
+	.page-template-template_foyer .foyer-mobile {
 		display: block;
 	}
 	
