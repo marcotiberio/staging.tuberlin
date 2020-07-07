@@ -182,6 +182,14 @@ $(document).ready(function(){
 
     $(document).ready(function(){
     $( "#arrowsTypes" ).click(function() {
+        $( "#infoTypes" ).animate({
+            margin: "5% 0 0 0", 
+            }, 200 );
+        });
+    });
+
+    $(document).ready(function(){
+    $( "#arrowsTypes" ).click(function() {
         $( "#knowledgeTypes" ).animate({
             margin: "-18% 0 0 0", 
             }, 200 );
@@ -215,6 +223,14 @@ $(document).ready(function(){
     $(document).ready(function(){
     $( "#titleTypes" ).click(function() {
         $( "#arrowThree" ).animate({
+            margin: "0", 
+            }, 200 );
+        });
+    });
+
+    $(document).ready(function(){
+    $( "#titleTypes" ).click(function() {
+        $( "#infoTypes" ).animate({
             margin: "0", 
             }, 200 );
         });
