@@ -1412,10 +1412,10 @@ textarea {
 	}
 	
 	.page-template-template_landingpage .wp-block-image img {
-    max-width: auto;
+    	max-width: auto;
 		width: auto;
 		height: 100vh;
-}
+	}
 	
 }
 
