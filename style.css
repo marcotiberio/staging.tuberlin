@@ -1331,9 +1331,9 @@ textarea {
 
 .page-template-template_landingpage .button_logo-landing {
 	margin: 0;
-  position: absolute;
-  top: 50%;
-  left: 50%;
+  	position: absolute;
+  	top: 50%;
+  	left: 50%;
   transform: translate(-50%, -50%);
 }
 
@@ -1918,9 +1918,11 @@ textarea {
   	text-shadow: -0.2px 0 #1717E2, 0 0.2px #1717E2, 0.2px 0 #1717E2, 0 -0.2px #1717E2;
 }
 
-.wp-block-getwid-custom-post-type__wrapper .getwid-columns .getwid-columns-4 {
-	margin-left: 0;
-	margin-right: 0;
+.getwid-columns {
+    margin-left: 0;
+    margin-right: 0;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 @media (max-width: 1024px) {
