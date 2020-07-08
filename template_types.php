@@ -37,8 +37,7 @@
 <div class="intro-types" id="boxTypesMobile">
     <div class="info-type">
         <div id="titleTypes">
-            <h1>Types</h1><br>
-            <h1>of Knowledge Production</h1>
+            <h1>Types</h1>
         </div>
         <div id="arrowsTypes">
             <h1>
@@ -47,18 +46,19 @@
             <span id="arrowThree"> > </span>
             </h1>
         </div>
-        <div></div>
+        
+        <div id="knowledgeTypes">
+            <h1>of Knowledge Production</h1>
+        </div>
+        <div id="infoTypes">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore 
+            et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut 
+            aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum 
+            dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui 
+            officia deserunt mollit anim id est laborum.</p>
+        </div>
     </div>
-    <div id="infoTypes">
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore 
-        et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut 
-        aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum 
-        dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui 
-        officia deserunt mollit anim id est laborum.</p>
-    </div>
-    <div id="knowledgeTypes">
-        <h1>of Knowledge Production</h1>
-    </div>
+    
 </div>
 
 <div style="display: none;">
