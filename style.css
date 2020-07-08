@@ -2412,7 +2412,8 @@ textarea {
 	font-family: "AutoscapeWeb-Regular";
 }
 
-.page-template-template_types #boxTypesMobile {
+.page-template-template_types #boxTypesMobile,
+.page-template-template_types #knowledgeTypesMobile {
 	display: none;
 }
 
