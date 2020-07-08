@@ -249,7 +249,7 @@ $(document).ready(function(){
 $(document).ready(function(){
     $( "#arrowsTypesMobile" ).click(function() {
         $( "#boxTypesMobile" ).animate({
-            height: "90vh", 
+            height: "100vh", 
             }, 200 );
         });
     });
