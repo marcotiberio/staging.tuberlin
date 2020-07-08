@@ -1327,6 +1327,20 @@ textarea {
 	display: none;
 }
 
+@media (max-width: 1024px) {
+
+	.page-template-template_landingpage .landing-video {
+		display: none;
+	}
+	
+	.page-template-template_landingpage .wp-block-image img {
+    	max-width: auto;
+		width: auto;
+		height: 100vh;
+	}
+	
+}
+
 
 .nav--overlay {
 	display: none;
@@ -1402,21 +1416,6 @@ textarea {
 	margin: 0;
 	height: 500px;
 	width: auto;
-}
-
-
-@media (max-width: 1024px) {
-
-	.page-template-template_landingpage .landing-video {
-		display: none;
-	}
-	
-	.page-template-template_landingpage .wp-block-image img {
-    	max-width: auto;
-		width: auto;
-		height: 100vh;
-	}
-	
 }
 
 /*--------------------------------------------------------------
