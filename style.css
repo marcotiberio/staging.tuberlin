@@ -2564,9 +2564,11 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffffff",endCo
 		width: 90vw;
 }
 	
-	.page-template-template_types #arrowOne {
-	color: #B7B7B7;
+.page-template-template_types #titleTypes h1,
+.page-template-template_types #arrowsTypes h1 {
 	font-size: 35px;
+	margin: 0 !important;
+	cursor: pointer;
 }
 
 .page-template-template_types #arrowTwo {

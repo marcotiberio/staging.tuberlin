@@ -37,10 +37,10 @@
 <div class="intro-types" id="boxTypesMobile">
     <div class="info-type">
         <div id="rowOne">
-            <div id="titleTypes">
+            <div id="titleTypesMobile">
                 <h1>Types</h1>
             </div>
-            <div id="arrowsTypes">
+            <div id="arrowsTypesMobile">
                 <h1> > > > </h1>
             </div>
         </div>
@@ -57,7 +57,6 @@
             </div>
         </div>
     </div>
-    
 </div>
 
 <div style="display: none;">

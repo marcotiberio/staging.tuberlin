@@ -243,3 +243,21 @@ $(document).ready(function(){
             }, 200 );
         });
     });
+
+
+
+$(document).ready(function(){
+    $( "#arrowsTypesMobile" ).click(function() {
+        $( "#boxTypesMobile" ).animate({
+            height: "65vh", 
+            }, 200 );
+        });
+    });
+
+$(document).ready(function(){
+    $( "#titleTypesMobile" ).click(function() {
+        $( "#boxTypesMobile" ).animate({
+            height: "12vh", 
+            }, 200 );
+        });
+    });
