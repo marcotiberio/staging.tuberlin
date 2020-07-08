@@ -2587,12 +2587,13 @@ textarea {
 		cursor: pointer;
 		color: #707070;
 	}
-
-	#knowledgeTypesMobile {
-		margin-left: 2%;
-	}
 		
 	#knowledgeTypesMobile h1 {
+		font-size: 25px;
+		color: #707070;
+	}
+
+	#infoTypesMobile h1 {
 		font-size: 25px;
 		color: #707070;
 	}
