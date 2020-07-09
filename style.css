@@ -2820,3 +2820,19 @@ textarea {
 	cursor: pointer;
 	fill: #B98382;
 }
+
+/* FOYER 7 */
+
+#_07_BILDENE_KUNST,
+#_07_FG_Hehl {
+	display: none;
+}
+
+#Path_19120:hover {
+	cursor: pointer;
+	fill: #B4D4AD;
+}
+#_07_FGHEHL_FLOOR:hover {
+	cursor: pointer;
+	fill: #B7A6BC;
+}

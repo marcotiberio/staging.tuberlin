@@ -180,6 +180,24 @@ $(document).ready(function(){
     });
 });
 
+// FOYER 7
+$(document).ready(function(){
+    $("#Path_19120").mouseenter(function(){
+      $("#_07_BILDENE_KUNST").css("display", "block");
+    });
+    $("#Path_19120").mouseleave(function(){
+      $("#_07_BILDENE_KUNST").css("display", "none");
+    });
+});
+$(document).ready(function(){
+    $("#_07_FGHEHL_FLOOR").mouseenter(function(){
+      $("#_07_FG_Hehl").css("display", "block");
+    });
+    $("#_07_FGHEHL_FLOOR").mouseleave(function(){
+      $("#_07_FG_Hehl").css("display", "none");
+    });
+});
+
 
 
 
