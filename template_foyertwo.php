@@ -55,7 +55,7 @@
         </ul>
 
           <div class="floor" id="firstFloorTest">
-            <svg xmlns="http://www.w3.org/2000/svg" id="svgFloor1" viewBox="0 0 1197.871 752.334">
+            <svg xmlns="http://www.w3.org/2000/svg" id="svgFloor1Test" viewBox="0 0 1197.871 752.334">
               <g id="Group_1510" data-name="Group 1510" transform="translate(-388.728 -139.211)">
                 <g id="_00_ACKERSTR" data-name="00_ACKERSTR" transform="translate(389.728 527.779)">
                   <g id="_00_ACKERSTR_HATCH" data-name="00_ACKERSTR_HATCH" transform="translate(-389.728 -2706.598)">
@@ -515,7 +515,7 @@
             </svg>
           </div>
           <div class="floor" id="secondFloorTest">
-            <svg xmlns="http://www.w3.org/2000/svg" id="svgFloor2" viewBox="0 0 1186.088 752.325">
+            <svg xmlns="http://www.w3.org/2000/svg" id="svgFloor2Test" viewBox="0 0 1186.088 752.325">
               <g id="Group_1511" data-name="Group 1511" transform="translate(-305.912 -139.211)">
                 <g id="_02_URBAN_MANAGEMENT" data-name="02_URBAN MANAGEMENT" transform="translate(465.755 327.878)">
                   <path id="Path_12336" data-name="Path 12336" d="M628.767,1732.513l-135.011-77.927v-51l132.37-25.475v-50.949L758.5,1501.69l146.191-84.4,135.035,77.962Z" transform="translate(-493.756 -1417.287)" fill="#fff" fill-rule="evenodd"/>
