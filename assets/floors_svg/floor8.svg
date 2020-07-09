@@ -5,7 +5,7 @@
     </clipPath>
   </defs>
   <g id="TU_IfA_-_E08_ISO_1" data-name="TU IfA - E08 ISO – 1" clip-path="url(#clip-TU_IfA_-_E08_ISO_1)">
-    <rect width="1920" height="1080" fill="#fff"/>
+    <rect width="1920" height="1080" fill="transparent"/>
     <g id="Group_6700" data-name="Group 6700" transform="translate(17.06 -6.406)">
       <path id="_08_COLAB_FLOOR" data-name="08_COLAB_FLOOR" d="M14356.687,507.33l96.182-55.592,128.209-74.021,40.431-23.343,6.186-3.571,25.6-14.781,160.564,92.687,58.623-33.846-212.707-122.806-80.408-46.424L14405.879,325.8l-187.615,108.32" transform="translate(-13451.411 -4.991)" fill="#fff" stroke="#000" stroke-linejoin="round" stroke-width="2.288" fill-rule="evenodd"/>
       <path id="_08_COLAB_HATCH_LINE" data-name="08_COLAB_HATCH/LINE" d="M14361.319,521.116l296.621-171.254,160.552,92.694,58.623-33.846V398.557l-58.623,33.846-160.552-92.694-296.621,171.315" transform="translate(-13456.044 -8.685)" stroke="#000" stroke-linejoin="round" stroke-width="2.288" fill-rule="evenodd"/>
