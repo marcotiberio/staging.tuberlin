@@ -1,13 +1,4 @@
-// Menu Toggle
-$(document).ready(function(){
-    $("#openMenu").click(function(){
-        $("#site-navigation").toggle();
-        $("#navigationSearch").toggle();
-    });
-});
-
 // FOYER
-
 $(document).ready(function(){
     $("#_00_URBAN_DESIGN_FLOOR").mouseenter(function(){
       $("#_00_URBAN_DESIGN_TEXT").css("display", "block");
@@ -17,6 +8,14 @@ $(document).ready(function(){
     });
 });
 
+
+// Menu Toggle
+$(document).ready(function(){
+    $("#openMenu").click(function(){
+        $("#site-navigation").toggle();
+        $("#navigationSearch").toggle();
+    });
+});
 
 // Studio Programs Modals
 $(document).ready(function(){
