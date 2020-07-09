@@ -2260,19 +2260,89 @@ textarea {
   margin-bottom: 100px;
 }
 
-#svgFloor1 {
+#svgFloor0 {
 	position: absolute;
 	top: 0;
 	left: 0;
 	width: 100%;
 	height: auto;
 	margin: 0;
-	padding-top: 40px;
+	padding-top: 20px;
+}
+
+#svgFloor1 {
+	position: absolute;
+	top: 1820px;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
 }
 
 #svgFloor2 {
 	position: absolute;
-	top: 1900px;
+	top: 4620px;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+#svgFloor4 {
+	position: absolute;
+	top: 7420px;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+#svgFloor5 {
+	position: absolute;
+	top: 10220px;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+#svgFloor6 {
+	position: absolute;
+	top: 13020px;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+#svgFloor7 {
+	position: absolute;
+	top: 15820px;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+#svgFloor8 {
+	position: absolute;
+	top: 18620px;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+#svgFloor9 {
+	position: absolute;
+	top: 21420px;
 	left: 0;
 	width: 100%;
 	height: 100%;
