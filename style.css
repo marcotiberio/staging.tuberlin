@@ -2674,7 +2674,8 @@ textarea {
 #_00_FACHSCHAFT_TEXT,
 #_00_ROUNDABOUT_TEXT,
 #_00_NEWS_TEXT,
-#_00_ARCH_FORUM_TEXT {
+#_00_ARCH_FORUM_TEXT,
+#_00_VR_HEADSET {
 	display: none;
 }
 
@@ -2709,6 +2710,10 @@ textarea {
 #_00_WERKSTATT_FLOOR:hover {
 	cursor: pointer;
 	fill: #ADC0A9;
+}
+
+#_00_VR_TOUR_SHAPE:hover {
+	cursor: pointer;
 }
 
 
