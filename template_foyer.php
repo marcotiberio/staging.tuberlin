@@ -38,7 +38,7 @@
             <a href="#firstFloor" onclick="activeFloor(this)">1</a>
           </li>
           <li>
-            <a href="#secondFloor" onclick="activeFloor(this)">2</a>
+            <a href="#svgFloor2" onclick="activeFloor(this)">2</a>
           </li>
           <li>
             <a href="#">3</a>
