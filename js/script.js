@@ -1,4 +1,4 @@
-// FOYER
+// FOYER 0
 $(document).ready(function(){
     $("#_00_URBAN_DESIGN_FLOOR").mouseenter(function(){
       $("#_00_URBAN_DESIGN_TEXT").css("display", "block");
@@ -55,6 +55,38 @@ $(document).ready(function(){
       $("#_00_ARCH_FORUM_TEXT").css("display", "none");
     });
 });
+
+// FOYER 1
+$(document).ready(function(){
+    $("#_01_HBD_FLOOR").mouseenter(function(){
+      $("#_01_HBD_TEXT").css("display", "block");
+    });
+    $("#_01_HBD_FLOOR").mouseleave(function(){
+      $("#_01_HBD_TEXT").css("display", "none");
+    });
+});
+$(document).ready(function(){
+    $("#_01_REM_FLOOR").mouseenter(function(){
+      $("#_01_REM_TEXT").css("display", "block");
+    });
+    $("#_01_REM_FLOOR").mouseleave(function(){
+      $("#_01_REM_TEXT").css("display", "none");
+    });
+});
+$(document).ready(function(){
+    $("#_01_URBAN_MANAGEMENT_FLOOR").mouseenter(function(){
+      $("#_01_URBAN_MANAGEMENT_TEXT").css("display", "block");
+    });
+    $("#_01_URBAN_MANAGEMENT_FLOOR").mouseleave(function(){
+      $("#_01_URBAN_MANAGEMENT_TEXT").css("display", "none");
+    });
+});
+
+
+
+
+
+
 
 
 // Menu Toggle
