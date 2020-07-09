@@ -2742,3 +2742,18 @@ textarea {
 
 
 /* FOYER 3 */
+
+#_03_GEBAUDETECHNIK,
+#_03_Tragwerkslehre,
+#_03_TEK_TEXT {
+	display: none;
+}
+
+#_03_GEBAUDETECHNIK_FLOOR:hover {
+	cursor: pointer;
+	fill: #D1CAE2;
+}
+#_03_TEK_FLOOR:hover {
+	cursor: pointer;
+	fill: #A4AFAD;
+}
