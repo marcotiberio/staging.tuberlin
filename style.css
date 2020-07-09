@@ -2789,3 +2789,34 @@ textarea {
 	cursor: pointer;
 	fill: #918AA2;
 }
+
+/* FOYER 6 */
+
+#_06_FGVANR_TEXT,
+#_06_NBL_TEXT,
+#_06_PLANUNGS_TEXT,
+#_06_DAN_TEXT,
+#_06_HABITAT_UNIT_TEXT {
+	display: none;
+}
+
+#_06_FGVANR_FLOOR:hover {
+	cursor: pointer;
+	fill: #599A99;
+}
+#_06_NBL_FLOOR:hover {
+	cursor: pointer;
+	fill: #EBDBF0;
+}
+#Path_18803:hover {
+	cursor: pointer;
+	fill: #9ECFE8;
+}
+#_06_DAN_FLOOR:hover {
+	cursor: pointer;
+	fill: #A797AB;
+}
+#Path_18817:hover {
+	cursor: pointer;
+	fill: #B98382;
+}

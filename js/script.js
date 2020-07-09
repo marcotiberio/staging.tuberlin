@@ -138,6 +138,48 @@ $(document).ready(function(){
     });
 });
 
+// FOYER 6
+$(document).ready(function(){
+    $("#_06_FGVANR_FLOOR").mouseenter(function(){
+      $("#_06_FGVANR_TEXT").css("display", "block");
+    });
+    $("#_06_FGVANR_FLOOR").mouseleave(function(){
+      $("#_06_FGVANR_TEXT").css("display", "none");
+    });
+});
+$(document).ready(function(){
+    $("#_06_NBL_FLOOR").mouseenter(function(){
+      $("#_06_NBL_TEXT").css("display", "block");
+    });
+    $("#_06_NBL_FLOOR").mouseleave(function(){
+      $("#_06_NBL_TEXT").css("display", "none");
+    });
+});
+$(document).ready(function(){
+    $("#Path_18803").mouseenter(function(){
+      $("#_06_PLANUNGS_TEXT").css("display", "block");
+    });
+    $("#Path_18803").mouseleave(function(){
+      $("#_06_PLANUNGS_TEXT").css("display", "none");
+    });
+});
+$(document).ready(function(){
+    $("#_06_DAN_FLOOR").mouseenter(function(){
+      $("#_06_DAN_TEXT").css("display", "block");
+    });
+    $("#_06_DAN_FLOOR").mouseleave(function(){
+      $("#_06_DAN_TEXT").css("display", "none");
+    });
+});
+$(document).ready(function(){
+    $("#Path_18817").mouseenter(function(){
+      $("#_06_HABITAT_UNIT_TEXT").css("display", "block");
+    });
+    $("#Path_18817").mouseleave(function(){
+      $("#_06_HABITAT_UNIT_TEXT").css("display", "none");
+    });
+});
+
 
 
 
