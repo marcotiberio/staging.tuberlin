@@ -2773,3 +2773,19 @@ textarea {
 	cursor: pointer;
 	fill: #9ECEE7;
 }
+
+/* FOYER 5 */
+
+#_05_ARCH_FOR_HEALTH_TEXT,
+#_05_ADREIZEHN_TEXT {
+	display: none;
+}
+
+#_05_ARCH_FOR_HEALTH_FLOOR:hover {
+	cursor: pointer;
+	fill: #F5DBE2;
+}
+#_05_ADREIZEHN_FLOOR:hover {
+	cursor: pointer;
+	fill: #918AA2;
+}

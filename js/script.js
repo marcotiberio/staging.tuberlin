@@ -120,6 +120,24 @@ $(document).ready(function(){
     });
 });
 
+// FOYER 5
+$(document).ready(function(){
+    $("#_05_ARCH_FOR_HEALTH_FLOOR").mouseenter(function(){
+      $("#_05_ARCH_FOR_HEALTH_TEXT").css("display", "block");
+    });
+    $("#_05_ARCH_FOR_HEALTH_FLOOR").mouseleave(function(){
+      $("#_05_ARCH_FOR_HEALTH_TEXT").css("display", "none");
+    });
+});
+$(document).ready(function(){
+    $("#_05_ADREIZEHN_FLOOR").mouseenter(function(){
+      $("#_05_ADREIZEHN_TEXT").css("display", "block");
+    });
+    $("#_05_ADREIZEHN_FLOOR").mouseleave(function(){
+      $("#_05_ADREIZEHN_TEXT").css("display", "none");
+    });
+});
+
 
 
 
