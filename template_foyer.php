@@ -2443,21 +2443,18 @@
 
   <script>
 
-
-  $("#_00_URBAN_DESIGN_FLOOR").hover(function() {
-      $(this).siblings("#_00_URBAN_DESIGN_TEXT").addClass("displaytitle");
-  }, function() {
-      $(this).siblings("#_00_URBAN_DESIGN_TEXT").removeClass(".displaytitle");
-  });
+    $('#_00_URBAN_DESIGN_FLOOR').mouseenter(function () {
+      $("#_00_URBAN_DESIGN_TEXT").toggle();
+    });
 
 
-  function activeFloor(elem) {
-      var a = document.getElementsByTagName('a')
-      for (i = 0; i < a.length; i++) {
-          a[i].classList.remove('active')
-      }
-      elem.classList.add('active');
-  }
+    function activeFloor(elem) {
+    var a = document.getElementsByTagName('a')
+    for (i = 0; i < a.length; i++) {
+        a[i].classList.remove('active')
+    }
+    elem.classList.add('active');
+}
   </script>
 
 <?php
