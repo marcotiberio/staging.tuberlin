@@ -57,10 +57,10 @@ $(document).ready(function(){
 });
 $(document).ready(function(){
     $("#_00_ARCH_FORUM_FLOOR").mouseenter(function(){
-      $("#_00_VR_HEADSET").css("display", "block");
+      $("#_00_ARCH_FORUM_TEXT").css("display", "block");
     });
     $("#_00_ARCH_FORUM_FLOOR").mouseleave(function(){
-      $("#_00_VR_HEADSET").css("display", "none");
+      $("#_00_ARCH_FORUM_TEXT").css("display", "none");
     });
 });
 
