@@ -1,4 +1,84 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1316.576" height="830.35" viewBox="0 0 1316.576 830.35">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #adc0a9;
+      }
+
+      .cls-1, .cls-10, .cls-11, .cls-12, .cls-13, .cls-14, .cls-15, .cls-18, .cls-19, .cls-2, .cls-3, .cls-4, .cls-5, .cls-6, .cls-7, .cls-8, .cls-9 {
+        stroke: #000;
+      }
+
+      .cls-1, .cls-10, .cls-11, .cls-12, .cls-13, .cls-14, .cls-18, .cls-2, .cls-3, .cls-4, .cls-5, .cls-6, .cls-7, .cls-8, .cls-9 {
+        stroke-linejoin: round;
+      }
+
+      .cls-1, .cls-10, .cls-11, .cls-12, .cls-13, .cls-14, .cls-15, .cls-18, .cls-2, .cls-3, .cls-4, .cls-5, .cls-6, .cls-9 {
+        stroke-width: 2px;
+      }
+
+      .cls-1, .cls-11, .cls-12, .cls-13, .cls-14, .cls-18, .cls-2, .cls-3, .cls-4, .cls-5, .cls-7, .cls-8, .cls-9 {
+        fill-rule: evenodd;
+      }
+
+      .cls-15, .cls-16, .cls-3, .cls-7, .cls-8 {
+        fill: #fff;
+      }
+
+      .cls-4 {
+        fill: #dbb58f;
+      }
+
+      .cls-5 {
+        fill: #00ccb0;
+      }
+
+      .cls-10, .cls-6 {
+        stroke-linecap: round;
+      }
+
+      .cls-7 {
+        stroke-width: 2.021px;
+      }
+
+      .cls-9 {
+        fill: #e0dce8;
+      }
+
+      .cls-10 {
+        fill: none;
+      }
+
+      .cls-11 {
+        fill: #b0969d;
+      }
+
+      .cls-12 {
+        fill: #918aa2;
+      }
+
+      .cls-13 {
+        fill: #6199c6;
+      }
+
+      .cls-14 {
+        fill: #a780aa;
+      }
+
+      .cls-15, .cls-19 {
+        stroke-miterlimit: 10;
+      }
+
+      .cls-17 {
+        font-size: 13px;
+        font-family: Helvetica;
+      }
+
+      .cls-18 {
+        fill: #1717e2;
+      }
+    </style>
+  </defs>
   <g id="Group_6694" data-name="Group 6694" transform="translate(-263.605 -101.406)">
     <g id="_00_WERKSTATT" data-name="00_WERKSTATT" transform="translate(1336.814 424.643)">
       <path id="_00_WERKSTATT_FLOOR" data-name="00_WERKSTATT_FLOOR" class="cls-1" d="M1375.65,485.341l70.845,40.9-43.841,25.313,57.005,32.911,128.758-74.338-127.85-73.814Z" transform="translate(-1375.65 -436.314)"/>
