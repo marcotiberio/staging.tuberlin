@@ -2214,18 +2214,15 @@ textarea {
 ## Page - Foyer
 --------------------------------------------------------------*/
 
-.page-template-template_foyer .foyer-mobile,
-.page-template-template_foyertwo .foyer-mobile {
+.page-template-template_foyer .foyer-mobile {
 	display: none;
 }
 
-.page-template-template_foyer .main-navigation,
-.page-template-template_foyertwo .foyer-mobile {
+.page-template-template_foyer .main-navigation {
     padding-left: 100px;
 }
 
-.page-template-template_foyer,
-.page-template-template_foyertwo {
+.page-template-template_foyer {
 	position: fixed;
 	top: 0;
 	left: 0;
@@ -2238,26 +2235,71 @@ textarea {
 	display: none;
 }
 
-.page-foyer {
+.page-template-template_foyer .page-foyer {
 	position: absolute;
-	top: 2.5%;
-	left: 20%;
+	top: 0;
+	left: 5%;
 	margin: 0 auto;
 	padding: 0;
-	width: 60%;
-	height: 100%;
+	width: 90%;
+	height: 90%;
 	overflow: auto;
 	scroll-behavior: smooth;
 }
 
-.page-foyer::-webkit-scrollbar {
+.page-template-template_foyer .page-foyer::-webkit-scrollbar {
 	display: none;
 }
 
-.page-foyer .floor {
+.page-template-template_foyer .page-foyer .floor {
   width: 100%;
   height: 100%;
   margin-bottom: 100px;
+}
+
+.page-template-template_foyer .floor-pad {
+	position: fixed;
+	bottom: 10%;
+	right: 10%;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-template-rows: repeat(4, 1fr);
+	grid-auto-rows: min-content;
+	column-gap: 0;
+	transform: rotateX(0deg) rotateY(50deg) rotateZ(359deg);
+	  z-index: 4000;
+  }
+
+.page-template-template_foyer #floorPad li {
+    float: left;
+}
+
+.page-template-template_foyer #floorPad a {
+    display: block;
+	font-size: 3.5rem;
+	font-weight: 800;
+	line-height: 3rem;
+	text-decoration: none;
+    padding: 0;
+    text-align: center;
+    color: #1717E2;
+}
+
+.page-template-template_foyer #floorPad a:hover {
+	-webkit-transition: .2s all ease-out;
+    -moz-transition: .2s all ease-out;
+    transition: .2s all ease-out;
+    color: #F3F3F3;
+	-webkit-text-stroke: 2px #1717E2;
+    text-decoration: none;
+}
+
+.page-template-template_foyer #floorPad li.active a {
+    color: #1717E2;
+}
+
+.active {
+	color: #1717E2;
 }
 
 #svgFloor0 {
@@ -2358,54 +2400,6 @@ textarea {
 	height: 100%;
 	margin: 0;
 	padding: 0;
-}
-
-.floor-pad {
-	position: fixed;
-    bottom: 10%;
-    right: 10%;
-	display: grid;
-	grid-template-columns: repeat(3, 1fr);
-	grid-template-rows: repeat(4, 1fr);
-	grid-auto-rows: min-content;
-	column-gap: 0;
-	transform: rotateX(0deg) rotateY(50deg) rotateZ(359deg);
-}
-
-#floorPad li {
-    float: left;
-}
-
-#floorPad a {
-    display: block;
-	font-size: 3.5rem;
-	font-weight: 800;
-	line-height: 3rem;
-	text-decoration: none;
-    padding: 0;
-    text-align: center;
-    color: #1717E2;
-}
-
-#floorPad a:hover {
-	-webkit-transition: .2s all ease-out;
-    -moz-transition: .2s all ease-out;
-    transition: .2s all ease-out;
-    color: #F3F3F3;
-	-webkit-text-stroke: 2px #1717E2;
-    text-decoration: none;
-}
-
-#floorPad li.active a {
-    color: #1717E2;
-}
-
-.page-foyer .floor {
-	margin-bottom: 100px;
-}
-
-.active {
-	color: #1717E2;
 }
 
 #mtphr-dnt-1922 {
