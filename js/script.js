@@ -7,6 +7,54 @@ $(document).ready(function(){
       $("#_00_URBAN_DESIGN_TEXT").css("display", "none");
     });
 });
+$(document).ready(function(){
+    $("#_00_MARCH-T_FLOOR").mouseenter(function(){
+      $("#_00_MARCH-T_TEXT").css("display", "block");
+    });
+    $("#_00_MARCH-T_FLOOR").mouseleave(function(){
+      $("#_00_MARCH-T_TEXT").css("display", "none");
+    });
+});
+$(document).ready(function(){
+    $("#_00_ACKRERSTR_FLOOR").mouseenter(function(){
+      $("#_00_ACKERSTR_TEXT").css("display", "block");
+    });
+    $("#_00_ACKRERSTR_FLOOR").mouseleave(function(){
+      $("#_00_ACKERSTR_TEXT").css("display", "none");
+    });
+});
+$(document).ready(function(){
+    $("#_00_FACHSHAFT_FLOOR").mouseenter(function(){
+      $("#_00_FACHSCHAFT_TEXT").css("display", "block");
+    });
+    $("#_00_FACHSHAFT_FLOOR").mouseleave(function(){
+      $("#_00_FACHSCHAFT_TEXT").css("display", "none");
+    });
+});
+$(document).ready(function(){
+    $("#_00_ROUNDABOUT_SHAPE").mouseenter(function(){
+      $("#_00_ROUNDABOUT_TEXT").css("display", "block");
+    });
+    $("#_00_ROUNDABOUT_SHAPE").mouseleave(function(){
+      $("#_00_ROUNDABOUT_TEXT").css("display", "none");
+    });
+});
+$(document).ready(function(){
+    $("#_00_NEWS_BOARD-2").mouseenter(function(){
+      $("#_00_NEWS_TEXT").css("display", "block");
+    });
+    $("#_00_NEWS_BOARD-2").mouseleave(function(){
+      $("#_00_NEWS_TEXT").css("display", "none");
+    });
+});
+$(document).ready(function(){
+    $("#_00_ARCH_FORUM_FLOOR").mouseenter(function(){
+      $("#_00_ARCH_FORUM_TEXT").css("display", "block");
+    });
+    $("#_00_ARCH_FORUM_FLOOR").mouseleave(function(){
+      $("#_00_ARCH_FORUM_TEXT").css("display", "none");
+    });
+});
 
 
 // Menu Toggle
