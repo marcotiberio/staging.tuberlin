@@ -102,6 +102,24 @@ $(document).ready(function(){
     });
 });
 
+// FOYER 4
+$(document).ready(function(){
+    $("#_04_CODE_FLOOR").mouseenter(function(){
+      $("#_04_CODE_TEXT").css("display", "block");
+    });
+    $("#_04_CODE_FLOOR").mouseleave(function(){
+      $("#_04_CODE_TEXT").css("display", "none");
+    });
+});
+$(document).ready(function(){
+    $("#_04_DE_CO_FLOOR").mouseenter(function(){
+      $("#_04_DE_CO_TEXT").css("display", "block");
+    });
+    $("#_04_DE_CO_FLOOR").mouseleave(function(){
+      $("#_04_DE_CO_TEXT").css("display", "none");
+    });
+});
+
 
 
 
