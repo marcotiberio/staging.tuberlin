@@ -84,10 +84,10 @@ $(document).ready(function(){
 
 // FOYER 3
 $(document).ready(function(){
-    $("#_03_GEBAUDETECHNIK_FLOOR").mouseenter(function(){
+    $("#Path_19654").mouseenter(function(){
       $("#_03_GEBAUDETECHNIK").css("display", "block");
     });
-    $("#_03_GEBAUDETECHNIK_FLOOR").mouseleave(function(){
+    $("#Path_19654").mouseleave(function(){
       $("#_03_GEBAUDETECHNIK").css("display", "none");
     });
 });
