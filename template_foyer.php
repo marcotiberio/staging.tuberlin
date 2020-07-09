@@ -2443,6 +2443,14 @@
 
   <script>
 
+
+  $(document).ready(function () {
+      $("#_00_URBAN_DESIGN_FLOOR").mouseover(function(){
+          $("#_00_URBAN_DESIGN_TEXT").show();
+      }).mouseover(function(){
+          $("#_00_URBAN_DESIGN_TEXT").hide();
+      });
+  });
     $('#_00_URBAN_DESIGN_FLOOR').mouseEnter(function () {
       $("#_00_URBAN_DESIGN_TEXT").show();
     });
