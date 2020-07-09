@@ -2444,22 +2444,20 @@
   <script>
 
 
-  $(document).ready(function () {
-      $("#_00_URBAN_DESIGN_FLOOR").mouseover(function(){
-          $("#_00_URBAN_DESIGN_TEXT").show();
-      }).mouseover(function(){
-          $("#_00_URBAN_DESIGN_TEXT").hide();
-      });
+  $("#_00_URBAN_DESIGN_FLOOR").hover(function() {
+      $(this).siblings("#_00_URBAN_DESIGN_TEXT").addClass("displaytitle");
+  }, function() {
+      $(this).siblings("#_00_URBAN_DESIGN_TEXT").removeClass(".displaytitle");
   });
 
 
-    function activeFloor(elem) {
-    var a = document.getElementsByTagName('a')
-    for (i = 0; i < a.length; i++) {
-        a[i].classList.remove('active')
-    }
-    elem.classList.add('active');
-}
+  function activeFloor(elem) {
+      var a = document.getElementsByTagName('a')
+      for (i = 0; i < a.length; i++) {
+          a[i].classList.remove('active')
+      }
+      elem.classList.add('active');
+  }
   </script>
 
 <?php
