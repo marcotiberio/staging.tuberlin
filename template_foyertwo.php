@@ -35,10 +35,10 @@
             <a href="#">6</a>
           </li>
           <li>
-            <a href="#firstFloorTest" onclick="activeFloor(this)">1</a>
+            <a href="#svgFloor1Test" onclick="activeFloor(this)">1</a>
           </li>
           <li>
-            <a href="#secondFloorTest" onclick="activeFloor(this)">2</a>
+            <a href="#svgFloor2Test" onclick="activeFloor(this)">2</a>
           </li>
           <li>
             <a href="#">3</a>
