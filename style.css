@@ -2718,4 +2718,27 @@ textarea {
 }
 
 
+
 /* FOYER 1 */
+
+#_01_HBD_TEXT,
+#_01_REM_TEXT,
+#_01_URBAN_MANAGEMENT_TEXT {
+	display: none;
+}
+
+#_01_HBD_FLOOR:hover {
+	cursor: pointer;
+	fill: #D8BDBE;
+}
+#_01_REM_FLOOR:hover {
+	cursor: pointer;
+	fill: #6199C6;
+}
+#_01_URBAN_MANAGEMENT_FLOOR:hover {
+	cursor: pointer;
+	fill: #6EAAAC;
+}
+
+
+/* FOYER 3 */
