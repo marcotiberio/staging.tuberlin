@@ -2857,3 +2857,29 @@ textarea {
 	cursor: pointer;
 	fill: #6199C6;
 }
+
+/* FOYER 9 */
+
+#_09_LIA_TEXT,
+#_09_HIST_TEXT,
+#_09_BAU_UND_STADTBAU_TEXT,
+#_09_ARCHITEKTUR_THEORIE_TEXT {
+	display: none;
+}
+
+#_09_LIA_FLOOR:hover {
+	cursor: pointer;
+	fill: #ECD4DC;
+}
+#_09_HISTORISCHE_BAU_FLOOR:hover {
+	cursor: pointer;
+	fill: #D1CAE2;
+}
+#_09_BAU_UND_STADTBAU_FLOOR:hover {
+	cursor: pointer;
+	fill: #9ECEE7;
+}
+#_09_Architekturtheorie:hover {
+	cursor: pointer;
+	fill: #A4AFAD;
+}

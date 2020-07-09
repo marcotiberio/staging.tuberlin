@@ -224,6 +224,40 @@ $(document).ready(function(){
     });
 });
 
+// FOYER 9
+$(document).ready(function(){
+    $("#_09_LIA_FLOOR").mouseenter(function(){
+      $("#_09_LIA_TEXT").css("display", "block");
+    });
+    $("#_09_LIA_FLOOR").mouseleave(function(){
+      $("#_09_LIA_TEXT").css("display", "none");
+    });
+});
+$(document).ready(function(){
+    $("#_09_HISTORISCHE_BAU_FLOOR").mouseenter(function(){
+      $("#_09_HIST_TEXT").css("display", "block");
+    });
+    $("#_09_HISTORISCHE_BAU_FLOOR").mouseleave(function(){
+      $("#_09_HIST_TEXT").css("display", "none");
+    });
+});
+$(document).ready(function(){
+    $("#_09_BAU_UND_STADTBAU_FLOOR").mouseenter(function(){
+      $("#_09_BAU_UND_STADTBAU_TEXT").css("display", "block");
+    });
+    $("#_09_BAU_UND_STADTBAU_FLOOR").mouseleave(function(){
+      $("#_09_BAU_UND_STADTBAU_TEXT").css("display", "none");
+    });
+});
+$(document).ready(function(){
+    $("#_09_Architekturtheorie").mouseenter(function(){
+      $("#_09_ARCHITEKTUR_THEORIE_TEXT").css("display", "block");
+    });
+    $("#_09_Architekturtheorie").mouseleave(function(){
+      $("#_09_ARCHITEKTUR_THEORIE_TEXT").css("display", "none");
+    });
+});
+
 
 
 
