@@ -82,6 +82,26 @@ $(document).ready(function(){
     });
 });
 
+// FOYER 3
+$(document).ready(function(){
+    $("#_03_GEBAUDETECHNIK_FLOOR").mouseenter(function(){
+      $("#_03_GEBAUDETECHNIK").css("display", "block");
+    });
+    $("#_03_GEBAUDETECHNIK_FLOOR").mouseleave(function(){
+      $("#_03_GEBAUDETECHNIK").css("display", "none");
+    });
+});
+$(document).ready(function(){
+    $("#_03_TEK_FLOOR").mouseenter(function(){
+      $("#_03_TEK_TEXT").css("display", "block");
+      $("#_03_Tragwerkslehre").css("display", "block");
+    });
+    $("#_03_TEK_FLOOR").mouseleave(function(){
+      $("#_03_TEK_TEXT").css("display", "none");
+      $("#_03_Tragwerkslehre").css("display", "none");
+    });
+});
+
 
 
 
