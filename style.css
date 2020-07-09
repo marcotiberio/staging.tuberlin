@@ -2233,10 +2233,8 @@ textarea {
 	height: 3000px;
 }
 
-.page-template-template_foyer #site-navigation,
-.page-template-template_foyer #navigationSearch,
-.page-template-template_foyerTwo #site-navigation,
-.page-template-template_foyerTwo #navigationSearch {
+.page-template #site-navigation,
+.page-template #navigationSearch {
 	display: none;
 }
 
