@@ -66,10 +66,10 @@ $(document).ready(function(){
     });
 });
 $(document).ready(function(){
-    $("#_01_REM_FLOOR").mouseenter(function(){
+    $("#Path_22845").mouseenter(function(){
       $("#_01_REM_TEXT").css("display", "block");
     });
-    $("#_01_REM_FLOOR").mouseleave(function(){
+    $("#Path_22845").mouseleave(function(){
       $("#_01_REM_TEXT").css("display", "none");
     });
 });
