@@ -2672,13 +2672,50 @@ textarea {
 
 
 
-/* FOYER SVG */
+/* FOYER 0 */
+
+#_00_URBAN_DESIGN_TEXT,
+#_00_MARCH-T_TEXT,
+#_00_ACKERSTR_TEXT, 
+#_00_FACHSCHAFT_TEXT,
+#_00_ROUNDABOUT_TEXT,
+#_00_NEWS_TEXT,
+#_00_ARCH_FORUM_TEXT {
+	display: none;
+}
 
 #_00_URBAN_DESIGN_FLOOR:hover {
 	cursor: pointer;
-	fill: black;
+	fill: #00CCB0;
+}
+#_00_MARCH-T_FLOOR:hover {
+	cursor: pointer;
+	fill: #E0DCE8;
+}
+#_00_ACKRERSTR_FLOOR:hover {
+	cursor: pointer;
+	fill: #6199C6;
+}
+#_00_FACHSHAFT_FLOOR:hover {
+	cursor: pointer;
+	fill: #DBB58F !important;
+}
+#_00_ROUNDABOUT_SHAPE:hover {
+	cursor: pointer;
+	fill: blue;
+}
+#_00_NEWS_BOARD-2:hover {
+	cursor: pointer;
+	fill: #918AA2;
+}
+#_00_ARCH_FORUM_FLOOR:hover {
+	cursor: pointer;
+	fill: #B0969D;
+}
+#_00_WERKSTATT_FLOOR:hover {
+	cursor: pointer;
+	fill: #ADC0A9;
 }
 
-#_00_URBAN_DESIGN_TEXT {
-	display: none;
-}
+
+/* FOYER 1 */
