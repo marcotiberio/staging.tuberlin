@@ -56,11 +56,6 @@
 
           <div class="floor" id="firstFloor">
             <svg xmlns="http://www.w3.org/2000/svg" id="svgFloor1" viewBox="0 0 1920 1080">
-              <defs>
-                <clipPath id="clip-Artboard_10_4">
-                  <rect width="1920" height="1080"/>
-                </clipPath>
-              </defs>
               <g id="Artboard_10_4" data-name="Artboard 10 – 4" clip-path="url(#clip-Artboard_10_4)">
                 <rect width="1920" height="1080" fill="#fff"/>
                 <g id="Group_6694" data-name="Group 6694" transform="translate(23.395 -6.406)">
