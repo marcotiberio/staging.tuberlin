@@ -6,18 +6,6 @@ $(document).ready(function(){
     });
 });
 
-// $(document).ready(function(){
-//   $("#open_menuOverlay").click(function(){
-//     $("#menuOverlay").slideToggle("fast");
-//   });
-// });
-
-// $(document).ready(function(){
-//   $("#menu-toggleMobile").click(function(){
-//     $("#menuOverlay").slideToggle("fast");
-//   });
-// });
-
 
 // Studio Programs Modals
 $(document).ready(function(){
@@ -261,3 +249,15 @@ $(document).ready(function(){
             }, 200 );
         });
     });
+
+
+// FOYER
+
+$(document).ready(function(){
+    $("#_00_URBAN_DESIGN_FLOOR").mouseenter(function(){
+      $("#_00_URBAN_DESIGN_TEXT").css("display", "block");
+    });
+    $("#_00_URBAN_DESIGN_FLOOR").mouseleave(function(){
+      $("#_00_URBAN_DESIGN_TEXT").css("display", "none");
+    });
+});
