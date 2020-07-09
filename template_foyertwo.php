@@ -35,10 +35,10 @@
             <a href="#">6</a>
           </li>
           <li>
-            <a href="#svgFloor1Test" onclick="activeFloor(this)">1</a>
+            <a href="#firstFloorTest" onclick="activeFloor(this)">1</a>
           </li>
           <li>
-            <a href="#svgFloor2Test" onclick="activeFloor(this)">2</a>
+            <a href="#secondFloorTest" onclick="activeFloor(this)">2</a>
           </li>
           <li>
             <a href="#">3</a>
@@ -54,6 +54,7 @@
           </li>
         </ul>
 
+          <div class="floor" id="firstFloorTest">
             <svg xmlns="http://www.w3.org/2000/svg" id="svgFloor1Test" viewBox="0 0 1197.871 752.334">
               <g id="Group_1510" data-name="Group 1510" transform="translate(-388.728 -139.211)">
                 <g id="_00_ACKERSTR" data-name="00_ACKERSTR" transform="translate(389.728 527.779)">
@@ -512,6 +513,8 @@
                 </g>
               </g>
             </svg>
+          </div>
+          <div class="floor" id="secondFloorTest">
             <svg xmlns="http://www.w3.org/2000/svg" id="svgFloor2Test" viewBox="0 0 1186.088 752.325">
               <g id="Group_1511" data-name="Group 1511" transform="translate(-305.912 -139.211)">
                 <g id="_02_URBAN_MANAGEMENT" data-name="02_URBAN MANAGEMENT" transform="translate(465.755 327.878)">
@@ -772,6 +775,7 @@
                 </g>
               </g>
             </svg>
+          </div>
 
         </section>
 		</main><!-- #main -->
