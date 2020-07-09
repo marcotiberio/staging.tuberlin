@@ -2607,7 +2607,13 @@ textarea {
 
 
 
+/* FOYER SVG */
 
-.displaytitle {
-	display: block;
+#_00_URBAN_DESIGN_FLOOR:hover {
+	cursor: pointer;
+	fill: black;
+}
+
+#_00_URBAN_DESIGN_TEXT {
+	display: none;
 }
