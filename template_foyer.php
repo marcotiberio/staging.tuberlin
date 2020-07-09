@@ -1629,7 +1629,7 @@
                 </clipPath>
               </defs>
               <g id="TU_IfA_-_E09_ISO_1" data-name="TU IfA - E09 ISO – 1" clip-path="url(#clip-TU_IfA_-_E09_ISO_1)">
-                <rect width="1920" height="1080" fill="red"/>
+                <rect width="1920" height="1080" fill="transparent"/>
                 <g id="Group_6701" data-name="Group 6701" transform="translate(20.036 -6.406)">
                   <g id="_09_STAIR_DOWN" data-name="09_STAIR DOWN" transform="translate(1065.828 388.941)">
                     <path id="Path_19293" data-name="Path 19293" d="M14583.547,1740.614l-43.969-25.3-8.625,5.043,43.8,25.34Z" transform="translate(-14530.953 -1487.387)" fill="#fff" stroke="#000" stroke-linejoin="round" stroke-width="2.288" fill-rule="evenodd"/>
