@@ -2442,6 +2442,12 @@
   
 
   <script>
+
+  $('#_00_URBAN_DESIGN_FLOOR').hover(function () {
+      $("#_00_URBAN_DESIGN_TEXT").show();
+  });
+
+
     function activeFloor(elem) {
     var a = document.getElementsByTagName('a')
     for (i = 0; i < a.length; i++) {
