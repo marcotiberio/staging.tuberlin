@@ -26,7 +26,7 @@
             <a href="#">9</a>
           </li>
           <li>
-            <a href="#">4</a>
+            <a href="#fourthFloor" onclick="activeFloor(this)">4</a>
           </li>
           <li>
             <a href="#">5</a>
@@ -44,7 +44,7 @@
             <a href="#thirdFloor" onclick="activeFloor(this)">3</a>
           </li>
           <li>
-            <a href="#fourthFloor" onclick="activeFloor(this)"></a>
+            <a href="#"></a>
           </li>
           <li>
             <a href="#">0</a>
