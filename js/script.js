@@ -6,6 +6,15 @@ $(document).ready(function(){
     });
 });
 
+$(document).ready(function(){
+    $("#_00_URBAN_DESIGN_FLOOR").mouseenter(function(){
+      $("#_00_URBAN_DESIGN_TEXT").css("display", "block");
+    });
+    $("#_00_URBAN_DESIGN_FLOOR").mouseleave(function(){
+      $("#_00_URBAN_DESIGN_TEXT").css("display", "none");
+    });
+  });
+
 // $(document).ready(function(){
 //   $("#open_menuOverlay").click(function(){
 //     $("#menuOverlay").slideToggle("fast");
