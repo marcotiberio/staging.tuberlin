@@ -2757,3 +2757,19 @@ textarea {
 	cursor: pointer;
 	fill: #A4AFAD;
 }
+
+/* FOYER 4 */
+
+#_04_CODE_TEXT,
+#_04_DE_CO_TEXT {
+	display: none;
+}
+
+#_04_CODE_FLOOR:hover {
+	cursor: pointer;
+	fill: #AB93E7;
+}
+#_04_DE_CO_FLOOR:hover {
+	cursor: pointer;
+	fill: #9ECEE7;
+}
