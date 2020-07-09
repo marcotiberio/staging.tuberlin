@@ -47,7 +47,7 @@
             <a href="#"></a>
           </li>
           <li>
-            <a href="#">0</a>
+            <a href="#firstFloor" onclick="activeFloor(this)">0</a>
           </li>
           <li>
             <a href="#"></a>
