@@ -2451,12 +2451,6 @@
           $("#_00_URBAN_DESIGN_TEXT").hide();
       });
   });
-    $('#_00_URBAN_DESIGN_FLOOR').mouseEnter(function () {
-      $("#_00_URBAN_DESIGN_TEXT").show();
-    });
-    $('#_00_URBAN_DESIGN_FLOOR').mouseLeave(function () {
-      $("#_00_URBAN_DESIGN_TEXT").hide();
-    });
 
 
     function activeFloor(elem) {
