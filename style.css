@@ -2214,15 +2214,18 @@ textarea {
 ## Page - Foyer
 --------------------------------------------------------------*/
 
-.page-template-template_foyer .foyer-mobile {
+.page-template-template_foyer .foyer-mobile,
+.page-template-template_foyertwo .foyer-mobile {
 	display: none;
 }
 
-.page-template-template_foyer .main-navigation {
+.page-template-template_foyer .main-navigation,
+.page-template-template_foyertwo .foyer-mobile {
     padding-left: 100px;
 }
 
-.page-template-template_foyer {
+.page-template-template_foyer,
+.page-template-template_foyertwo {
 	position: fixed;
 	top: 0;
 	left: 0;
@@ -2230,8 +2233,10 @@ textarea {
 	height: 3000px;
 }
 
-.page-template #site-navigation,
-.page-template #navigationSearch {
+.page-template-template_foyer #site-navigation,
+.page-template-template_foyer #navigationSearch,
+.page-template-template_foyerTwo #site-navigation,
+.page-template-template_foyerTwo #navigationSearch {
 	display: none;
 }
 
