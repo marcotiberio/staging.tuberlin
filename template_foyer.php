@@ -2443,8 +2443,11 @@
 
   <script>
 
-    $('#_00_URBAN_DESIGN_FLOOR').hover(function () {
-      $("#_00_URBAN_DESIGN_TEXT").toggle();
+    $('#_00_URBAN_DESIGN_FLOOR').mouseenter(function () {
+      $("#_00_URBAN_DESIGN_TEXT").show();
+    });
+    $('#_00_URBAN_DESIGN_FLOOR').mouseleave(function () {
+      $("#_00_URBAN_DESIGN_TEXT").hide();
     });
 
 
