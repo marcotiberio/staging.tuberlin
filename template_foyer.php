@@ -1332,7 +1332,7 @@
           <div class="floor" id="sixthFloor">
             <svg xmlns="http://www.w3.org/2000/svg" id="svgFloor6" viewBox="0 0 1920 1080">
               <g id="Artboard_10_4" data-name="Artboard 10 – 4" clip-path="url(#clip-Artboard_10_4)">
-                <rect width="1920" height="1080" fill="yellow"/>
+                <rect width="1920" height="1080" fill="salmon"/>
                 <g id="Group_6694" data-name="Group 6694" transform="translate(23.395 -6.406)">
                   <g id="_00_WERKSTATT" data-name="00_WERKSTATT" transform="translate(1336.814 424.643)">
                     <path id="_00_WERKSTATT_FLOOR" data-name="00_WERKSTATT_FLOOR" d="M1375.65,485.341l70.845,40.9-43.841,25.313,57.005,32.911,128.758-74.338-127.85-73.814Z" transform="translate(-1375.65 -436.314)" fill="#fff" stroke="#000" stroke-linejoin="round" stroke-width="2" fill-rule="evenodd"/>
