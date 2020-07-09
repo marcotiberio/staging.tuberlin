@@ -2444,7 +2444,7 @@
   <script>
 
   $('#_00_URBAN_DESIGN_FLOOR').hover(function () {
-      $("#_00_URBAN_DESIGN_TEXT").show();
+      $("#_00_URBAN_DESIGN_TEXT").toggle();
   });
 
 
