@@ -2836,3 +2836,24 @@ textarea {
 	cursor: pointer;
 	fill: #B7A6BC;
 }
+
+/* FOYER 8 */
+
+#_08_COLAB,
+#_08_CUD_TEXT,
+#_08_CHORA_TEXT {
+	display: none;
+}
+
+#_08_COLAB_FLOOR:hover {
+	cursor: pointer;
+	fill: #DFC8D1;
+}
+#_08_CUD_FLOOR:hover {
+	cursor: pointer;
+	fill: #6363D1;
+}
+#_08_CHORA_FLOOR:hover {
+	cursor: pointer;
+	fill: #6199C6;
+}

@@ -198,6 +198,32 @@ $(document).ready(function(){
     });
 });
 
+// FOYER 8
+$(document).ready(function(){
+    $("#_08_COLAB_FLOOR").mouseenter(function(){
+      $("#_08_COLAB").css("display", "block");
+    });
+    $("#_08_COLAB_FLOOR").mouseleave(function(){
+      $("#_08_COLAB").css("display", "none");
+    });
+});
+$(document).ready(function(){
+    $("#_08_CUD_FLOOR").mouseenter(function(){
+      $("#_08_CUD_TEXT").css("display", "block");
+    });
+    $("#_08_CUD_FLOOR").mouseleave(function(){
+      $("#_08_CUD_TEXT").css("display", "none");
+    });
+});
+$(document).ready(function(){
+    $("#_08_CHORA_FLOOR").mouseenter(function(){
+      $("#_08_CHORA_TEXT").css("display", "block");
+    });
+    $("#_08_CHORA_FLOOR").mouseleave(function(){
+      $("#_08_CHORA_TEXT").css("display", "none");
+    });
+});
+
 
 
 
