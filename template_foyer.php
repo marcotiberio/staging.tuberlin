@@ -2443,11 +2443,9 @@
 
   <script>
 
-  $(document).ready(function(){
     $('#_00_URBAN_DESIGN_FLOOR').hover(function () {
       $("#_00_URBAN_DESIGN_TEXT").toggle();
     });
-  });
 
 
     function activeFloor(elem) {
