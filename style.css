@@ -2882,3 +2882,67 @@ textarea {
 	cursor: pointer;
 	fill: #A4AFAD;
 }
+
+
+/* FOYER MOBILE */
+
+@media (max-width: 1024px) {
+	#_00_URBAN_DESIGN_TEXT,
+	#_00_MARCH-T_TEXT,
+	#_00_ACKERSTR_TEXT, 
+	#_00_FACHSCHAFT_TEXT,
+	#_00_ROUNDABOUT_TEXT,
+	#_00_NEWS_TEXT,
+	#_00_ARCH_FORUM_TEXT,
+	#_00_VR_HEADSET {
+		display: block;
+	}
+
+	#_01_HBD_TEXT,
+	#_01_REM_TEXT,
+	#_01_URBAN_MANAGEMENT_TEXT {
+		display: block;
+	}
+
+	#_03_GEBAUDETECHNIK,
+	#_03_Tragwerkslehre,
+	#_03_TEK_TEXT {
+		display: block;
+	}
+
+	#_04_CODE_TEXT,
+	#_04_DE_CO_TEXT {
+		display: block;
+	}
+
+	#_05_ARCH_FOR_HEALTH_TEXT,
+	#_05_ADREIZEHN_TEXT {
+		display: block;
+	}
+
+	#_06_FGVANR_TEXT,
+	#_06_NBL_TEXT,
+	#_06_PLANUNGS_TEXT,
+	#_06_DAN_TEXT,
+	#_06_HABITAT_UNIT_TEXT {
+		display: block;
+	}
+
+	#_07_BILDENE_KUNST,
+	#_07_FG_Hehl {
+		display: block;
+	}
+
+	#_08_COLAB,
+	#_08_CUD_TEXT,
+	#_08_CHORA_TEXT {
+		display: block;
+	}
+
+	#_09_LIA_TEXT,
+	#_09_HIST_TEXT,
+	#_09_BAU_UND_STADTBAU_TEXT,
+	#_09_ARCHITEKTUR_THEORIE_TEXT {
+		display: block;
+	}
+}
