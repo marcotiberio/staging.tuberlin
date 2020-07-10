@@ -41,33 +41,32 @@ get_header();
 		
 		<!-- Modal Info -->
 		<div id="modalIntro" class="modal">
-        <div class="modal-content">
-            <span class="close">&times;</span>            
-            <?php the_field('intro_group'); ?>
-            <div id="linkPdf">
-                <span><img src="http://staging-tuberlinifa.kinsta.cloud/wp-content/uploads/2020/07/download-button@2x.png" alt="Download Button"></span>
-                <?php
-                $file = get_field('pdf');
-                if( $file ): ?>
-                    <a href="<?php echo $file['url']; ?>" target="_blank"><h3>PDF</h3></a>
-                <?php endif; ?>
+            <div class="modal-content">
+                <span class="close">&times;</span>            
+                <?php the_field('intro_group'); ?>
+                <div id="linkPdf">
+                    <?php
+                    $file = get_field('pdf');
+                    if( $file ): ?>
+                        <a href="<?php echo $file['url']; ?>" target="_blank"><h3>PDF</h3></a>
+                    <?php endif; ?>
+                </div>
             </div>
         </div>
-    </div>
 
-    <!-- Modal Video -->
-    <div id="modalVideo" class="modal">
-        <div class="modal-content">
-            <span class="close">&times;</span>            
-            <?php
-            $videostudio = get_field('video_studio');
+        <!-- Modal Video -->
+        <div id="modalVideo" class="modal">
+            <div class="modal-content">
+                <span class="close">&times;</span>            
+                <?php
+                $videostudio = get_field('video_studio');
 
-            if ('' !== strval($videostudio)) {
-                echo '<iframe width="100%" height="100%" src="https://player.vimeo.com/video/' . $videostudio . '" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay;"></iframe>';
-            }
-        ?>
+                if ('' !== strval($videostudio)) {
+                    echo '<iframe width="100%" height="100%" src="https://player.vimeo.com/video/' . $videostudio . '" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay;"></iframe>';
+                }
+            ?>
+            </div>
         </div>
-    </div>
 
 	</main><!-- #main -->
 
