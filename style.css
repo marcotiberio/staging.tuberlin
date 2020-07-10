@@ -2464,7 +2464,7 @@ textarea {
 	grid-auto-rows: min-content;
 	column-gap: 0;
 	transform: rotateX(0deg) rotateY(50deg) rotateZ(359deg);
-	  z-index: 4000;
+	z-index: 4000;
   }
 
 .page-template-template_foyer #floorPad li {
