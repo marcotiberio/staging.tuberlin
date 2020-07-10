@@ -31,10 +31,17 @@
 
 @media (min-width: 1920px) {
 
-    .slides img {
-        height: auto !important;
-        width: calc(100% - 16px) !important;
-        padding: 0 !important;
-    }
+    .slick-slide {
+		display: none;
+		float: left;
+		height: 70vh;
+		min-height: 1px;
+	}
+	
+	.slides img {
+		height: 70vh;
+		width: auto;
+		padding: 0 1.5vh;
+	}
 
 }
