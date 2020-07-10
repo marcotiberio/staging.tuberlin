@@ -1803,10 +1803,7 @@ textarea {
 	position: absolute;
   	bottom: 5%;
 	right: 20px;
-	display: grid;
-	grid-template-columns: 1fr 1fr;
-	grid-template-rows: 1fr;
-	column-gap: 5px;
+	display: block;
 }
 
 #linkPdf:hover {
@@ -2247,10 +2244,7 @@ textarea {
 		position: absolute;
 		bottom: 5%;
 		right: 20px;
-		display: grid;
-		grid-template-columns: 1fr 1fr;
-		grid-template-rows: 1fr;
-		column-gap: 5px;
+		display: block;
 	}
 	
 	
