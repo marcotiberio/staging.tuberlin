@@ -1859,7 +1859,7 @@
             </clipPath>
           </defs>
           <g id="Artboard_9" data-name="Artboard – 9" clip-path="url(#clip-Artboard_9)">
-            <rect width="375" height="7308" fill="#fff"/>
+            <rect width="375" height="7308" fill="transparent"/>
             <g id="Mask_Group_1" data-name="Mask Group 1" transform="translate(-754 -501)" clip-path="url(#clip-path)">
               <g id="_0" data-name="0" transform="translate(150.396 6916.594)">
                 <g id="_00_WERKSTATT" data-name="00_WERKSTATT" transform="translate(1336.814 424.643)">
