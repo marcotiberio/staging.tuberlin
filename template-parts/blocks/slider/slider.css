@@ -28,3 +28,13 @@
     }
 
 }
+
+@media (min-width: 1920px) {
+
+    .slides img {
+        height: 60vh !important;
+        width: auto;
+        padding: 0 1.5vh;
+    }
+
+}
