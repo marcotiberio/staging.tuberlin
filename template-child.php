@@ -72,10 +72,10 @@ get_header();  ?>
                 <span class="close">&times;</span>            
                 <?php the_field('intro-year_studio'); ?>
                 <div id="linkPdf">
-                    <span><img src="http://staging-tuberlinifa.kinsta.cloud/wp-content/uploads/2020/07/download-button@2x.png" alt="Download Button"></span>
                     <?php
                     $file = get_field('pdf');
                     if( $file ): ?>
+                        <span><img src="http://staging-tuberlinifa.kinsta.cloud/wp-content/uploads/2020/07/download-button@2x.png" alt="Download Button"></span>
                         <a href="<?php echo $file['url']; ?>" target="_blank"><h3>PDF</h3></a>
                     <?php endif; ?>
                 </div>
