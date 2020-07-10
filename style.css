@@ -1627,6 +1627,13 @@ textarea {
 	display: block;
 }
 
+.page-template-template_chatroom #page {
+	height: 100vh;
+	padding: 0;
+	margin: 0;
+	overflow: auto;
+}
+
 .page-template-template_chatroom {
 	height: auto;
 }
@@ -1635,7 +1642,7 @@ textarea {
 	width: 100vw;
 	height: auto;
 	margin: 0;
-	padding: 14% 8%;
+	padding: 10% 8%;
 	display: grid;
 	grid-template-columns: repeat(3, 1fr);
 	column-gap: 5%;
