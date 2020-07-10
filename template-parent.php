@@ -36,13 +36,13 @@ get_header();  ?>
             </div>
 		</div>
 		
-		<!-- Modal Info -->
-		<div id="modalInfo" class="modal">
+    <!-- Modal Info -->
+    <div id="modalInfo" class="modal">
         <div class="modal-content">
             <span class="close">&times;</span>            
                 <?php the_field('info_studio'); ?>
             <div id="openVideo">
-                <span><img src="http://staging-tuberlinifa.kinsta.cloud/wp-content/uploads/2020/06/play-button.png" alt="Play Button"></span>
+                <span><img src="http://staging-tuberlinifa.kinsta.cloud/wp-content/uploads/2020/07/play-video.png" alt="Play Button"></span>
                 <h3>Interview</h3>
             </div>
         </div>
