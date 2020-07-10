@@ -2597,11 +2597,19 @@ textarea {
 ## Types
 --------------------------------------------------------------*/
 
-.page-template-template_types,
-.post-template-types-video {
+.page-template-template_types {
 	margin: 0;
 	padding: 0;
 	background-color: white;
+	border-left: none;
+	border-right: none;
+	font-family: "AutoscapeWeb-Regular";
+}
+
+.post-template-types-video {
+	margin: 0;
+	padding: 0;
+	background-color: black;
 	border-left: none;
 	border-right: none;
 	font-family: "AutoscapeWeb-Regular";
