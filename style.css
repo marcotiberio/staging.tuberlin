@@ -2416,7 +2416,7 @@ textarea {
 	font-weight: 300;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 728px) {
 
 	.page-template-template_foyer {
 		position: absolute;
@@ -2886,7 +2886,7 @@ textarea {
 
 /* FOYER MOBILE */
 
-@media (max-width: 1024px) {
+@media (max-width: 728px) {
 	#_00_URBAN_DESIGN_TEXT,
 	#_00_MARCH-T_TEXT,
 	#_00_ACKERSTR_TEXT, 

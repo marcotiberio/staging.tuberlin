@@ -3642,8 +3642,6 @@
             </g>
           </g>
         </svg>
-
-
       </div>
       <!-- <div class="studio-names">
         <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="375" height="7308" viewBox="0 0 375 7308">
