@@ -45,11 +45,10 @@ get_header();
                 <span class="close">&times;</span>            
                 <?php the_field('intro_group'); ?>
                 <div id="linkPdf">
-                    <?php if( get_field('pdf') ): ?>
-                        <?php
-                        $file = get_field('pdf');
-                        if( $file ): ?>
-                            <a href="<?php echo $file['url']; ?>" target="_blank"><h3>PDF</h3></a>
+                    <?php
+                    $file = get_field('pdf');
+                    if( $file ): ?>
+                        <a href="<?php echo $file['url']; ?>" target="_blank"><h3>PDF</h3></a>
                     <?php endif; ?>
                 </div>
             </div>
