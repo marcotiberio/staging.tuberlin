@@ -1765,23 +1765,98 @@ textarea {
 	position: absolute;
    	top: 15%;
     left: 20%;
-    width: 60vw;
-    height: 500px;
+    width: 60%;
+    height: 80vh;
 	margin: 0 auto;
 	padding: 0;
 	overflow: auto;
 }
 
-.page-template-template-child .entry-content {
-    position: absolute;
+#modalInfo {
+    display: none;
+    position: fixed;
+    z-index: 10;
+    padding: 0;
+    margin: 0;
     top: 15%;
     left: 20%;
     width: 60%;
-    height: 500px;
+    height: 80vh;
+    overflow: auto;
+}
+
+#modalInfo .modal-content {
+    background-color: white;
+    margin: 0;
+    padding: 2%;
+	height: 80vh;
+	border: 8px solid #1717E2;
+}
+
+#linkPdf {
+	position: absolute;
+  	bottom: 5%;
+	right: 20px;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: 1fr;
+	column-gap: 5px;
+}
+
+#modalVideo {
+    display: none;
+    position: fixed;
+    z-index: 10;
+    padding: 0;
+    margin: 0;
+    top: 15%;
+    left: 20%;
+    width: 60%;
+    height: 70vh;
+    overflow: auto;
+}
+
+#modalVideo .modal-content {
+    background-color: #F3F3F3;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+
+#openVideo {
+    position: absolute;
+    bottom: 5%;
+    right: 20px;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-template-rows: 1fr;
+    column-gap: 5px;
+}
+
+.page-template-template-child .entry-content{
+	position: absolute;
+   	top: 15%;
+    left: 20%;
+    width: 60%;
+    height: 70vh;
 	margin: 0 auto;
 	padding: 0;
 	overflow: auto;
 }
+
+.wp-block-getwid-custom-post-type {
+    overflow: hidden;
+    height: 70vh
+}
+
+.studio-code {
+    margin: 0;
+    position: absolute;
+    top: 90vh;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
 
 .page-template-template-parent #site-navigation,
 .page-template-template-parent #navigationSearch,
@@ -1892,14 +1967,6 @@ textarea {
 	margin: 0;
 	padding: 2%;
 	height: 500px;
-}
-
-.studio-code {
-	margin: 0;
-    position: absolute;
-	top: 85%;
-	left: 50%;
-    transform: translate(-50%, -50%);
 }
 
 /* Getwid
@@ -2246,13 +2313,13 @@ textarea {
 
 .post-template-program .entry-content {
 	position: absolute;
-   	top: 15%;
-    left: 20%;
-    width: 60%;
-    height: 550px;
+  	top: 15%;
+  	left: 20%;
+  	width: 60%;
+  	height: 70vh;
 	margin: 0 auto;
 	padding: 0;
-	overflow: auto;
+	overflow: hidden;
 }
 
 .post-template-program .entry-footer span {
