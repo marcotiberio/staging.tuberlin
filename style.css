@@ -2635,9 +2635,10 @@ textarea {
 
 .post-template-types-video .entry-content {
 	position: absolute;
-	top: 5%;
-	left: 5%;
-	width: 90%;
+	top: 0;
+	left: 0;
+	width: 100vw;
+	height: auto;
 	margin: 0;
 	padding: 0;
 }
