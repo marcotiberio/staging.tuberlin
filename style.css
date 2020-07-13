@@ -2397,7 +2397,7 @@ textarea {
 
 .post-template .entry-content .slick-next .slick-arrow,
 .post-template .entry-content .slick-prev .slick-arrow{
-	display: block;
+	display: none;
 }
 
 @media (max-width: 1024px) {
@@ -2422,11 +2422,11 @@ textarea {
 	}
 
 	.slick-prev:before {
-		display: block;
+		display: none;
 	}
 	
 	.slick-next:before {
-		display: block;
+		display: none;
 	}
 
 }
