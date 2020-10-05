@@ -55,7 +55,7 @@
         </ul>
 
           <div class="floor" id="groundFloor">
-            <svg xmlns="http://www.w3.org/2000/svg" id="svgFloor0" viewBox="0 0 1920 1080">
+            <svg xmlns="http://www.w3.org/2000/svg" id="svgFloor0" viewBox="0 0 1920 700">
               <defs>
                 <clipPath id="clip-Artboard_10_4">
                   <rect width="1920" height="1080"/>
@@ -326,7 +326,7 @@
             </svg>
           </div>
           <div class="floor" id="firstFloor">
-            <svg xmlns="http://www.w3.org/2000/svg" id="svgFloor1" viewBox="0 0 1920 1080">
+            <svg xmlns="http://www.w3.org/2000/svg" id="svgFloor1" viewBox="0 0 1920 700">
               <defs>
                 <clipPath id="clip-TU_IfA_-_E02_ISO_2">
                   <rect width="1920" height="1080"/>
@@ -478,7 +478,7 @@
             </svg>
           </div>
           <div class="floor" id="secondFloor">
-            <svg xmlns="http://www.w3.org/2000/svg" id="svgFloor2" viewBox="0 0 1920 1080">
+            <svg xmlns="http://www.w3.org/2000/svg" id="svgFloor2" viewBox="0 0 1920 700">
               <defs>
                 <clipPath id="clip-TU_IfA_-_E02_ISO_3">
                   <rect width="1920" height="1080"/>
@@ -500,7 +500,7 @@
             </svg>
           </div>
           <div class="floor" id="thirdFloor">
-            <svg xmlns="http://www.w3.org/2000/svg" id="svgFloor3" viewBox="0 0 1920 1080">
+            <svg xmlns="http://www.w3.org/2000/svg" id="svgFloor3" viewBox="0 0 1920 700">
               <defs>
                 <clipPath id="clip-TU_IfA_-_E03_ISO_1">
                   <rect width="1920" height="1080"/>
@@ -721,7 +721,7 @@
             </svg>
           </div>
           <div class="floor" id="fourthFloor">
-            <svg xmlns="http://www.w3.org/2000/svg" id="svgFloor4" viewBox="0 0 1920 1080">
+            <svg xmlns="http://www.w3.org/2000/svg" id="svgFloor4" viewBox="0 0 1920 700">
               <defs>
                 <clipPath id="clip-TU_IfA_-_E04_ISO_1">
                   <rect width="1920" height="1080"/>
@@ -969,7 +969,7 @@
             </svg>
           </div>
           <div class="floor" id="fifthFloor">
-            <svg xmlns="http://www.w3.org/2000/svg" id="svgFloor5" viewBox="0 0 1920 1080">
+            <svg xmlns="http://www.w3.org/2000/svg" id="svgFloor5" viewBox="0 0 1920 700">
               <defs>
                 <clipPath id="clip-TU_IfA_-_E05_ISO_1">
                   <rect width="1920" height="1080"/>
@@ -1132,7 +1132,7 @@
             </svg>
           </div>
           <div class="floor" id="sixthFloor">
-            <svg xmlns="http://www.w3.org/2000/svg" id="svgFloor6" viewBox="0 0 1920 1080">
+            <svg xmlns="http://www.w3.org/2000/svg" id="svgFloor6" viewBox="0 0 1920 700">
               <defs>
                 <clipPath id="clip-TU_IfA_-_E06_ISO_1">
                   <rect width="1920" height="1080"/>
@@ -1311,7 +1311,7 @@
             </svg>
           </div>
           <div class="floor" id="seventhFloor">
-            <svg xmlns="http://www.w3.org/2000/svg" id="svgFloor7" viewBox="0 0 1920 1080">
+            <svg xmlns="http://www.w3.org/2000/svg" id="svgFloor7" viewBox="0 0 1920 700">
               <defs>
                 <clipPath id="clip-TU_IfA_-_E07_ISO_1">
                   <rect width="1920" height="1080"/>
@@ -1467,7 +1467,7 @@
             </svg>
           </div>
           <div class="floor" id="eighthFloor">
-            <svg xmlns="http://www.w3.org/2000/svg" id="svgFloor8" viewBox="0 0 1920 1080">
+            <svg xmlns="http://www.w3.org/2000/svg" id="svgFloor8" viewBox="0 0 1920 700">
               <defs>
                 <clipPath id="clip-TU_IfA_-_E08_ISO_1">
                   <rect width="1920" height="1080"/>
@@ -1622,7 +1622,7 @@
             </svg>
           </div>
           <div class="floor" id="ninthFloor">
-            <svg xmlns="http://www.w3.org/2000/svg" id="svgFloor9" viewBox="0 0 1920 1080">
+            <svg xmlns="http://www.w3.org/2000/svg" id="svgFloor9" viewBox="0 0 1920 700">
               <defs>
                 <clipPath id="clip-TU_IfA_-_E09_ISO_1">
                   <rect width="1920" height="1080"/>
