@@ -1999,12 +1999,12 @@ textarea {
 
 .wp-block-getwid-post-slider.has-arrows-inside .slick-prev {
     left: 25px;
-    top: 250px;
+    top: 40%;
 }
 
 .wp-block-getwid-post-slider.has-arrows-inside .slick-next {
     right: 25px;
-    top: 250px;
+    top: 40%;
 }
 
 .slick-next:before, .slick-prev:before {
@@ -2016,11 +2016,11 @@ textarea {
 }
 
 .slick-prev:before {
-    content: url("http://staging-tuberlinifa.kinsta.cloud/wp-content/uploads/2020/07/prev@2x.png");
+    content: url("http://tuberlinifa.kinsta.cloud/wp-content/uploads/2020/07/prev@2x.png");
 }
 
 .slick-next:before {
-    content: url("http://staging-tuberlinifa.kinsta.cloud/wp-content/uploads/2020/07/next@2x.png");
+    content: url("http://tuberlinifa.kinsta.cloud/wp-content/uploads/2020/07/next@2x.png");
 }
 
 .wp-block-getwid-template-post-title__link,
@@ -2034,7 +2034,7 @@ textarea {
 
 .wp-block-getwid-template-post-title__link:hover {
 	text-decoration: underline;
-  	text-shadow: -0.2px 0 #1717E2, 0 0.2px #1717E2, 0.2px 0 #1717E2, 0 -0.2px #1717E2;
+  text-shadow: -0.2px 0 #1717E2, 0 0.2px #1717E2, 0.2px 0 #1717E2, 0 -0.2px #1717E2;
 }
 
 .getwid-columns {
@@ -2098,12 +2098,12 @@ textarea {
 	.page-template-template-child .entry-content {
 		position: absolute;
 		top: 170px;
-		left: 0;
-		width: 100%;
+		left: 16px;
+		width: calc(100vw - 32px);
 		height: 500px;
 		margin: 0 auto;
 		padding: 0;
-		overflow: hidden;
+		overflow: auto;
 	}
 	
 	.page-template-template-parent
@@ -2137,6 +2137,51 @@ textarea {
 		color: #1717E2;
 		padding: 5%;
 	}
+
+	.intro-mobile {
+		background-color: #1717E2;
+		color: #F3F3F3;
+		padding: 5%;
+	}
+	
+	.page-news {
+    height: 100vh;
+    padding-top: 170px;
+    margin: 0;
+    overflow: auto;
+}
+	
+	.main-navigation .menu-menu-main-container {
+		position: absolute;
+    left: 0;
+    top: 0;
+    background-color: #1717E2;
+		color: #F3F3F3;
+    z-index: 1000;
+    width: fit-content;
+    height: fit-content;
+    margin-top: 133px;
+}
+
+	.nav--search {
+    position: fixed;
+    top: 140px;
+    left: 5%;
+    z-index: 1000;
+		visibility: hidden;
+	}
+	
+	.page-foyer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 0 16px;
+    padding: 0;
+    width: calc(100% - 32px);
+    height: 100%;
+    overflow: auto;
+    scroll-behavior: smooth;
+}
 
 }
 
