@@ -523,3 +523,13 @@ $(document).ready(function(){
         }, 200 );
     });
 });
+
+
+// Scroll Horizontally mouse
+
+$(document).ready(function() {
+  $('.gallery-news').mousewheel(function(e, delta) {
+  this.scrollLeft -= (delta);
+  e.preventDefault();
+  });
+});

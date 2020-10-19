@@ -1870,7 +1870,7 @@ textarea {
 }
 
 .wp-block-getwid-custom-post-type {
-	overflow: hidden;
+	overflow: scroll;
 	height: 70vh
 }
 
@@ -2579,7 +2579,8 @@ textarea {
     	top: 3%;
     	right: 6%;
     	cursor: pointer;
-    	z-index: 2001 !important;
+		z-index: 2001 !important;
+		width: 30vw;
 	}
 
 	.post-template-program .site-main #logoStudio {
@@ -2589,6 +2590,7 @@ textarea {
 		width: 10%;
 		height: fit-content;
 		z-index: 2001 !important;
+		width: 30vw;
 	}
 
 	.slick-prev:before {
