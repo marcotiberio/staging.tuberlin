@@ -2559,6 +2559,17 @@ textarea {
 
 @media (max-width: 1024px) {
 
+	.post-template-program .entry-content {
+		position: absolute;
+		top: 35%;
+		left: 16px;
+		width: calc(100vw - 32px);
+		height: 500px;
+		margin: 0 auto;
+		padding: 0;
+		overflow: auto;
+	}
+
 	.page-template-template-parent .site-main #logoStudio, 
 	.page-template-template-child .site-main #logoStudio {
 		display: block;
@@ -2571,23 +2582,13 @@ textarea {
     	z-index: 2001 !important;
 	}
 
-	.post-template-program .entry-content {
-		position: absolute;
-		top: 3%;
-		left: 16px;
-		width: calc(100vw - 32px);
-		height: 500px;
-		margin: 0 auto;
-		padding: 0;
-		overflow: auto;
-	}
-
 	.post-template-program .site-main #logoStudio {
 		position: fixed;
-		bottom: 0;
-		right: 5%;
+		top: 3%;
+    	right: 6%;
 		width: 10%;
 		height: fit-content;
+		z-index: 2001 !important;
 	}
 
 	.slick-prev:before {
