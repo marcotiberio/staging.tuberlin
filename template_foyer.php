@@ -230,9 +230,9 @@
                     <path id="Path_21545" data-name="Path 21545" d="M970.1,716.281l3.625,7.578v.221l-4.454,2.572-3.11-6.836-2.065,1.191.025,8.618-4.142,2.391-.068-23.581,6.612-3.817q3.115-1.8,4.824-.928c1.132.584,1.707,2.008,1.714,4.289A12.621,12.621,0,0,1,970.1,716.281Zm-1.8-2.622a6.689,6.689,0,0,0,.609-2.9q-.009-3.546-2.419-2.155l-2.429,1.4.02,7.032,2.357-1.361a4.549,4.549,0,0,0,1.863-2.022" transform="translate(-805.41 -703.406)"/>
                     <path id="Path_21546" data-name="Path 21546" d="M951.775,737.966l.046,16.33a13.061,13.061,0,0,1-1.742,6.644,13.309,13.309,0,0,1-4.972,4.827c-2.2,1.268-3.879,1.574-5.044.932s-1.755-2.218-1.762-4.711l-.046-16.215,4.175-2.41.047,16.23a3.748,3.748,0,0,0,.572,2.542c.379.353,1.057.253,2.047-.319a4.753,4.753,0,0,0,2.028-2.026,7.56,7.56,0,0,0,.556-3.118l-.046-16.314Z" transform="translate(-806.267 -702.039)"/>
                   </g>
-                  <g id="_00_NEWS_BOARD" data-name="00_NEWS BOARD" transform="translate(1119.04 524.469)">
-                    <path id="_00_NEWS_BOARD-2" data-name="00_NEWS BOARD" d="M1229.4,3868.8v-67.6l-79.41,45.847v67.6Z" transform="translate(-1149.989 -3801.204)" fill="#fff" stroke="#000" stroke-linejoin="round" stroke-width="2" fill-rule="evenodd"/>
-                    <g id="_00_NEWS_TEXT" data-name="00_NEWS_TEXT" transform="translate(0.954 42.94)">
+                  <g id="_00_NEWS_BOARD" onclick="window.location.href='http://tuberlinifa.kinsta.cloud/posters/' data-name="00_NEWS BOARD" transform="translate(1119.04 524.469)">
+                    <path id="_00_NEWS_BOARD-2" onclick="window.location.href='http://tuberlinifa.kinsta.cloud/posters/'" data-name="00_NEWS BOARD" d="M1229.4,3868.8v-67.6l-79.41,45.847v67.6Z" transform="translate(-1149.989 -3801.204)" fill="#fff" stroke="#000" stroke-linejoin="round" stroke-width="2" fill-rule="evenodd"/>
+                    <g id="_00_NEWS_TEXT" onclick="window.location.href='http://tuberlinifa.kinsta.cloud/posters/'" data-name="00_NEWS_TEXT" transform="translate(0.954 42.94)">
                       <path id="Path_17078" data-name="Path 17078" d="M1167.953,3906.312l-4.9,2.771-7.169-13.948v18l-4.9,2.771v-27.443l4.9-2.771,7.187,13.958v-18.02l4.886-2.762Z" transform="translate(-1150.977 -3846.859)"/>
                       <path id="Path_17079" data-name="Path 17079" d="M1185.185,3884.761l-7.637,4.315v7.277l9.038-5.108v4.6l-13.94,7.879v-27.443l13.907-7.86v4.618l-9,5.09v6.484l7.637-4.317Z" transform="translate(-1151.735 -3846.494)"/>
                       <path id="Path_17080" data-name="Path 17080" d="M1205.742,3874.611l2.3-18.547,4.852-2.742-4.319,29.884-4.919,2.78-2.835-14.569-2.8,17.755-4.935,2.79-4.336-24.994,4.886-2.761,2.284,15.937,2.852-18.839,4.119-2.328Z" transform="translate(-1152.297 -3845.966)"/>
@@ -1975,8 +1975,8 @@
                     <path id="Path_23490" data-name="Path 23490" d="M928.184,569.214,885.95,593.6l8.785,5.072,33.448-19.311Z" transform="translate(-720.663 -569.214)" stroke="#000" stroke-linejoin="round" stroke-width="2" fill-rule="evenodd"/>
                   </g>
                 </g>
-                <g id="_00_NEWS_BOARD" data-name="00_NEWS BOARD" transform="translate(1119.04 524.469)">
-                  <path id="_00_NEWS_BOARD-2" data-name="00_NEWS BOARD" d="M1229.4,3868.8v-67.6l-79.41,45.847v67.6Z" transform="translate(-1149.989 -3801.204)" fill="#fff" stroke="#000" stroke-linejoin="round" stroke-width="2" fill-rule="evenodd"/>
+                <g id="_00_NEWS_BOARD" onclick="window.location.href='http://tuberlinifa.kinsta.cloud/posters/'" data-name="00_NEWS BOARD" transform="translate(1119.04 524.469)">
+                  <path id="_00_NEWS_BOARD-2" onclick="window.location.href='http://tuberlinifa.kinsta.cloud/posters/'" data-name="00_NEWS BOARD" d="M1229.4,3868.8v-67.6l-79.41,45.847v67.6Z" transform="translate(-1149.989 -3801.204)" fill="#fff" stroke="#000" stroke-linejoin="round" stroke-width="2" fill-rule="evenodd"/>
                 </g>
                 <g id="_00_STAIRS" data-name="00_STAIRS" transform="translate(1161.935 622.307)">
                   <path id="Path_23511" data-name="Path 23511" d="M1490.574,645.666l-9.967,5.754-133.743,77.217,21.014,12.133,143.71-82.971Z" transform="translate(-1199.765 -641.297)" fill="#fff" stroke="#000" stroke-linejoin="round" stroke-width="2" fill-rule="evenodd"/>
