@@ -89,7 +89,7 @@
                       <path id="Path_20462" data-name="Path 20462" d="M1407.859,557.987V547.863l-8.77,5.063Z" transform="translate(-1390.319 -537.739)" stroke="#000" stroke-linejoin="round" stroke-width="2" fill-rule="evenodd"/>
                     </g>
                   </g>
-                  <g id="_00_FACHSCHAFT" data-name="00_FACHSCHAFT" transform="translate(977.06 380.599)">
+                  <g id="_00_FACHSCHAFT" onclick="window.location.href='http://tuberlinifa.kinsta.cloud/fachschaft/'" data-name="00_FACHSCHAFT" transform="translate(977.06 380.599)">
                     <path id="_00_FACHSHAFT_FLOOR" data-name="00_FACHSHAFT_FLOOR" d="M1052.554,493.528l17.589-10.155,90.2,52.076,67.016-38.692,105.273,60.78,43.826-25.3-35.066-20.245-8.769-5.062c0-.019-201.32-116.251-201.32-116.251l-128.433,74.15Z" transform="translate(-1002.866 -390.676)" fill="#fff" stroke="#000" stroke-linejoin="round" stroke-width="2" fill-rule="evenodd"/>
                     <path id="Path_20406" data-name="Path 20406" d="M1052.554,506.358l17.589-10.155,90.2,52.075,67.015-38.691,105.273,60.78,43.841-25.312V534.911l-43.841,25.312-105.273-60.78-67.015,38.691-90.2-52.075-17.589,10.155-49.688-28.7v10.144Z" transform="translate(-1002.866 -393.362)" stroke="#000" stroke-linejoin="round" stroke-width="2" fill-rule="evenodd"/>
                   </g>
@@ -3202,7 +3202,7 @@
                     <path id="Path_24815" data-name="Path 24815" d="M1589.478,3486.772a15.113,15.113,0,0,1,5.627,5.368,17.541,17.541,0,0,1,2.177,7.918l-4.5-2.6a10.038,10.038,0,0,0-.906-3.965,5.779,5.779,0,0,0-2.266-2.223q-1.875-1.083-2.733,0c-.57.726-.866,2.229-.9,4.51l-.014,4.779a14.819,14.819,0,0,0,.925,5.784,7.1,7.1,0,0,0,3.073,3.415,3.588,3.588,0,0,0,2.227.655l.409-.094.014-4.835-3.243-1.873.011-4.021,7.891,4.556-.031,10.883a4.568,4.568,0,0,1-3.289.617,12.28,12.28,0,0,1-4.267-1.622,15.807,15.807,0,0,1-6.139-6.367,20.253,20.253,0,0,1-2.231-9.5l.014-4.746q.015-5.447,2.1-7.2T1589.478,3486.772Z" transform="translate(-1521.307 -3419.229)"/>
                     <path id="Path_24816" data-name="Path 24816" d="M1583.69,3446.515l7.143,30.536-4.949-2.858-1.211-6.1-6.321-3.65-1.247,4.687-4.9-2.83,7.249-22.226Zm-4.317,14.066,4.285,2.474-2.116-10.634-2.169,8.159" transform="translate(-1519.114 -3409.261)"/>
                   </g>
-                  <g id="_00_FACHSCHAFT_TEXT" onclick="window.location.href='#'" data-name="00_FACHSCHAFT TEXT" transform="translate(908.654 6411.186)">
+                  <g id="_00_FACHSCHAFT_TEXT" onclick="window.location.href='http://tuberlinifa.kinsta.cloud/fachschaft/'" data-name="00_FACHSCHAFT TEXT" transform="translate(908.654 6411.186)">
                     <path id="Path_24817" data-name="Path 24817" d="M1130.675,495.832l6.061,25.9-4.2-2.426-1.028-5.175-5.361-3.095-1.055,3.972-4.158-2.4,6.144-18.854Zm-3.663,11.934,3.635,2.1-1.795-9.021-1.84,6.922" transform="translate(-1074.192 -457.621)"/>
                     <path id="Path_24818" data-name="Path 24818" d="M1125.492,467.525l6.061,25.909-4.2-2.423-1.029-5.181-5.367-3.1-1.054,3.98-4.159-2.4,6.151-18.858Zm-3.662,11.94,3.641,2.1-1.8-9.033-1.839,6.93" transform="translate(-1074.011 -456.632)"/>
                     <path id="Path_24819" data-name="Path 24819" d="M1117.069,462.534l-.01,3.767-6.845-3.952-.016,5.728,6.112,3.529-.011,3.752-6.112-3.529-.026,9.126-3.931-2.27.063-22.373Z" transform="translate(-1073.678 -456.312)"/>
